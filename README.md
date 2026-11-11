@@ -55,4 +55,4 @@ The omitted historical CrowdNav backend test requires its native RVO2 environmen
 
 Use branches and pull requests for changes. Preserve the frozen baseline and choose new output directories for new experiments. Report failures and contact outcomes alongside successful demonstrations. See [GROUP_WORKFLOW.md](docs/GROUP_WORKFLOW.md) for the proposed workflow.
 
-The repository is private. The owner can add group members through repository settings.
+The repository is public. To give group members collaborator access, the owner can open Settings → Collaborators → Add people and invite their GitHub usernames. Invitees must accept the invitation.

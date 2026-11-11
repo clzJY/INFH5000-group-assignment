@@ -24,4 +24,4 @@ Useful work areas are controller design, evaluation and failure analysis, urban 
 
 Explain the change, the conditions used to evaluate it, and the observed result. Include relevant checks and link the output records. Keep asset downloads, environments and raw campaign directories outside Git. Publish substantial new experiment records as versioned release assets with hashes.
 
-Add collaborators through the private repository's Settings → Collaborators once their GitHub usernames are available. No invitations have been sent by this setup.
+The repository is public. Add group members through Settings → Collaborators → Add people using their GitHub usernames. Each member must accept the invitation to receive collaborator access. No invitations have been sent by this setup.
