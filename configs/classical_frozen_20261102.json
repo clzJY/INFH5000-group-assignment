@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "stage": "classical_frozen",
+  "upstream_commit": "6b8ff9aa48dd27d5c57fa1c712db520732f11fa9",
+  "checkpoint": "third_party/metaurban/pretrained_policy_576k.zip",
+  "checkpoint_sha256": "fc0e86321d7c790b2ff547f79e58da253d589e066597864072ab2c1b8beedd99",
+  "asset_profile": "tiny",
+  "environment": "dynamic",
+  "methods": [
+    "pp",
+    "rpp",
+    "distance",
+    "forecast_static",
+    "forecast",
+    "dwa"
+  ],
+  "development_seeds": [
+    900,
+    901,
+    902,
+    903
+  ],
+  "test_seeds": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309
+  ],
+  "densities": {
+    "low": 5,
+    "high": 15
+  },
+  "env_config": {
+    "map": "X",
+    "agent_type": "wheelchair",
+    "object_density": 0.3,
+    "crswalk_density": 1,
+    "drivable_area_extension": 55,
+    "height_scale": 1,
+    "walk_on_all_regions": false,
+    "random_spawn_lane_index": false,
+    "num_scenarios": 1000,
+    "start_seed": 0,
+    "accident_prob": 0,
+    "horizon": 600,
+    "on_continuous_line_done": false,
+    "out_of_route_done": true,
+    "relax_out_of_road_done": true,
+    "max_lateral_dist": 15.0,
+    "spawn_deliveryrobot_num": 0,
+    "spawn_wheelchairman_num": 0,
+    "spawn_edog_num": 0,
+    "spawn_erobot_num": 0,
+    "spawn_drobot_num": 0,
+    "max_actor_num": 20,
+    "manual_control": false,
+    "default_expert": false,
+    "use_render": false,
+    "image_on_cuda": false,
+    "vehicle_config": {
+      "enable_reverse": false,
+      "policy_reverse": false,
+      "show_lidar": false,
+      "show_navi_mark": false,
+      "show_dest_mark": false
+    },
+    "tiny": true,
+    "show_interface": false,
+    "show_logo": false,
+    "show_fps": false,
+    "multi_thread_render": false,
+    "traffic_density": 0,
+    "show_ego_navigation": false,
+    "show_mid_block_map": false
+  },
+  "near_clearance_m": 1.0,
+  "stop_speed_m_s": 0.1,
+  "inspection_hold_s": 0,
+  "inspection_max_s": 0,
+  "render": {
+    "width": 960,
+    "height": 540,
+    "position": [
+      0,
+      -8,
+      2.5
+    ],
+    "hpr": [
+      0,
+      -8,
+      0
+    ]
+  },
+  "pedestrian_only_collision_attribution": true,
+  "low_speed_hold_brake": true,
+  "route_min_length_m": 5.0,
+  "goal_radius_m": 2.0,
+  "physical_anomaly_speed_m_s": 20.0,
+  "no_cleanup": true,
+  "study": "Shared full-route/state classical controllers; no PPO inference",
+  "tracking": {
+    "lookahead_m": 3.0,
+    "lookahead_time_s": 1.0,
+    "min_speed_m_s": 0.4,
+    "max_speed_m_s": 3.0,
+    "curvature_min_radius_m": 3.0,
+    "approach_distance_m": 5.0,
+    "steering_gain": 1.0
+  },
+  "prediction": {
+    "horizon_s": 1.5,
+    "dt_s": 0.1,
+    "accel_m_s2": 1.5,
+    "brake_m_s2": 2.0,
+    "buffer_m": 0.25,
+    "release_hold_s": 0.2,
+    "candidate_speeds_m_s": [
+      3.0,
+      2.0,
+      1.0,
+      0.5,
+      0.0
+    ],
+    "soft_clearance_m": 1.0,
+    "escape_improvement_m": 0.1
+  },
+  "rpp": {
+    "proximity_distance_m": 1.5,
+    "ttc_s": 1.0,
+    "minimum_progress_speed_m_s": 0.4
+  },
+  "distance": {
+    "slow_gap_m": 1.5,
+    "stop_gap_source": "prediction.buffer_m (common across footprint methods)"
+  },
+  "dwa": {
+    "steering_offsets": [
+      -0.35,
+      -0.175,
+      0.0,
+      0.175,
+      0.35
+    ],
+    "horizon_s": 1.5,
+    "command_window_s": 0.5,
+    "steering_rate_per_s": 1.5,
+    "progress_weight": 2.0,
+    "route_weight": 2.0,
+    "clearance_weight": 0.5,
+    "control_change_weight": 0.15
+  },
+  "static_guard": {
+    "buffer_m": 0.1,
+    "horizon_s": 1.0,
+    "enabled": true
+  },
+  "encounter_development_seeds": [
+    902
+  ],
+  "encounter_test_seeds": [
+    320,
+    321
+  ],
+  "encounter_methods": [
+    "rpp",
+    "distance",
+    "forecast_static",
+    "forecast",
+    "dwa"
+  ],
+  "encounter_cases": {
+    "crossing": {
+      "kind": "crossing",
+      "route_distance_m": 12.0,
+      "cross_time_s": 4.6,
+      "speed_m_s": 1.2
+    },
+    "receding": {
+      "kind": "receding",
+      "initial_ahead_m": 2.5,
+      "speed_m_s": 3.0
+    },
+    "approaching": {
+      "kind": "approaching",
+      "route_distance_m": 12.0,
+      "lateral_m": 0.8,
+      "speed_m_s": 1.0
+    },
+    "stationary": {
+      "kind": "stationary",
+      "route_distance_m": 12.0
+    }
+  },
+  "frozen_at_utc": "2026-11-02T03:14:56.716307+00:00",
+  "development_acceptance_records": [
+    "/data/private/user7/projects/storage_management/ucmp_week3_classical_baselines_20261102-104447/development_acceptance.json",
+    "/data/private/user7/projects/storage_management/ucmp_week3_classical_baselines_20261102-104447/encounter_development_acceptance.json"
+  ],
+  "logging_equivalence_record": "/data/private/user7/projects/storage_management/ucmp_week3_classical_baselines_20261102-104447/logging_equivalence.json",
+  "frozen_source_sha256": {
+    "scripts/accept_classical.py": "e13f3777bfffa9569268b02e9bde5caea159687882eaf67648b550098a980319",
+    "scripts/evaluate_classical.py": "11289c731a622eb21bd983df1c1fc4baed9fefe8c606ae1d88c01adcf45d69a4",
+    "scripts/evaluate_classical_encounters.py": "0a4bcba474191cabe776e9e1c1c5d17af0f3d46594fb8f95eb30f3bde0badd1d",
+    "scripts/run_classical_encounter.py": "d26f67781aacb7e64b1c1f66e92b78a26cceff6008fcc4de8ca5b3408630456c",
+    "scripts/run_classical_episode.py": "d9e896246b9323a680cdfc7f6ec1c786ef7614581947c9c8a5d31e39c2502b35",
+    "src/streetscape_baselines/__init__.py": "ff212d3e4cd9b7837b803c902c9c3ebe71a3ca422922ddcd27b7cf2224f630ad",
+    "src/streetscape_baselines/controller.py": "17ce9f42044a56e550a62bebb7a7430d1f2ac389f744b2438b0b73a880b27025",
+    "src/streetscape_baselines/geometry.py": "2d6e0e2c78af22bf3b505e07e9cedbdb6ace0ad7cece63ca0c3848339af21147",
+    "src/streetscape_baselines/runtime.py": "076bf86683daeb7c9dccba8a7e82277894ee789232d5da87642745a16e8001b0",
+    "src/streetscape_baselines/tracking.py": "b1fa422c03eedf3afa873fd0e787fe3d263c6ecae9abd311f2a8122a81930513",
+    "src/streetscape_route/__init__.py": "66d7322291dfd8c867c0fc45d3a18aca579e4b0245cfb21fc3b5c5aa41684b59",
+    "src/streetscape_route/controller.py": "e669ced447baaa53a6f3db1430e05a618e284f65bea323cd9dcbbde6194e1f6d",
+    "src/streetscape_route/navigation.py": "d1273092e9c35feb72fd141163f0cc285d1b08e5eea173d2d0804686ced360d3",
+    "src/streetscape_route/runtime.py": "cfb238f9919206ea8951757f565cc77659ec93a3adb091d4e0c0be9a66dd5b52",
+    "src/urban_service/__init__.py": "e12f03c0924b15c23202b092472d498e432d05654878db6a866e0bf6dc7c7e59",
+    "src/urban_service/action_adapter.py": "77bf66eeef5a97082795b8ac83b61bc749c4098c216eae8bb2f10351d7d2afc1",
+    "src/urban_service/controller.py": "594c993de8e368845870cdc4d0943a591bbed740acb127fca35fe63f9556767e",
+    "src/urban_service/crowd_experiment.py": "a9fa1955362084b61daa3e308bad48dd941de0c74efc84051961517a7d595117",
+    "src/urban_service/metrics.py": "c2260f830680b90e99982d2d40341b971ca4ab1159c02511de8e27895d613db7",
+    "src/urban_service/provenance.py": "9ec1711910dec81c2906f55d93bc14d175c69b5c2730c9f1b359fc56a2040197",
+    "src/urban_service/runtime.py": "9ee85d050f6db6364edd8e4ca247dffddac9683d3ecc5f81153e9d782d2db08f",
+    "tests/test_classical.py": "437cc3115d5ac5bafd557e9a19d5f3c7edba8a0bfd5c0b8dcf87307d1294c63f"
+  }
+}

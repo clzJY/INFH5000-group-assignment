@@ -1,0 +1,3 @@
+Recorded development figure only. Full source paths and SHA256 evidence are centrally preserved at:
+/data/private/user7/projects/storage_management/ucmp_week3_editorial_20261111-100520/figure_source_receipt.json
+No road or curb geometry is reconstructed.

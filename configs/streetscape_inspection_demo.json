@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "stage": "separate_inspection_capability_demo",
+  "upstream_commit": "6b8ff9aa48dd27d5c57fa1c712db520732f11fa9",
+  "checkpoint": "third_party/metaurban/pretrained_policy_576k.zip",
+  "checkpoint_sha256": "fc0e86321d7c790b2ff547f79e58da253d589e066597864072ab2c1b8beedd99",
+  "asset_profile": "tiny",
+  "environment": "dynamic",
+  "methods": [
+    "baseline",
+    "distance",
+    "predictive"
+  ],
+  "development_seeds": [
+    900,
+    901
+  ],
+  "test_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "densities": {
+    "low": 5,
+    "high": 15
+  },
+  "env_config": {
+    "map": "X",
+    "agent_type": "wheelchair",
+    "object_density": 0.3,
+    "crswalk_density": 1,
+    "drivable_area_extension": 55,
+    "height_scale": 1,
+    "walk_on_all_regions": false,
+    "random_spawn_lane_index": false,
+    "num_scenarios": 1000,
+    "start_seed": 0,
+    "accident_prob": 0,
+    "horizon": 600,
+    "on_continuous_line_done": false,
+    "out_of_route_done": true,
+    "relax_out_of_road_done": true,
+    "max_lateral_dist": 15.0,
+    "spawn_deliveryrobot_num": 0,
+    "spawn_wheelchairman_num": 0,
+    "spawn_edog_num": 0,
+    "spawn_erobot_num": 0,
+    "spawn_drobot_num": 0,
+    "max_actor_num": 20,
+    "manual_control": false,
+    "default_expert": false,
+    "use_render": false,
+    "image_on_cuda": false,
+    "vehicle_config": {
+      "enable_reverse": false,
+      "policy_reverse": false,
+      "show_lidar": false,
+      "show_navi_mark": false,
+      "show_dest_mark": false
+    },
+    "tiny": true,
+    "show_interface": false,
+    "show_logo": false,
+    "show_fps": false,
+    "multi_thread_render": false,
+    "traffic_density": 0,
+    "show_ego_navigation": false,
+    "show_mid_block_map": false
+  },
+  "controller": {
+    "horizon_s": 2.0,
+    "stop_clearance_m": 0.5,
+    "slow_clearance_m": 1.5,
+    "release_margin_m": 0.25,
+    "release_hold_s": 0.5,
+    "recovery_accel_m_s2": 1.0,
+    "max_speed_m_s": 2.0
+  },
+  "near_clearance_m": 1.0,
+  "stop_speed_m_s": 0.1,
+  "inspection_hold_s": 1.0,
+  "inspection_max_s": 5.0,
+  "render": {
+    "width": 960,
+    "height": 540,
+    "position": [
+      0,
+      1.4,
+      1.6
+    ],
+    "hpr": [
+      0,
+      -5,
+      0
+    ]
+  },
+  "pedestrian_only_collision_attribution": true,
+  "low_speed_hold_brake": true,
+  "frozen_time": "2026-11-02T02:37:38.355946+08:00",
+  "gate_sha256": "194476b2d2aa3f6c79ccdf85c96045aceca45e51e03e973fe0d4b3486bf33522",
+  "gate_path": "/data/private/user7/projects/Tempfile/UCMP-MB/week3_assignment/runs/streetscape_gate_v3_20261102/gate_report.json",
+  "frozen_source_sha256": {
+    "src/urban_service/metrics.py": "c2260f830680b90e99982d2d40341b971ca4ab1159c02511de8e27895d613db7",
+    "src/urban_service/crowd_experiment.py": "a9fa1955362084b61daa3e308bad48dd941de0c74efc84051961517a7d595117",
+    "src/urban_service/provenance.py": "9ec1711910dec81c2906f55d93bc14d175c69b5c2730c9f1b359fc56a2040197",
+    "src/urban_service/runtime.py": "9ee85d050f6db6364edd8e4ca247dffddac9683d3ecc5f81153e9d782d2db08f",
+    "src/urban_service/controller.py": "594c993de8e368845870cdc4d0943a591bbed740acb127fca35fe63f9556767e",
+    "src/urban_service/__init__.py": "e12f03c0924b15c23202b092472d498e432d05654878db6a866e0bf6dc7c7e59",
+    "src/urban_service/action_adapter.py": "77bf66eeef5a97082795b8ac83b61bc749c4098c216eae8bb2f10351d7d2afc1",
+    "scripts/run_episode.py": "817c3b25aa3fe9ea17a48a68bc958dacc7b030594bd66a1c1b008959cf530328",
+    "scripts/evaluate.py": "d312a62ddc3b176002276637803b358a8d03f33d9e769c05de1a117a6233cb00"
+  }
+}

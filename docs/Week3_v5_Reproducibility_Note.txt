@@ -1,0 +1,53 @@
+UCMP-MB Week 3 v5 — Optional Reproducibility Note
+2026-11-11 | This is supplementary technical material, outside the five-page proposal.
+
+1. Editorial scope and immutable evidence
+The v5 revision reorganises and explains the existing common-input classical-controller pilot. It adds no rollout, training, cloud task, installation or download. All old proposals and experimental files are retained. GenAI declaration/screenshots remain deferred to the author; this revision does not complete that component.
+Full original technical instructions remain in docs/classical_reproduction_20261102.txt. The authoritative protocol is configs/classical_frozen_20261102.json. Do not run the old acceptance/output commands against delivered output directories: use new directories for any future reproduction.
+
+2. Source and environment details moved out of the main text
+Official MetaUrban source commit: 6b8ff9aa48dd27d5c57fa1c712db520732f11fa9.
+Existing local interpreter: envs/python311/bin/python3 (CPython 3.11.14); NumPy 1.26.4 and Panda3D 1.10.14. Rendering uses the existing native simulator; document conversion uses installed LibreOffice. No model inference or training drives these six methods. The inherited validator checks a legacy checkpoint artifact but does not execute it.
+The frozen protocol records 22 scientific source SHA256 hashes. They were checked again during this revision. The new document and figure builders are separate scripts, not edits to the frozen controller/evaluation source.
+
+3. Splits and data locations
+Development: scene identifiers 900–903, two crowds and six methods (48 runs); four scripted encounters at 902 with five methods (20 runs).
+Main test: identifiers 300–309, five/fifteen pedestrians, six methods, 120 runs in runs/classical_test_20261102/.
+Controlled test: identifiers 320–321, crossing/receding/approaching/stationary, five methods, 40 runs in runs/classical_encounter_test_20261102/.
+Episodes and summaries: outputs/classical/test/ and outputs/classical/encounter_test/. Keep the two suites separate. Each main scene identity appears at both crowd counts; uncertainty must preserve that grouping.
+
+4. Engineering choices and metric definitions
+Native physics step 0.02 s, five physics steps per 0.1 s decision; 600-decision budget. Forward-only motion; maximum tracking speed 3 m/s; normalised steering slew limit 1.5/s. Physical wheel braking and low-speed hold apply without overwriting robot pose or velocity.
+Tracker lookahead: max(3 m, current speed × 1 s); minimum tracking speed 0.4 m/s; curvature radius parameter 3 m; goal approach distance 5 m.
+Forecast: horizon 1.5 s, sampling 0.1 s, acceleration 1.5 m/s², braking 2 m/s², body buffer 0.25 m, release hold 0.2 s, speed candidates 3/2/1/0.5/0 m/s. Soft clearance 1 m and escape-improvement threshold 0.1 m. These are engineering assumptions, not measured human comfort limits.
+Common static guard: 0.1 m buffer, 1 s horizon. RPP-inspired: proximity 1.5 m, projection 1 s, minimum progress speed 0.4 m/s. Distance yield slows between the common 0.25 m buffer and 1.5 m. The exact DWA steering offsets, command window and objective weights remain in the frozen JSON; it is a local Ackermann adaptation, not an official DWA implementation.
+Only static TestObject footprints enter those planar checks; road/curb meshes are not covered. Native collision/out-of-road outcomes are retained. Forecast rollouts omit steering slew and detailed wheel transients and are sampled, so they cannot establish continuous collision avoidance.
+Strict arrival requires native arrival AND endpoint distance ≤2 m; valid start-to-end and route lengths must both be ≥5 m. Pedestrian contact is crash_human OR crash_vehicle because native pedestrian bodies use a vehicle tag; other moving traffic is disabled. Contact-free arrival additionally excludes object/building/sidewalk flags.
+WAIT time counts stop commands, not measured physical standstill or human delay. Near exposure is the observed navigation time fraction with sampled oriented-box gap <1 m, not the earlier circle proxy or measured discomfort. Episode termination changes its denominator. Displayed means use decimal round-half-up to two places; unrounded data are retained.
+
+5. Independent numerical review and interpretation
+This revision independently recomputed all 73,885 navigation decision steps across the 160 formal runs from existing raw JSONL. Goal distances, strict/native arrival, contacts, durations, stop-command time and sampled proximity agree with delivered episode records within 1e-7. The evidence audit and preservation checks are recorded centrally.
+Forecast and zero-velocity ablation both have 16/20 strict and 13/20 contact-free arrivals, with three pedestrian-contact episodes. Forecast is 3.1625 s faster than RPP-inspired tracking on their 16 shared successes, but 0.28125 s slower than the zero-velocity ablation on those same successes. Differences from RPP alone cannot identify the contribution of measured pedestrian velocity.
+Against DWA-style, six strict rescues minus four strict regressions give two additional strict arrivals (14→16). Contact-free arrivals change independently by one (12→13). A contact episode may still arrive; those measures are not interchangeable.
+All five path-tracking methods time out in identifiers 305/306 at both crowds. Their buffer failures are diagnostic controller evidence, not proof that the physical passage is impassable. The proposed bounded detour is NOT implemented or evaluated. Its 120-run plan is future work.
+
+6. Supplementary uncertainty, kept outside the main narrative
+Existing outputs/classical/test/paired_cluster_intervals.json contains 10,000 paired bootstrap resamples of the ten scene identities (both crowds kept together), RNG seed 20261102. They are small-sample descriptive intervals, not rare-event safety guarantees. Identical paired arrival outcomes create degenerate [0,0] bootstrap intervals; this does not establish population equivalence. The proposal reports descriptive comparisons and makes no significance claim.
+For forecast minus DWA, the existing 95% bootstrap interval is −0.30 to +0.50 for strict-arrival proportion and −0.30 to +0.40 for contact-free arrival. These wide intervals reinforce the exploratory interpretation; they do not justify a general performance claim.
+
+7. Figure provenance and spatial limits
+Figure 1 preserves outputs/classical/figures/mission_scene_pair.png from the native 3D inspection development recording. It is not the single-pedestrian diagnostic scene in Figure 2.
+Figure 2 is newly plotted by scripts/editorial_spatial_figure_v5.py using the recorded crossing_seed902_forecast and crossing_seed902_rpp runs in runs/classical_encounter_development_v1/. It uses the initial reference route and static footprints, actual executed robot trajectories and observed scripted pedestrian positions. The first eight seconds and body boxes at 4.1 s are shown. Labels state speed CAPS, not measured body speed. Matching initial fingerprints and common pedestrian positions are checked.
+Coordinates are local metres, without geographic reference. No road, pavement edge, curb polygon or unobserved trajectory has been invented. The image and SVG are in outputs/editorial_v5_20261111/figures/. Full source hashes are centrally preserved in /data/private/user7/projects/storage_management/ucmp_week3_editorial_20261111-100520/figure_source_receipt.json.
+
+8. Primary reference verification
+MetaUrban is cited as ICLR 2025; Francis et al. as the 2025 ACM THRI final publication, not the earlier preprint year. The author-hosted Francis PDF filename contains 2023 but its final journal metadata is 2025. Primary verification links follow; the complete metadata record is in the central operation/references_verified.json.
+[1] https://mitpress.mit.edu/9780262318242/the-new-science-of-cities/
+[2] https://proceedings.iclr.cc/paper_files/paper/2025/hash/ad63cdaffe7c95c5f9c12276cdd893f9-Abstract-Conference.html
+[3] https://interactive-machines.com/assets/papers/francis2023principles.pdf
+[4] https://publications.ri.cmu.edu/implementation-of-the-pure-pursuit-path-tracking-algorithm
+[5] https://link.springer.com/article/10.1007/s10514-023-10097-6
+[6] https://publications.ri.cmu.edu/the-dynamic-window-approach-to-collision-avoidance
+[7] https://gamma.cs.unc.edu/ORCA/
+
+Central evidence and QA: /data/private/user7/projects/storage_management/ucmp_week3_editorial_20261111-100520

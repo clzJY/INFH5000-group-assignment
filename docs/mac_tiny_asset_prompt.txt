@@ -1,0 +1,32 @@
+请在我的 Mac 上执行以下单文件补充下载与上传任务，直接完成，不安装服务器环境、不运行实验。
+
+背景：此前已完成的 66 个资源、4 份 receipt 和服务器上传保持不变。它们包含加密完整静态包，但没有公开无密码的 tiny 包。现在需要 tiny 包恢复真正的 MetaUrban 三维街景仿真；不要重下已有 4.6 GB 资源，不需要等待解压码。
+
+下载物：
+文件名 assets_tiny.zip
+官方源 https://drive.google.com/file/d/10bAr4-WnMHCSNCuz7qG41MDt_GStxkI9/view?usp=drive_link
+直接下载 https://drive.usercontent.google.com/download?id=10bAr4-WnMHCSNCuz7qG41MDt_GStxkI9&export=download&confirm=t
+已核对本版本大小 479067250 字节；304 个 ZIP 条目；零加密条目。
+
+位置：
+Mac 暂存 ~/xingliu-transfer/ucmp-week3/downloads/assets_tiny.zip
+SSH alias hkust
+服务器 /data/private/user7/projects/Tempfile/UCMP-MB/week3_assignment/cache/mac_artifacts/downloads/assets_tiny.zip
+receipt 上传到服务器 cache/mac_artifacts/ 根目录。
+
+执行要求：
+1. 使用现有 Mac 下载环境/网络；有有效同名文件则复用。下载用 assets_tiny.zip.part 保留断点，支持 curl -L --fail --retry 3 -C - 或现有 gdown；若得到 HTML 确认页须识别，不得当 ZIP 上传。
+2. 完成后检查准确大小 479067250，Python zipfile 打开、条目数 304、所有条目无加密、testzip() 为 None，并计算 SHA256。没有从官方获得独立 SHA256，不能声称与官方 hash 匹配；这里验证 ZIP CRC 及上传前后 hash 一致。
+3. 创建新的 receipt_tiny_时间戳.json，绝不改写原 receipts。格式与原记录兼容：
+   {"stage":"tiny","entries":[{"name":"tiny","path":"Mac上文件的绝对路径","url":"上述官方源","bytes":479067250,"sha256":"实际计算的64位hash"}]}
+4. 通过已有 hkust SSH 配置上传文件和新 receipt；使用 rsync 断点续传或等效方式。不要更改全局代理、SSH 配置或主机密钥。原资源及原 receipts 均保留。
+5. 服务器上仅做只读大小/hash 与 ZIP 检查，并运行：
+   python3 /data/private/user7/projects/Tempfile/UCMP-MB/week3_assignment/scripts/verify_artifacts.py /data/private/user7/projects/Tempfile/UCMP-MB/week3_assignment/cache/mac_artifacts
+   预期 ARTIFACTS_VERIFIED 67（原 66 个资源 + 本次 tiny）。新 receipt 不是资源数。
+6. 不解压、不训练、不启动 rollout 或星流；服务器的 Codex 会执行后续导入和三维实验。
+7. Mac 详细传输/校验日志在原暂存 records 中新建时间戳目录；服务器需保存记录时放 /data/private/user7/projects/storage_management/ucmp_week3_streetscape_revision_20261102-011210/mac_transfer/，不要写 projects 根目录。
+
+完成后向我返回文件大小、SHA256、两端一致性、服务器目标路径和最终状态：
+METAURBAN_TINY_UPLOADED_VERIFIED
+NO_PASSWORD_REQUIRED
+NO_SIMULATION_STARTED

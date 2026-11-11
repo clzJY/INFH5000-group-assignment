@@ -1,0 +1,56 @@
+{
+  "stage": "frozen",
+  "backend": "CrowdNav",
+  "scenarios": [
+    "circle_crossing",
+    "square_crossing"
+  ],
+  "development_cases": [
+    900,
+    901,
+    902,
+    903,
+    904
+  ],
+  "test_cases": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "human_num": 5,
+  "robot_visible": false,
+  "near_clearance_m": 0.2,
+  "controller": {
+    "horizon_s": 1.0,
+    "stop_clearance_m": 0.05,
+    "slow_clearance_m": 0.3,
+    "release_margin_m": 0.1,
+    "release_hold_s": 0.25,
+    "recovery_accel_m_s2": 1.0,
+    "max_speed_m_s": 1.0
+  },
+  "methods": [
+    "baseline",
+    "fixed_margin",
+    "adaptive_margin"
+  ],
+  "buffer": {
+    "fixed_m": 0.15,
+    "max_m": 0.15,
+    "horizon_s": 2.0,
+    "trigger_clearance_m": 0.6,
+    "release_rate_m_s": 0.15
+  },
+  "frozen_time": "2026-11-02T00:26:35.111138+08:00",
+  "runner_sha256": "a9fa1955362084b61daa3e308bad48dd941de0c74efc84051961517a7d595117",
+  "development_results_sha256": "df08c781d27366c39a5b68a8d599b4d94bceb90b0948f79cfa228c02d0ad7a87",
+  "selection_note": "Single clearance candidate developed after post-hoc speed control failed; no test cases inspected before freezing.",
+  "test_protocol": "Three methods, two official crossing generators, ten distinct case IDs per generator; unchanged native terminal rules."
+}

@@ -1,0 +1,93 @@
+{
+  "summary": [
+    {
+      "density": "all",
+      "method": "route",
+      "requested": 2,
+      "valid": 2,
+      "invalid_generated": 0,
+      "strict_goals": 2,
+      "native_goals": 2,
+      "pedestrian_contacts": 0,
+      "any_contacts": 0,
+      "contact_free_goals": 2,
+      "physical_anomalies": 0,
+      "mean_wait_s": 0.0,
+      "mean_near_fraction": 0.01864754985984157,
+      "mean_action_intervention_fraction": 0.9750932841593287,
+      "mean_route_correction_fraction": 0.3234840937358836,
+      "mean_pedestrian_speed_intervention_fraction": 0.0
+    },
+    {
+      "density": "all",
+      "method": "route_intent",
+      "requested": 2,
+      "valid": 2,
+      "invalid_generated": 0,
+      "strict_goals": 2,
+      "native_goals": 2,
+      "pedestrian_contacts": 1,
+      "any_contacts": 1,
+      "contact_free_goals": 1,
+      "physical_anomalies": 0,
+      "mean_wait_s": 2.000000000000001,
+      "mean_near_fraction": 0.043141592920353654,
+      "mean_action_intervention_fraction": 0.9595386978817319,
+      "mean_route_correction_fraction": 0.32432600558236147,
+      "mean_pedestrian_speed_intervention_fraction": 0.06322619382478309
+    },
+    {
+      "density": "high",
+      "method": "route",
+      "requested": 2,
+      "valid": 2,
+      "invalid_generated": 0,
+      "strict_goals": 2,
+      "native_goals": 2,
+      "pedestrian_contacts": 0,
+      "any_contacts": 0,
+      "contact_free_goals": 2,
+      "physical_anomalies": 0,
+      "mean_wait_s": 0.0,
+      "mean_near_fraction": 0.01864754985984157,
+      "mean_action_intervention_fraction": 0.9750932841593287,
+      "mean_route_correction_fraction": 0.3234840937358836,
+      "mean_pedestrian_speed_intervention_fraction": 0.0
+    },
+    {
+      "density": "high",
+      "method": "route_intent",
+      "requested": 2,
+      "valid": 2,
+      "invalid_generated": 0,
+      "strict_goals": 2,
+      "native_goals": 2,
+      "pedestrian_contacts": 1,
+      "any_contacts": 1,
+      "contact_free_goals": 1,
+      "physical_anomalies": 0,
+      "mean_wait_s": 2.000000000000001,
+      "mean_near_fraction": 0.043141592920353654,
+      "mean_action_intervention_fraction": 0.9595386978817319,
+      "mean_route_correction_fraction": 0.32432600558236147,
+      "mean_pedestrian_speed_intervention_fraction": 0.06322619382478309
+    }
+  ],
+  "paired": [
+    {
+      "control": "route",
+      "method": "route_intent",
+      "n": 2,
+      "rescued": 0,
+      "regressed": 0,
+      "jointly_successful_n": 2,
+      "mean_joint_delay_s": 2.8500000000000405
+    }
+  ],
+  "notes": [
+    "Arrival requires native flag AND <=2 m endpoint distance; earlier frozen native-only totals use a different definition.",
+    "Invalid generated tasks are listed and not silently replaced. Numerical anomalies remain in primary valid-task counts.",
+    "Near fraction retains the legacy circle proxy for comparability; it is not box distance or human comfort.",
+    "Seeds are paired across methods and shared across crowd sizes; counts are descriptive, not independent significance tests."
+  ]
+}

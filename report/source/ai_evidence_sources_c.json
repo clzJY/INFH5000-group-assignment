@@ -1,0 +1,10 @@
+{
+  "excerpts": {
+    "revision_user_1": "还有有些术语完全没有解释，比如说到PPO，RPP,DWA之类的，完全没有全称甚至。",
+    "revision_user_2": "大量缺少逻辑关联，过渡内容，解释性内容。",
+    "revision_assistant_1": "首次出现时说明 PP、RPP、DWA、ORCA 的全称及作用，解释零速度消融为什么有必要。",
+    "revision_assistant_2": "保留预测没有改善总体无接触到达率的结果；明确局部绕行尚未实现，属于下一步研究计划。",
+    "contribution_user": "我觉得从这个proposal中我现在能看到问题了，但是我不知道哪些是我们做了的事情，而且后续的实验哪个是和我们相关的，我们提出来的是什么呢？哪些是拿来对比的？",
+    "contribution_assistant": "我们已经实现的是一个沿既定路线进行短时风险预测、再选择前进速度或停车的模块；PP、RPP-inspired 和 DWA-style 是参照方法，距离让行和零速度预测用于检验模块中的不同设计。"
+  }
+}

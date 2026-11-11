@@ -1,0 +1,247 @@
+{
+  "seed": 20261102,
+  "resamples": 10000,
+  "method": "Percentile paired bootstrap of scene seeds, keeping both densities together. Descriptive small-sample intervals, no significance claim.",
+  "contrasts": [
+    {
+      "control": "rpp",
+      "method": "forecast",
+      "metric": "strict_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "rpp",
+      "method": "forecast",
+      "metric": "contact_free_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "rpp",
+      "method": "forecast",
+      "metric": "pedestrian_contact",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "rpp",
+      "method": "forecast",
+      "metric": "wait_s",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.14499999999999985,
+      "percentile95": [
+        -0.16000000000000228,
+        0.4600000000000005
+      ]
+    },
+    {
+      "control": "rpp",
+      "method": "forecast",
+      "metric": "box_near_fraction",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": -5.9732849125795905e-05,
+      "percentile95": [
+        -0.0003570703996753903,
+        0.0001778718522980026
+      ]
+    },
+    {
+      "control": "distance",
+      "method": "forecast",
+      "metric": "strict_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "distance",
+      "method": "forecast",
+      "metric": "contact_free_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "distance",
+      "method": "forecast",
+      "metric": "pedestrian_contact",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "distance",
+      "method": "forecast",
+      "metric": "wait_s",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.6200000000000033,
+      "percentile95": [
+        -0.08000000000000114,
+        1.5050000000000088
+      ]
+    },
+    {
+      "control": "distance",
+      "method": "forecast",
+      "metric": "box_near_fraction",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0013577407282989527,
+      "percentile95": [
+        0.0,
+        0.0038447194261975286
+      ]
+    },
+    {
+      "control": "forecast_static",
+      "method": "forecast",
+      "metric": "strict_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "forecast_static",
+      "method": "forecast",
+      "metric": "contact_free_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "forecast_static",
+      "method": "forecast",
+      "metric": "pedestrian_contact",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.0,
+      "percentile95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "control": "forecast_static",
+      "method": "forecast",
+      "metric": "wait_s",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.21499999999999925,
+      "percentile95": [
+        0.0,
+        0.5149999999999981
+      ]
+    },
+    {
+      "control": "forecast_static",
+      "method": "forecast",
+      "metric": "box_near_fraction",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": -0.0002391759622926634,
+      "percentile95": [
+        -0.0005968980804061149,
+        0.0
+      ]
+    },
+    {
+      "control": "dwa",
+      "method": "forecast",
+      "metric": "strict_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.1,
+      "percentile95": [
+        -0.3,
+        0.5
+      ]
+    },
+    {
+      "control": "dwa",
+      "method": "forecast",
+      "metric": "contact_free_goal",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.05,
+      "percentile95": [
+        -0.3,
+        0.4
+      ]
+    },
+    {
+      "control": "dwa",
+      "method": "forecast",
+      "metric": "pedestrian_contact",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.05,
+      "percentile95": [
+        -0.15,
+        0.3
+      ]
+    },
+    {
+      "control": "dwa",
+      "method": "forecast",
+      "metric": "wait_s",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": -4.025000000000031,
+      "percentile95": [
+        -24.15000000000021,
+        15.710875000000142
+      ]
+    },
+    {
+      "control": "dwa",
+      "method": "forecast",
+      "metric": "box_near_fraction",
+      "paired_conditions": 20,
+      "scene_clusters": 10,
+      "mean_difference": 0.005602637612718146,
+      "percentile95": [
+        -0.010999999999999894,
+        0.02811749248495815
+      ]
+    }
+  ]
+}

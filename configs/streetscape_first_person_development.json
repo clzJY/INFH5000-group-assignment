@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "stage": "first_person_camera_development",
+  "upstream_commit": "6b8ff9aa48dd27d5c57fa1c712db520732f11fa9",
+  "checkpoint": "third_party/metaurban/pretrained_policy_576k.zip",
+  "checkpoint_sha256": "fc0e86321d7c790b2ff547f79e58da253d589e066597864072ab2c1b8beedd99",
+  "asset_profile": "tiny",
+  "environment": "dynamic",
+  "methods": [
+    "baseline",
+    "distance",
+    "predictive"
+  ],
+  "development_seeds": [
+    900,
+    901
+  ],
+  "test_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "densities": {
+    "low": 5,
+    "high": 15
+  },
+  "env_config": {
+    "map": "X",
+    "agent_type": "wheelchair",
+    "object_density": 0.3,
+    "crswalk_density": 1,
+    "drivable_area_extension": 55,
+    "height_scale": 1,
+    "walk_on_all_regions": false,
+    "random_spawn_lane_index": false,
+    "num_scenarios": 1000,
+    "start_seed": 0,
+    "accident_prob": 0,
+    "horizon": 600,
+    "on_continuous_line_done": false,
+    "out_of_route_done": true,
+    "relax_out_of_road_done": true,
+    "max_lateral_dist": 15.0,
+    "spawn_deliveryrobot_num": 0,
+    "spawn_wheelchairman_num": 0,
+    "spawn_edog_num": 0,
+    "spawn_erobot_num": 0,
+    "spawn_drobot_num": 0,
+    "max_actor_num": 20,
+    "manual_control": false,
+    "default_expert": false,
+    "use_render": false,
+    "image_on_cuda": false,
+    "vehicle_config": {
+      "enable_reverse": false,
+      "policy_reverse": false,
+      "show_lidar": false,
+      "show_navi_mark": false,
+      "show_dest_mark": false
+    },
+    "tiny": true,
+    "show_interface": false,
+    "show_logo": false,
+    "show_fps": false,
+    "multi_thread_render": false,
+    "traffic_density": 0,
+    "show_ego_navigation": false,
+    "show_mid_block_map": false
+  },
+  "controller": {
+    "horizon_s": 2.0,
+    "stop_clearance_m": 0.5,
+    "slow_clearance_m": 1.5,
+    "release_margin_m": 0.25,
+    "release_hold_s": 0.5,
+    "recovery_accel_m_s2": 1.0,
+    "max_speed_m_s": 2.0
+  },
+  "near_clearance_m": 1.0,
+  "stop_speed_m_s": 0.1,
+  "inspection_hold_s": 0,
+  "inspection_max_s": 0,
+  "render": {
+    "width": 960,
+    "height": 540,
+    "position": [
+      0,
+      1.4,
+      1.6
+    ],
+    "hpr": [
+      0,
+      -5,
+      0
+    ]
+  },
+  "pedestrian_only_collision_attribution": true,
+  "low_speed_hold_brake": true
+}

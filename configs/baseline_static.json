@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "stage": "baseline_reproduction",
+  "upstream_commit": "6b8ff9aa48dd27d5c57fa1c712db520732f11fa9",
+  "checkpoint": "third_party/metaurban/pretrained_policy_576k.zip",
+  "checkpoint_sha256": "fc0e86321d7c790b2ff547f79e58da253d589e066597864072ab2c1b8beedd99",
+  "asset_profile": "full", "environment": "static",
+  "env_config": {
+    "map": "X", "agent_type": "wheelchair", "object_density": 0.7,
+    "crswalk_density": 1, "drivable_area_extension": 55, "height_scale": 1,
+    "walk_on_all_regions": false, "random_spawn_lane_index": false,
+    "num_scenarios": 100, "start_seed": 0, "accident_prob": 0,
+    "horizon": 300, "on_continuous_line_done": false, "out_of_route_done": true,
+    "relax_out_of_road_done": true, "max_lateral_dist": 15.0,
+    "manual_control": false, "use_render": false, "image_on_cuda": false,
+    "spawn_deliveryrobot_num": 2,
+    "vehicle_config": {"enable_reverse": true, "policy_reverse": false,
+      "show_lidar": false, "show_navi_mark": true, "show_dest_mark": true}
+  },
+  "controller": {"horizon_s": 2.0, "stop_clearance_m": 0.5, "slow_clearance_m": 1.5,
+    "release_margin_m": 0.25, "release_hold_s": 0.5, "recovery_accel_m_s2": 1.0,
+    "max_speed_m_s": 2.0},
+  "near_clearance_m": 1.0, "stop_speed_m_s": 0.1,
+  "inspection_hold_s": 0.0, "inspection_max_s": 0.0,
+  "render": {"width": 960, "height": 540, "position": [0, -7, 1.5], "hpr": [0, 0, 0]}
+}

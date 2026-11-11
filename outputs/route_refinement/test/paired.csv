@@ -1,0 +1,6 @@
+control,method,n,rescued,regressed,jointly_successful_n,mean_joint_delay_s
+baseline,predictive,20,0,1,2,4.850000000000069
+baseline,route,20,15,0,3,16.266666666666897
+baseline,route_intent,20,15,0,3,16.266666666666897
+route,route_intent,20,0,0,18,2.738888888888928
+predictive,route_intent,20,16,0,2,11.500000000000163

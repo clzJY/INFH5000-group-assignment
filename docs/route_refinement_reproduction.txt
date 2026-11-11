@@ -1,0 +1,77 @@
+UCMP-MB WEEK 3 — ROUTE / RISK REFINEMENT, 2 NOVEMBER 2026
+
+Current source: src/streetscape_route/
+Frozen configuration: configs/route_frozen_20261102.json
+Execution/storage record: ../../../storage_management/ucmp_week3_refinement_20261102-094512/
+The old src/urban_service/ package and its frozen 60-run experiment are unchanged.
+
+WHY THE REVISION
+The previous circle/constant-heading shield could stop for paths the robot would
+turn away from. Stopping also failed when a native pedestrian continued along its
+preplanned path into the robot. Some failures had no shield interventions at all:
+PPO asked for negative throttle, which means braking under the common forward-only
+contract. Separately, the native >95% route-projection flag accepted points 5–17 m
+from the intended endpoint in the old nontrivial successful baseline episodes.
+
+CURRENT FOUR METHODS
+baseline: fixed official PPO, original actions, common forward-only physics.
+predictive: original circle / constant-velocity yield layer and steering unchanged.
+route: local route-consistency steering/throttle correction plus a 3 m/s cruise
+  governor with a curvature-dependent cap. Corrections, triggers and raw PPO
+  actions are all retained. This uses the full simulator-provided planned route.
+route_intent: the same route governor, plus 0/0.5/1/2/cruise candidate speed
+  predictions along the upcoming route, with bounded acceleration/braking.
+  Native 1.5 x 1 m ego and 1 x 1 m pedestrian boxes replace declared-radius
+  assumptions in control. Disjoint planar footprint distances use exact Euclidean gaps;
+  overlapping boxes use signed separating-axis penetration. Prediction is 1 s
+  at 0.1 s intervals, with a 0.25 m geometric buffer. A stop is evaluated as a
+  candidate, not assumed safe. No-buffer-feasible states are explicitly logged;
+  least-predicted-overlap escape is a heuristic, not a safety guarantee.
+  Pedestrian motion is constant-velocity prediction from current exact states,
+  never access to their actual future trajectory.
+
+OUTCOMES AND VALIDITY
+All four methods must satisfy native arrival AND <=2 m endpoint distance.
+Both raw native arrival and strict arrival remain in the logs. For the final
+inspection, physical speed must remain below 0.1 m/s for 1 s within the goal.
+No position/velocity teleportation is used for braking. A camera-only 90-degree
+pan records the streetscape after stopping; RGB is never the policy input.
+
+Before a run, route length and start-to-goal distance must both be >=5 m.
+Invalid generated tasks are recorded, not replaced. Samples with speed >20 m/s
+are numerical-anomaly flags and remain in primary counts. Pedestrian contacts
+include native crash_vehicle in this verified pedestrian-only traffic setup;
+all raw flags are retained. Any-contact-free goals are reported separately.
+The reported near-time fraction retains the old circle proxy for comparability;
+it is not native box clearance and is not a validated human-comfort measure.
+
+DESIGN
+Development seeds 900–904. Earlier seeds 100–109 are diagnostic history only.
+Fresh test: seeds 200–209 x 5/15 pedestrians x 4 methods = 80 requested runs.
+Freeze receipt records source/config hashes before the first fresh test.
+No parameters are changed after looking at these test outcomes. Both crowd sizes
+share seeds, so episode counts do not imply 20 independent scene replicates.
+
+REPRODUCTION (from the week3_assignment directory)
+1. Use the existing offline environment envs/python311/bin/python3 and already
+   imported tiny/pedestrian assets. No downloads or new cloud instances needed.
+2. Validate code:
+   PYTHONPATH=src PYTHONDONTWRITEBYTECODE=1 envs/python311/bin/python3 -m pytest -q tests -p no:cacheprovider
+3. Run a NEW output directory; evaluator intentionally refuses overwrite:
+   envs/python311/bin/python3 scripts/evaluate_route.py --config configs/route_frozen_20261102.json --split test --campaign runs/route_test_repeat_UNIQUE --log-root /ABSOLUTE/PATH/storage_management/UNIQUE/logs --workers 2
+4. Recompute metrics/candidate decisions and verify source identities:
+   envs/python311/bin/python3 scripts/accept_route_refinement.py runs/route_test_20261102 --record /ABSOLUTE/PATH/storage_management/UNIQUE/acceptance.json --output outputs/route_refinement/test
+5. A single actual RGB repeat:
+   envs/python311/bin/python3 scripts/record_route_demo.py --method route_intent --seed 902 --pedestrians 15 --output runs/route_demo_repeat_UNIQUE --mission
+
+Failure branches remain under src/streetscape_refinement/ and
+src/streetscape_bidirectional/ with their corresponding development logs. The
+reverse-compatible probe did not resolve the selected failures; it is not mixed
+into the final common forward-only comparison. No model training was performed.
+
+HISTORICAL SOURCE CAPTURE LIMIT
+Exploratory route_probe_v1–v3 edits were made before the freeze. Their raw logs,
+configs and source hashes are retained, but not every temporary source revision
+was separately snapshotted. The final v4 gate, 40-run final development campaign
+and 80-run fresh test are replayable from the present frozen source. Do not claim
+byte-identical replay of every exploratory intermediate revision.

@@ -1,0 +1,5 @@
+density,seed,method,valid_task,strict_goal,native_goal,pedestrian_contact,any_contact,contact_free_goal,wait_s,duration_s,near_fraction,final_goal_distance_m,physical_anomaly,action_intervention_fraction,route_correction_fraction,pedestrian_speed_intervention_fraction
+high,900,route_intent,True,True,True,True,True,False,4.000000000000002,45.20000000000037,0.08628318584070731,1.9067467042186523,False,0.9557522123893806,0.2721238938053097,0.09955752212389381
+high,900,route,True,True,True,False,False,True,0.0,40.3000000000003,0.022332506203473775,1.8897055215616536,False,0.9875930521091811,0.28287841191067,0.0
+high,902,route,True,True,True,False,False,True,0.0,40.1000000000003,0.014962593516209363,1.7937288313210722,False,0.9625935162094763,0.3640897755610973,0.0
+high,902,route_intent,True,True,True,False,False,True,0.0,40.90000000000031,0.0,1.8850286256076856,False,0.9633251833740831,0.3765281173594132,0.02689486552567237

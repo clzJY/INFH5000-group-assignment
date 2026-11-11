@@ -1,0 +1,35 @@
+# Candidate Linux x86_64 runtime. Transitives are frozen by the Mac receipt.
+# CPU torch: Panda3D rendering still uses the allocated NVIDIA GPU.
+torch==2.3.0+cpu
+stable-baselines3==2.3.2
+gymnasium==0.28.1
+numpy==1.26.4
+panda3d==1.10.14
+panda3d-gltf==0.13
+opencv-python==4.10.0.84
+scikit-image==0.24.0
+pybind11==2.13.6
+matplotlib==3.9.4
+pandas==2.2.3
+pygame==2.6.1
+scipy==1.14.1
+geopandas==1.0.1
+shapely==2.0.6
+requests==2.32.3
+tqdm==4.67.1
+yapf==0.43.0
+seaborn==0.13.2
+progressbar==2.5
+pillow==11.0.0
+lxml==5.3.0
+psutil==6.1.0
+filelock==3.16.1
+cloudpickle==3.0.0
+Pygments==2.18.0
+PyYAML==6.0.2
+imageio==2.36.1
+imageio-ffmpeg==0.5.1
+setuptools==75.6.0
+wheel==0.45.1
+pip==24.3.1
+pytest==8.3.4

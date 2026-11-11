@@ -1,0 +1,8 @@
+# Verified core versions for the final CPU CrowdNav route.
+# Transitive versions are recorded in the central installed_packages.txt.
+numpy==1.26.4
+gymnasium==0.28.1
+matplotlib==3.9.4
+pillow==11.0.0
+imageio==2.36.1
+imageio-ffmpeg==0.5.1

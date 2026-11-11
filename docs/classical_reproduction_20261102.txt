@@ -1,0 +1,95 @@
+UCMP-MB Week 3: common-input classical-controller study (2026-11-02)
+
+Scope and preservation
+- Real native 3D MetaUrban streets, existing local tiny assets, CPU Bullet rollouts.
+- No neural inference/training, new downloads, cloud launch, or cleanup this round.
+- GenAI declaration/screenshots are deliberately deferred to the user.
+- Old proposals, old raw runs, development failures and release ZIPs remain.
+- New proposal: report/Week3_Streetscape_Research_Proposal_v3.docx and .pdf.
+- Central operation: /data/private/user7/projects/storage_management/ucmp_week3_classical_baselines_20261102-104447/
+- Preserved old proposal copies: report/versions/20261102-104447/.
+
+Environment
+Work from /data/private/user7/projects/Tempfile/UCMP-MB/week3_assignment.
+Use envs/python311/bin/python3, CPython3.11.14, NumPy1.26.4, Panda3D1.10.14.
+Official MetaUrban commit: 6b8ff9aa48dd27d5c57fa1c712db520732f11fa9.
+Do not pip-install, download or replace the existing offline environment merely to reproduce these results.
+Source third_party/metaurban, imported assets and the ORCA native extension are already present.
+The inherited input validator verifies the legacy checkpoint hash, but the new controllers NEVER load or run that neural policy. The checkpoint is not the common-input experiment's driver.
+A supplement contains source/config/results and selected videos, not gigabytes of assets, wheels or the full environment. Reproduction needs the locally imported assets or the upstream public assets described in the existing import instructions.
+
+Common contract
+All six methods see the same full route, exact ego state, current pedestrian poses/derived velocities and current static TestObject planar boxes. RGB is recording only.
+Forward-only, cruise<=3m/s, steering slew<=1.5 normalized units/s, same low-level speed adapter and finite physical wheel brake hold.
+0.02s native physics x5 =0.1s decision. Horizon600=60s. No ego position/velocity overwrite.
+Strict arrival =native flag AND endpoint distance<=2m. Earlier native flags are retained separately.
+Before stepping: route length and initial endpoint distance must both be>=5m. Invalid generated tasks are retained without replacement.
+Pedestrian contact =crash_human OR crash_vehicle, because native pedestrian bodies are tagged as vehicles; other moving traffic is disabled.
+Any-contact-free goal also excludes object/building/sidewalk contact. Keep raw flags.
+New primary near exposure: native planar oriented-box gap<1m at sampled post-step poses, divided by observed navigation duration. Old circle-proxy exposure is secondary and cannot be compared numerically as the same measure.
+Physical speed>20m/s is a retained anomaly flag, never a post-hoc exclusion.
+Static TestObject footprints exclude road/curb meshes; native contact and out-of-road termination remain authoritative outcomes.
+
+Methods
+pp: shared pure pursuit + endpoint speed regulation + common static guard; no pedestrian yield.
+rpp: RPP-inspired curvature/proximity regulation + 1s fixed-curvature projection against current pedestrian occupancy; no ROS costmap/plugin.
+distance: regulated tracking and current pedestrian-gap speed scaling (0.25 to1.5m).
+forecast_static: route-conditioned speed candidates with zero pedestrian velocities.
+forecast: exact same candidate procedure with measured constant pedestrian velocity.
+dwa: bounded velocity/steering search using predicted moving pedestrians, progress/route/clearance/control costs. Ackermann adaptation, not canonical original synchro-drive DWA or an official Nav2 reproduction.
+The inherited positive-cap adapter labels every moving command SLOW; interpret cap/reason, not the label alone, as a yield intervention.
+All forecast thresholds/horizons/accel/brake settings are fixed in configs/classical_frozen_20261102.json.
+Forecast compares stopping as well as moving. No feasible buffer ->explicit diagnostic; an overlap-reducing escape heuristic may still have collision risk. Prediction is approximate and sampled; route rollouts omit steering slew and detailed native wheel transients. This is not a safety proof.
+
+Data splits and preserved revisions
+Random-street development: seeds900-903, 5/15 people, six methods,48 runs:
+ runs/classical_development_v1/
+Controlled development: seed902, four encounter types, five methods,20 runs:
+ runs/classical_encounter_development_v1/
+Both source revisions were copied into their source_snapshot/ before execution.
+Their acceptance receipts replayed all29,466 decisions with exact matched pedestrian prefixes.
+A logging-only revision stores unchanged static geometry once instead of every step. Original development logs remain.
+Gate: runs/classical_logging_gate_v2_902_high/; receipt logging_equivalence.json: all414 physical/controller steps exact after excluding random UUID labels and canonicalizing body-list order.
+
+Freeze and formal test
+configs/classical_frozen_20261102.json:22 source hashes, frozen before all fresh tests.
+Random-street test: seeds300-309 x5/15 people x6 methods=120 requested runs.
+ runs/classical_test_20261102/
+Controlled test: seeds320-321 xcrossing/receding/approaching/stationary x5 methods=40 requested runs.
+ runs/classical_encounter_test_20261102/
+Do not pool the controlled one-person suite with random streets.
+Each controlled pedestrian is placed at x0+t*v after the native humanoid update. Controllers receive only current poses/derived velocities, never the future recipe. Scripted trajectories can depart the walkable area and do not represent natural pedestrians responding to a robot.
+All ego motion remains native Bullet. The four encounter recipes and per-condition initial scene fingerprints are saved.
+
+Commands (choose NEW output/log directories to preserve existing runs)
+export PYTHONDONTWRITEBYTECODE=1
+envs/python311/bin/python3 -m pytest -p no:cacheprovider tests -q
+envs/python311/bin/python3 scripts/evaluate_classical.py --config configs/classical_frozen_20261102.json --split test --campaign runs/NEW_classical_test --log-root /ABSOLUTE/CENTRAL/OPERATION/logs --workers 2
+envs/python311/bin/python3 scripts/evaluate_classical_encounters.py --config configs/classical_frozen_20261102.json --split test --campaign runs/NEW_classical_encounters --log-root /ABSOLUTE/CENTRAL/OPERATION/logs --workers 2
+For the delivered campaigns:
+envs/python311/bin/python3 scripts/accept_classical.py runs/classical_test_20261102 --record /ABSOLUTE/CENTRAL/OPERATION/random_acceptance.json --output outputs/classical/test
+envs/python311/bin/python3 scripts/accept_classical.py runs/classical_encounter_test_20261102 --record /ABSOLUTE/CENTRAL/OPERATION/encounter_acceptance.json --output outputs/classical/encounter_test
+envs/python311/bin/python3 scripts/classical_outputs.py
+
+Acceptance checks
+Protocol/source hash verification; matched initial conditions and pre-step validity; independent metric recomputation; native/strict-goal consistency; replay of every stateful controller decision, speed-adapter action and candidate diagnostic; re-evaluation of all post-step box clearances; pedestrian trajectory common-prefix comparison.
+Outcome rows and summary/paired CSV files are in outputs/classical/test and encounter_test.
+paired_cluster_intervals.json uses10,000 paired bootstrap samples of scene seeds (both crowds kept together), seed20261102. Small-sample descriptive intervals, no rare-event safety inference.
+All failure/contact cases, not only attractive videos, are listed in outputs/classical/failure_index.json.
+Decision wall time measures only the controller kernel, not simulator/observation/rendering/end-to-end deadlines.
+
+3D recording
+Development seed902 was fixed before observing the fresh test outcomes.
+runs/classical_videos_20261102/: RPP/forecast/DWA crossing repeats, forecast inspection mission, forecast stationary limitation.
+outputs/classical/videos/classical_crossing_comparison.mp4: synchronized actual native RGB; explicitly held frames after an episode ends.
+inspection_mission.mp4 / inspection_view.png: strict arrival then native physical stop, speed<0.1m/s for one second; no camera input to control.
+stationary_limitation.mp4: obstruction/failure boundary retained.
+Central video_acceptance.json verifies rendering repeats against physics-only runs, frame count and terminal stop.
+Single-clip entries use hard links so original files remain without duplicated video bytes. No deletion occurs.
+
+Report and deliverables
+New builder scripts/build_classical_proposal.py creates v3 only and refuses to overwrite an existing v3 Word file. Old v1/v2 builders remain untouched.
+PDF conversion uses the already installed LibreOffice, with retained profile/QA pages under the central operation's report_qa directory.
+Five pages INCLUDING figures/references; individual Option1; <=10 references; no invented author identity.
+GenAI appendix remains for the user, so do not interpret the report as a completed AI-use disclosure.
+New release ZIPs and hashes are listed in the central delivery_manifest.json; old releases remain unchanged.

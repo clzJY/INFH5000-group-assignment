@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "stage": "classical_development",
+  "upstream_commit": "6b8ff9aa48dd27d5c57fa1c712db520732f11fa9",
+  "checkpoint": "third_party/metaurban/pretrained_policy_576k.zip",
+  "checkpoint_sha256": "fc0e86321d7c790b2ff547f79e58da253d589e066597864072ab2c1b8beedd99",
+  "asset_profile": "tiny",
+  "environment": "dynamic",
+  "methods": [
+    "pp",
+    "rpp",
+    "distance",
+    "forecast_static",
+    "forecast",
+    "dwa"
+  ],
+  "development_seeds": [
+    900,
+    901,
+    902,
+    903
+  ],
+  "test_seeds": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309
+  ],
+  "densities": {
+    "low": 5,
+    "high": 15
+  },
+  "env_config": {
+    "map": "X",
+    "agent_type": "wheelchair",
+    "object_density": 0.3,
+    "crswalk_density": 1,
+    "drivable_area_extension": 55,
+    "height_scale": 1,
+    "walk_on_all_regions": false,
+    "random_spawn_lane_index": false,
+    "num_scenarios": 1000,
+    "start_seed": 0,
+    "accident_prob": 0,
+    "horizon": 600,
+    "on_continuous_line_done": false,
+    "out_of_route_done": true,
+    "relax_out_of_road_done": true,
+    "max_lateral_dist": 15.0,
+    "spawn_deliveryrobot_num": 0,
+    "spawn_wheelchairman_num": 0,
+    "spawn_edog_num": 0,
+    "spawn_erobot_num": 0,
+    "spawn_drobot_num": 0,
+    "max_actor_num": 20,
+    "manual_control": false,
+    "default_expert": false,
+    "use_render": false,
+    "image_on_cuda": false,
+    "vehicle_config": {
+      "enable_reverse": false,
+      "policy_reverse": false,
+      "show_lidar": false,
+      "show_navi_mark": false,
+      "show_dest_mark": false
+    },
+    "tiny": true,
+    "show_interface": false,
+    "show_logo": false,
+    "show_fps": false,
+    "multi_thread_render": false,
+    "traffic_density": 0,
+    "show_ego_navigation": false,
+    "show_mid_block_map": false
+  },
+  "near_clearance_m": 1.0,
+  "stop_speed_m_s": 0.1,
+  "inspection_hold_s": 0,
+  "inspection_max_s": 0,
+  "render": {
+    "width": 960,
+    "height": 540,
+    "position": [
+      0,
+      -8,
+      2.5
+    ],
+    "hpr": [
+      0,
+      -8,
+      0
+    ]
+  },
+  "pedestrian_only_collision_attribution": true,
+  "low_speed_hold_brake": true,
+  "route_min_length_m": 5.0,
+  "goal_radius_m": 2.0,
+  "physical_anomaly_speed_m_s": 20.0,
+  "no_cleanup": true,
+  "study": "Shared full-route/state classical controllers; no PPO inference",
+  "tracking": {
+    "lookahead_m": 3.0,
+    "lookahead_time_s": 1.0,
+    "min_speed_m_s": 0.4,
+    "max_speed_m_s": 3.0,
+    "curvature_min_radius_m": 3.0,
+    "approach_distance_m": 5.0,
+    "steering_gain": 1.0
+  },
+  "prediction": {
+    "horizon_s": 1.5,
+    "dt_s": 0.1,
+    "accel_m_s2": 1.5,
+    "brake_m_s2": 2.0,
+    "buffer_m": 0.25,
+    "release_hold_s": 0.2,
+    "candidate_speeds_m_s": [
+      3.0,
+      2.0,
+      1.0,
+      0.5,
+      0.0
+    ],
+    "soft_clearance_m": 1.0,
+    "escape_improvement_m": 0.1
+  },
+  "rpp": {
+    "proximity_distance_m": 1.5,
+    "ttc_s": 1.0,
+    "minimum_progress_speed_m_s": 0.4
+  },
+  "distance": {
+    "stop_gap_m": 0.5,
+    "slow_gap_m": 1.5
+  },
+  "dwa": {
+    "steering_offsets": [
+      -0.35,
+      -0.175,
+      0.0,
+      0.175,
+      0.35
+    ],
+    "horizon_s": 1.5,
+    "command_window_s": 0.5,
+    "steering_rate_per_s": 1.5,
+    "progress_weight": 2.0,
+    "route_weight": 2.0,
+    "clearance_weight": 0.5,
+    "control_change_weight": 0.15
+  },
+  "static_guard": {
+    "buffer_m": 0.1,
+    "horizon_s": 1.0,
+    "enabled": true
+  },
+  "encounter": {
+    "kind": "crossing",
+    "route_distance_m": 12.0,
+    "cross_time_s": 4.6,
+    "speed_m_s": 1.2
+  }
+}

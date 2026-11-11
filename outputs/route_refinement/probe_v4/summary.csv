@@ -1,0 +1,5 @@
+density,method,requested,valid,invalid_generated,strict_goals,native_goals,pedestrian_contacts,any_contacts,contact_free_goals,physical_anomalies,mean_wait_s,mean_near_fraction,mean_action_intervention_fraction,mean_route_correction_fraction,mean_pedestrian_speed_intervention_fraction
+all,route,2,2,0,2,2,0,0,2,0,0.0,0.01864754985984157,0.9750932841593287,0.3234840937358836,0.0
+all,route_intent,2,2,0,2,2,1,1,1,0,2.000000000000001,0.043141592920353654,0.9595386978817319,0.32432600558236147,0.06322619382478309
+high,route,2,2,0,2,2,0,0,2,0,0.0,0.01864754985984157,0.9750932841593287,0.3234840937358836,0.0
+high,route_intent,2,2,0,2,2,1,1,1,0,2.000000000000001,0.043141592920353654,0.9595386978817319,0.32432600558236147,0.06322619382478309

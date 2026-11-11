@@ -1,0 +1,242 @@
+{
+  "summary": [
+    {
+      "density": "low",
+      "method": "baseline",
+      "n": 10,
+      "goals": 5,
+      "pedestrian_contacts": 1,
+      "any_contacts": 4,
+      "collision_free_goals": 4,
+      "timeouts": 3,
+      "mean_near_fraction": 0.0019999999999999805,
+      "median_min_clearance_m": 17.518768122242676,
+      "mean_wait_s": 0.0,
+      "intervention_episodes": 0,
+      "mean_intervention_fraction": 0.0,
+      "jointly_successful_n": 5,
+      "paired_mean_delay_s": 0.0,
+      "nontrivial_joint_success_n": 4,
+      "nontrivial_paired_mean_delay_s": 0.0
+    },
+    {
+      "density": "low",
+      "method": "distance",
+      "n": 10,
+      "goals": 5,
+      "pedestrian_contacts": 1,
+      "any_contacts": 4,
+      "collision_free_goals": 4,
+      "timeouts": 3,
+      "mean_near_fraction": 0.015999999999999816,
+      "median_min_clearance_m": 17.518768122242676,
+      "mean_wait_s": 0.5599999999999996,
+      "intervention_episodes": 3,
+      "mean_intervention_fraction": 0.0176991341991342,
+      "jointly_successful_n": 5,
+      "paired_mean_delay_s": -0.10000000000000142,
+      "nontrivial_joint_success_n": 4,
+      "nontrivial_paired_mean_delay_s": -0.12500000000000178
+    },
+    {
+      "density": "low",
+      "method": "predictive",
+      "n": 10,
+      "goals": 5,
+      "pedestrian_contacts": 2,
+      "any_contacts": 4,
+      "collision_free_goals": 3,
+      "timeouts": 3,
+      "mean_near_fraction": 0.01770651242502128,
+      "median_min_clearance_m": 17.518768122242676,
+      "mean_wait_s": 7.08000000000005,
+      "intervention_episodes": 4,
+      "mean_intervention_fraction": 0.20222707797772066,
+      "jointly_successful_n": 5,
+      "paired_mean_delay_s": 3.0600000000000436,
+      "nontrivial_joint_success_n": 4,
+      "nontrivial_paired_mean_delay_s": 3.8250000000000544
+    },
+    {
+      "density": "high",
+      "method": "baseline",
+      "n": 10,
+      "goals": 3,
+      "pedestrian_contacts": 3,
+      "any_contacts": 4,
+      "collision_free_goals": 2,
+      "timeouts": 5,
+      "mean_near_fraction": 0.020556497175141065,
+      "median_min_clearance_m": 2.2230778268482583,
+      "mean_wait_s": 0.0,
+      "intervention_episodes": 0,
+      "mean_intervention_fraction": 0.0,
+      "jointly_successful_n": 2,
+      "paired_mean_delay_s": 0.0,
+      "nontrivial_joint_success_n": 1,
+      "nontrivial_paired_mean_delay_s": 0.0
+    },
+    {
+      "density": "high",
+      "method": "distance",
+      "n": 10,
+      "goals": 2,
+      "pedestrian_contacts": 3,
+      "any_contacts": 4,
+      "collision_free_goals": 2,
+      "timeouts": 6,
+      "mean_near_fraction": 0.027499999999999712,
+      "median_min_clearance_m": 2.2230778268482583,
+      "mean_wait_s": 1.2099999999999995,
+      "intervention_episodes": 4,
+      "mean_intervention_fraction": 0.022333333333333334,
+      "jointly_successful_n": 2,
+      "paired_mean_delay_s": 0.0,
+      "nontrivial_joint_success_n": 1,
+      "nontrivial_paired_mean_delay_s": 0.0
+    },
+    {
+      "density": "high",
+      "method": "predictive",
+      "n": 10,
+      "goals": 3,
+      "pedestrian_contacts": 1,
+      "any_contacts": 2,
+      "collision_free_goals": 3,
+      "timeouts": 5,
+      "mean_near_fraction": 0.007166666666666597,
+      "median_min_clearance_m": 2.807928520709587,
+      "mean_wait_s": 6.220000000000051,
+      "intervention_episodes": 4,
+      "mean_intervention_fraction": 0.12661748633879782,
+      "jointly_successful_n": 2,
+      "paired_mean_delay_s": 0.0,
+      "nontrivial_joint_success_n": 1,
+      "nontrivial_paired_mean_delay_s": 0.0
+    },
+    {
+      "density": "all",
+      "method": "baseline",
+      "n": 20,
+      "goals": 8,
+      "pedestrian_contacts": 4,
+      "any_contacts": 8,
+      "collision_free_goals": 6,
+      "timeouts": 8,
+      "mean_near_fraction": 0.011278248587570523,
+      "median_min_clearance_m": 4.9551373489311406,
+      "mean_wait_s": 0.0,
+      "intervention_episodes": 0,
+      "mean_intervention_fraction": 0.0,
+      "jointly_successful_n": 7,
+      "paired_mean_delay_s": 0.0,
+      "nontrivial_joint_success_n": 5,
+      "nontrivial_paired_mean_delay_s": 0.0
+    },
+    {
+      "density": "all",
+      "method": "distance",
+      "n": 20,
+      "goals": 7,
+      "pedestrian_contacts": 4,
+      "any_contacts": 8,
+      "collision_free_goals": 6,
+      "timeouts": 9,
+      "mean_near_fraction": 0.021749999999999766,
+      "median_min_clearance_m": 4.9551373489311406,
+      "mean_wait_s": 0.8849999999999996,
+      "intervention_episodes": 7,
+      "mean_intervention_fraction": 0.020016233766233765,
+      "jointly_successful_n": 7,
+      "paired_mean_delay_s": -0.07142857142857244,
+      "nontrivial_joint_success_n": 5,
+      "nontrivial_paired_mean_delay_s": -0.10000000000000142
+    },
+    {
+      "density": "all",
+      "method": "predictive",
+      "n": 20,
+      "goals": 8,
+      "pedestrian_contacts": 3,
+      "any_contacts": 6,
+      "collision_free_goals": 6,
+      "timeouts": 8,
+      "mean_near_fraction": 0.012436589545843939,
+      "median_min_clearance_m": 4.9551373489311406,
+      "mean_wait_s": 6.65000000000005,
+      "intervention_episodes": 8,
+      "mean_intervention_fraction": 0.16442228215825924,
+      "jointly_successful_n": 7,
+      "paired_mean_delay_s": 2.1857142857143166,
+      "nontrivial_joint_success_n": 5,
+      "nontrivial_paired_mean_delay_s": 3.0600000000000436
+    }
+  ],
+  "jointly_successful_conditions": [
+    [
+      "high",
+      101
+    ],
+    [
+      "high",
+      106
+    ],
+    [
+      "low",
+      100
+    ],
+    [
+      "low",
+      101
+    ],
+    [
+      "low",
+      102
+    ],
+    [
+      "low",
+      103
+    ],
+    [
+      "low",
+      106
+    ]
+  ],
+  "zero_displacement_single_step_goal_conditions": [
+    [
+      "high",
+      101
+    ],
+    [
+      "low",
+      101
+    ]
+  ],
+  "nontrivial_sensitivity": [
+    {
+      "method": "baseline",
+      "n": 18,
+      "goals": 6,
+      "pedestrian_contacts": 4,
+      "collision_free_goals": 4,
+      "mean_near_fraction": 0.012531387319522802
+    },
+    {
+      "method": "distance",
+      "n": 18,
+      "goals": 5,
+      "pedestrian_contacts": 4,
+      "collision_free_goals": 4,
+      "mean_near_fraction": 0.024166666666666406
+    },
+    {
+      "method": "predictive",
+      "n": 18,
+      "goals": 6,
+      "pedestrian_contacts": 3,
+      "collision_free_goals": 4,
+      "mean_near_fraction": 0.013818432828715487
+    }
+  ],
+  "sensitivity_note": "Post-hoc data-quality diagnostic, not a changed frozen outcome definition. All 60 original runs and native counts are retained."
+}

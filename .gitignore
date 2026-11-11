@@ -1,0 +1,41 @@
+# Local runtime, downloaded assets and native build products
+/envs/
+/cache/
+/assets/
+/checkpoints/
+/runs/
+/releases/
+/build/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+**/build/
+**/dist/
+*.so
+*.a
+*.o
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Private working notes and superseded local reading notices
+/ChatGPT-*.md
+/report/VERSIONS.md
+/report/阅读说明.txt
+/outputs/preparation/
+/outputs/editorial_v6_20261111/
+/outputs/editorial_v7_20261111/ai_screenshots/codex_original_04.png
+/outputs/editorial_v7_20261111/ai_screenshots/PROVENANCE.txt
+
+# Simulator assets are installed separately; never follow local asset links.
+/third_party/metaurban/metaurban/assets
+/third_party/metaurban/metaurban/assets_pedestrain
+/third_party/metaurban/metaurban/cache/
+/third_party/metaurban/.cache/
+/third_party/metaurban/bridges/ros_bridge/install/
+/third_party/metaurban/bridges/ros_bridge/log/
+/third_party/metaurban/bridges/ros_bridge/build_logs/

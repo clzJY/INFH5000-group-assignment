@@ -1,0 +1,8 @@
+# Preserve source bytes for frozen experiment hashes on every checkout.
+* -text
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.zip binary

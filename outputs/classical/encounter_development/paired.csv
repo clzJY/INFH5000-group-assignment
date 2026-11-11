@@ -1,0 +1,6 @@
+control,method,n,rescued,regressed,contact_free_goal_delta,jointly_successful_n,mean_joint_delay_s
+rpp,distance,4,0,0,0,3,-2.066666666666696
+rpp,forecast,4,0,0,0,3,-1.200000000000017
+distance,forecast,4,0,0,0,3,0.866666666666679
+forecast_static,forecast,4,0,0,0,3,0.06666666666666761
+dwa,forecast,4,0,0,-1,3,2.733333333333372
