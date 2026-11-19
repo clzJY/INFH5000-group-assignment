@@ -1,19 +1,20 @@
 [
   {
-    "kind": "training",
-    "archive_bytes": 103322344,
-    "archive_sha256": "1eeaa1b95817108277f4ecd61a2f93e64d6de03f63bcd3ab72e724f2349ded19",
-    "files": 901,
-    "source_bytes": 105465837,
-    "packaging": "Regular recorded files only; no asset links, environment, backbone or optimizer state. Archive ownership/timestamps normalized; file contents unchanged.",
-    "archive_file": "training_adapters_20261119.tar.gz",
+    "kind": "training_inputs",
+    "archive_bytes": 86706596,
+    "archive_sha256": "8a8a92cb2b81212b7aca11a69adf0c02a6a5f69990c6cc4c17a0d0331048285b",
+    "files": 885,
+    "source_bytes": 87374670,
+    "packaging": "Regular recorded files only; no asset links, environment, backbone, adapter tensors or optimizer state. Archive ownership/timestamps normalized; file contents unchanged.",
+    "archive_file": "training_inputs_20261119.tar.gz",
+    "model_weights_included": false,
     "verification": {
-      "unix_time": 1795091213.6080863,
       "passed": true,
-      "files_verified": 901,
-      "archive_sha256": "1eeaa1b95817108277f4ecd61a2f93e64d6de03f63bcd3ab72e724f2349ded19",
-      "portable_image_references_verified": true,
-      "heldout_family_exclusion_verified": true
+      "files_verified": 885,
+      "images": 882,
+      "model_weight_files": 0,
+      "all_member_sizes_and_hashes_match": true,
+      "archive_sha256": "8a8a92cb2b81212b7aca11a69adf0c02a6a5f69990c6cc4c17a0d0331048285b"
     }
   },
   {

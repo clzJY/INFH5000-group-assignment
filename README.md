@@ -9,9 +9,9 @@ This repository contains the completed three-scene group research extension and 
 The expanded study is complete: **1,384 formal native-simulator episodes**, three scene families, seven main comparisons, actual multimodal adapter training and independent raw-log audits.
 
 - [Completed paper (PDF)](research/paper/urban_vlm_navigation.pdf) · [LaTeX source](research/paper/urban_vlm_navigation.tex).
-- [Chinese results and explanation](research/RESULTS_zh.md) · [Methods and reproduction](research/README.md).
+- [Training, gains and comparisons (中文)](research/TRAINING_AND_COMPARISONS_zh.md) · [Full results](research/RESULTS_zh.md) · [Methods and reproduction](research/README.md).
 - [Three native comparison videos](research/results/videos/) · [Audited results](research/results/).
-- [Data, adapters and raw evaluations](https://github.com/clzJY/INFH5000-group-assignment/releases/tag/multiscene-vlm-20261119).
+- [Training inputs and raw evaluations](https://github.com/clzJY/INFH5000-group-assignment/releases/tag/multiscene-vlm-20261119).
 
 The new geometric local selector achieved **79/120 contact-free arrivals**, versus **62/120** for route-constrained speed forecasting. The adapted vision–language selector achieved **68/120** and did not outperform geometric selection. This is an exploratory VLM-guided planning study, not a claim of a full end-to-end VLA or state-of-the-art performance.
 

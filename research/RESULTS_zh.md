@@ -4,6 +4,8 @@
 
 [论文 PDF](paper/urban_vlm_navigation.pdf) · [论文源文件](paper/urban_vlm_navigation.tex) · [方法说明](METHODS.md) · [模型卡](MODEL_CARD.md) · [复现流程](README.md)
 
+更详细的训练流程、超参数、各基线检验的问题及提升归因，见 [训练过程、实际提升与对比方法](TRAINING_AND_COMPARISONS_zh.md)。
+
 ## 我们具体做了什么
 
 场景从原来的单一案例扩展为路口、直街和弯曲街道三类。每类设置两种名义可通行宽度（2.6/4.6 米）和两种行人数（5/15 人），主测试共有 120 组匹配条件。行人数不等同于人群密度；这些是程序生成的局部空间，不代表真实城市的抽样调查。
@@ -71,4 +73,4 @@
 
 录像同时展示 RPP、几何选择器和适配 VLM 的固定种子运行，九次演示全部保留，包括失败。播放为模拟速度的两倍，已结束的窗口保持最后一个画面。演示不计入正式统计。
 
-[公开代码](https://github.com/clzJY/INFH5000-group-assignment/tree/research/vision-language-navigation) · [数据、适配器与原始记录](https://github.com/clzJY/INFH5000-group-assignment/releases/tag/multiscene-vlm-20261119)
+[公开代码](https://github.com/clzJY/INFH5000-group-assignment/tree/research/vision-language-navigation) · [训练样本与原始记录](https://github.com/clzJY/INFH5000-group-assignment/releases/tag/multiscene-vlm-20261119)

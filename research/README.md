@@ -1,6 +1,6 @@
 # Multi-scene vision-language-guided navigation
 
-This extension implements local trajectory selection and actual multimodal adapter training in native three-dimensional MetaUrban. The retained v12 proposal and pilot sources remain separate. See [the implemented modules and comparisons](METHODS.md) and the [model card](MODEL_CARD.md).
+This extension implements local trajectory selection and actual multimodal adapter training in native three-dimensional MetaUrban. The retained v12 proposal and pilot sources remain separate. See [训练过程、实际提升与对比方法](TRAINING_AND_COMPARISONS_zh.md), [the implemented modules](METHODS.md) and the [model card](MODEL_CARD.md).
 
 SmolVLM2-500M-Video-Instruct selects six action tokens from native RGB, a privileged local map and a fixed instruction. Rank-8 adapters train 1,114,112 vision/text attention parameters. The execution layer checks sampled geometry and pedestrian motion before native wheel actuation. This is a VLM-guided hierarchy, with geometric fallback.
 
@@ -25,7 +25,7 @@ The formal campaign completed 1,384 episodes across separate suites. Independent
 
 Keep two environments. The native simulator uses retained Python 3.11, CPU Torch 2.3.0, Panda3D 1.10.14 and Shapely 2.0.6. The model uses Python 3.13, CUDA Torch 2.11.0 and Transformers 5.5.4; see [direct model dependencies](requirements-model.txt) and the root [native reproduction instructions](../docs/REPRODUCTION.md).
 
-Set `INFH_VLM_PATH` to the local snapshot of revision `7b375e1b73b11138ff12fe22c8f2822d8fe03467`, retaining that revision as its directory name. Code reads local files; automatic model/asset downloads are disabled. This study reused a cached backbone. Releases contain adapters, not backbone weights or source asset bundles.
+Set `INFH_VLM_PATH` to the local snapshot of revision `7b375e1b73b11138ff12fe22c8f2822d8fe03467`, retaining that revision as its directory name. Code reads local files; automatic model/asset downloads are disabled. This study reused a cached backbone. Public releases contain generated training inputs and raw evaluations. Neither backbone weights nor project LoRA adapters are distributed; selected local checkpoint hashes and training histories remain public.
 
 Check EGL identity before launching renderers:
 
@@ -37,14 +37,14 @@ EGL/CUDA ordinals can differ. On this server EGL 0 mapped to physical GPU 3, and
 
 ## Run a plan
 
-Work from repository root. Extract the generated data/adapters release to `research/training_data/`; its image paths are relative to repository root. Start a shared inference server in the separate model environment:
+Work from repository root. Extract `training_inputs_20261119.tar.gz` at repository root to obtain `research/training_data/`; image paths are relative to repository root. Train your own adapter using the command below before running a visual plan. The recorded selected adapters are retained locally and are not downloadable release assets. Start a shared inference server in the separate model environment:
 
 ```bash
 export INFH_VLM_PATH=/path/to/7b375e1b73b11138ff12fe22c8f2822d8fe03467
 CUDA_VISIBLE_DEVICES=3 HF_HUB_OFFLINE=1 /path/to/model-env/bin/python \
   research/serve_v3.py --port 18762 \
-  --adapter-root research/training_data/adapters \
-  --adapter research/training_data/adapters/seed0/adapter.pt
+  --adapter-root research/models/reproduction \
+  --adapter research/models/reproduction/seed0/adapter.pt
 ```
 
 Use a new experiment directory and a unique operation directory below workspace `storage_management/` for logs:
@@ -67,10 +67,10 @@ Train to a new checkpoint directory, using the model environment:
 ```bash
 CUDA_VISIBLE_DEVICES=3 HF_HUB_OFFLINE=1 /path/to/model-env/bin/python \
   research/train_vlm_v3.py --dataset research/training_data/dataset.json \
-  --output research/models/reproduction_seed0 --seed 0 --epochs 10
+  --output research/models/reproduction/seed0 --seed 0 --epochs 10
 ```
 
-Use `dataset_holdout.json` for the curve-excluded model. Final inference/training requires `vlm_policy_v3.py` and its parent modules. Earlier trainers/servers retain development variants and should not replace the final FP32-adapter implementation.
+For seed-variation plans, also train seeds 1 and 2 into `research/models/reproduction/seed1` and `seed2`. Use `dataset_holdout.json` and seed 0 for the curve-excluded model in `research/models/reproduction/holdout`. Public raw logs support reanalysis of the recorded outcomes; newly trained adapters need not reproduce identical outcomes. Final inference/training requires `vlm_policy_v3.py` and its parent modules. Earlier trainers/servers retain development variants and should not replace the final FP32-adapter implementation.
 
 After extracting released raw evaluations to their original `research/runs/` paths:
 
@@ -95,4 +95,4 @@ Analyse the other four suites separately into `variation`, `ablations`, `holdout
 
 Privileged states are shared inputs. Training clones a geometric teacher, not native counterfactual outcomes or human preferences. The simulator pauses during model requests; simulated travel time and queued wall latency are distinct. Runtime probes retained control/physical trajectories but not every rendered pixel/probability, so matched scenes do not imply byte-identical animated views. Sampled geometry, native tracking error, limited training scenes and the asset domain constrain transfer. Contact-free arrival alone does not establish comfort, accessibility or deployment safety.
 
-Raw runs, installed environments, local cache pointers, dataset manifests and checkpoints are excluded from Git. Curated sources/results are versioned; data and adapter archives provide portable inputs and selected-checkpoint hashes.
+Raw runs, installed environments, local cache pointers, dataset manifests and checkpoints are excluded from Git. Curated sources/results are versioned; the training-input archive supplies portable images/manifests, and versioned metadata provides selected-checkpoint hashes. VLM inference requires a separately acquired backbone and a locally trained adapter.

@@ -1,4 +1,4 @@
-"""Package recorded research data without runtime asset symlinks/backbone weights."""
+"""Package recorded research data without model weights or runtime asset symlinks."""
 import argparse,gzip,hashlib,json,tarfile,time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -8,7 +8,7 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('kind',choices=['training','evaluation']);p.add_argument('--output',type=Path,required=True);p.add_argument('--records',type=Path,required=True);a=p.parse_args()
     a.output=a.output.resolve();a.output.parent.mkdir(parents=True,exist_ok=True);assert not a.output.exists()
     if a.kind=='training':
-        files=sorted(p for p in (ROOT/'research/training_data').rglob('*') if p.is_file() and not p.is_symlink())
+        files=sorted(p for p in (ROOT/'research/training_data').rglob('*') if p.is_file() and not p.is_symlink() and 'adapters' not in p.relative_to(ROOT/'research/training_data').parts and p.suffix.lower() not in ('.pt','.pth','.bin','.safetensors','.ckpt','.onnx'))
     else:
         files=[]
         for suite in SUITES:
@@ -32,7 +32,7 @@ def main():
                     inventory.append(dict(path=relative,bytes=path.stat().st_size,sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
     temporary.replace(a.output)
     result=dict(kind=a.kind,archive=str(a.output),archive_bytes=a.output.stat().st_size,archive_sha256=hashlib.sha256(a.output.read_bytes()).hexdigest(),files=len(files),source_bytes=sum(r['bytes'] for r in inventory),elapsed_s=time.monotonic()-started,
-        packaging='Regular recorded files only; no asset links, environment, backbone or optimizer state. Archive ownership/timestamps normalized; file contents unchanged.',inventory=inventory)
+        packaging='Regular recorded files only; no asset links, environment, backbone, adapter tensors or optimizer state. Archive ownership/timestamps normalized; file contents unchanged.',inventory=inventory)
     a.records.mkdir(parents=True,exist_ok=True)
     (a.records/(a.kind+'_package_'+time.strftime('%Y%m%d-%H%M%S')+'.json')).write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='inventory'},indent=2))
