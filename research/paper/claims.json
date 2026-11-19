@@ -1,0 +1,21 @@
+{
+  "core_episodes": 840,
+  "formal_episodes": 1384,
+  "adapted_clean": 68,
+  "rule_clean": 79,
+  "frozen_clean": 0,
+  "paired_rule": {
+    "control": "lattice",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": -9.166666666666666,
+    "interval_95_pp": [
+      -16.666666666666664,
+      -2.5
+    ],
+    "joint_successes": 80,
+    "joint_delay_s": 12.225000000000001
+  },
+  "conclusion": "Adapted guidance reduces contact-free completion relative to geometric selection in this tested suite."
+}

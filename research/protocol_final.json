@@ -1,0 +1,91 @@
+{
+  "stage": "final_source_freeze_before_test",
+  "maps": [
+    "X",
+    "S",
+    "SC"
+  ],
+  "clear_width_m": {
+    "narrow": 2.6,
+    "wide": 4.6
+  },
+  "pedestrian_counts": [
+    5,
+    15
+  ],
+  "train_seeds": [
+    1400,
+    1401
+  ],
+  "validation_seeds": [
+    1450
+  ],
+  "test_seeds": [
+    1600,
+    1601,
+    1602,
+    1603,
+    1604,
+    1605,
+    1606,
+    1607,
+    1608,
+    1609
+  ],
+  "test_conditions": 120,
+  "methods": [
+    "rpp",
+    "forecast",
+    "dwa",
+    "mppi",
+    "lattice",
+    "vlm",
+    "lora"
+  ],
+  "adapter_training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "ablations": {
+    "seeds": [
+      1610,
+      1611
+    ],
+    "methods": [
+      "lora_no_rgb",
+      "lora_no_image",
+      "lora_no_language"
+    ]
+  },
+  "decision_dt_s": 0.1,
+  "high_level_dt_s": 1.0,
+  "horizon_s": 120,
+  "max_speed_m_s": 2.0,
+  "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "model_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "adaptation": "rank8 alpha16 q/v low-rank adapters in text transformer; six action-token CE",
+  "teacher": "geometric model-rollout ranking, not future simulator outcome",
+  "notes": [
+    "All methods share an A* clearance-aware reference route and privileged current state.",
+    "Visual methods also receive native RGB plus a privileged local-map rendering.",
+    "Synchronous simulator pauses at model queries; real controller wall latency reported separately.",
+    "No human-comfort or continuous-time safety claim.",
+    "PYTHONHASHSEED is set before interpreter startup for deterministic matched tests; collection preceding this correction remains development data.",
+    "protocol_v1 was a pre-test working draft; this final receipt is immutable and used for all formal comparisons. Model checkpoint selection uses validation only."
+  ],
+  "source_sha256": {
+    "run_native.py": "de51e7b40f15ef1d88ed8ccb3a423aa58a9b088283185d607f188ac407e11653",
+    "train_vlm.py": "b2e5dd4e8e6590a14c627325d8470be9647bfba914304fd5e0551969fc8589da",
+    "campaign.py": "2aa383d198572af90d891e4bd23e569b5239fc2b60e415e8317ddc6ce4690f71",
+    "routing.py": "e7a113ddf942f10cee67fcde1507f661167668b365f21e34c4feda306e665b54",
+    "build_dataset.py": "fa685dedd360e6fa5a62967111f43efaac1e1c69fb03a852e695871a6b4db5c0",
+    "test_planner.py": "498e319e40aaf63685e5c535fdef5a192e7cf746cde0251822d27456ea44df75",
+    "vlm_policy.py": "d70d92f1de9fd6077299a6eba5661e68f10537414e5165c5f92b2bd6a159c515",
+    "observation.py": "bbb71f4ffd55683161d2113e69789235861c6ed564727c5e967fa6da07e95b6f",
+    "probe_scene.py": "9a501acfc467e10a545d589dbd1665d3bda8814ea7f0a7751f1e5247227e7477",
+    "serve_vlm.py": "b993da395be11751381a4e979209a1948b60f8aabe81db3db8cc2b71125ff8d1",
+    "local_planner.py": "1200bf12741cc943089b0ff6a7a5889462690ff9e5aeae351b37084fa6b2cf80",
+    "analyze.py": "253270e0ff82ced12118898163ddc6faaf8bf804319859e73833b323fa22a94c"
+  }
+}

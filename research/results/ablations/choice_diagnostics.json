@@ -1,0 +1,53 @@
+{
+  "modes": {
+    "lora": {
+      "episodes": 24,
+      "queries": 2122,
+      "choice_counts": [
+        54,
+        19,
+        1277,
+        80,
+        62,
+        630
+      ]
+    },
+    "lora_no_rgb": {
+      "episodes": 24,
+      "queries": 2190,
+      "choice_counts": [
+        5,
+        43,
+        1500,
+        27,
+        19,
+        596
+      ]
+    },
+    "lora_no_image": {
+      "episodes": 24,
+      "queries": 1795,
+      "choice_counts": [
+        0,
+        0,
+        1795,
+        0,
+        0,
+        0
+      ]
+    },
+    "lora_no_language": {
+      "episodes": 24,
+      "queries": 2608,
+      "choice_counts": [
+        115,
+        47,
+        1000,
+        13,
+        66,
+        1367
+      ]
+    }
+  },
+  "interpretation": "Proposed A-F tokens before geometric revalidation; long episodes contribute more queries."
+}

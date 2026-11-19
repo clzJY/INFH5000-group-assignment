@@ -1,0 +1,61 @@
+{
+  "methods": {
+    "rpp": {
+      "n": 120,
+      "strict": 91,
+      "native_flag_any": 91,
+      "within_2m_any": 91,
+      "native_without_strict": 0,
+      "within_2m_without_strict": 0
+    },
+    "forecast": {
+      "n": 120,
+      "strict": 97,
+      "native_flag_any": 98,
+      "within_2m_any": 97,
+      "native_without_strict": 1,
+      "within_2m_without_strict": 0
+    },
+    "dwa": {
+      "n": 120,
+      "strict": 85,
+      "native_flag_any": 87,
+      "within_2m_any": 85,
+      "native_without_strict": 2,
+      "within_2m_without_strict": 0
+    },
+    "mppi": {
+      "n": 120,
+      "strict": 65,
+      "native_flag_any": 66,
+      "within_2m_any": 65,
+      "native_without_strict": 1,
+      "within_2m_without_strict": 0
+    },
+    "lattice": {
+      "n": 120,
+      "strict": 99,
+      "native_flag_any": 103,
+      "within_2m_any": 99,
+      "native_without_strict": 4,
+      "within_2m_without_strict": 0
+    },
+    "vlm": {
+      "n": 120,
+      "strict": 0,
+      "native_flag_any": 0,
+      "within_2m_any": 0,
+      "native_without_strict": 0,
+      "within_2m_without_strict": 0
+    },
+    "lora": {
+      "n": 120,
+      "strict": 83,
+      "native_flag_any": 97,
+      "within_2m_any": 83,
+      "native_without_strict": 14,
+      "within_2m_without_strict": 0
+    }
+  },
+  "interpretation": "Flags observed along the recorded strict-criterion trajectories. This is not a rerun with alternative termination rules; the prespecified primary criterion remains native flag AND distance<=2m."
+}

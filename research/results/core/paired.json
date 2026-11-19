@@ -1,0 +1,80 @@
+[
+  {
+    "control": "rpp",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": 7.5,
+    "interval_95_pp": [
+      -2.5,
+      17.52083333333303
+    ],
+    "joint_successes": 75,
+    "joint_delay_s": 7.430666666666666
+  },
+  {
+    "control": "forecast",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": 5.0,
+    "interval_95_pp": [
+      -4.166666666666666,
+      14.166666666666666
+    ],
+    "joint_successes": 79,
+    "joint_delay_s": 11.879746835443038
+  },
+  {
+    "control": "dwa",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": 8.333333333333332,
+    "interval_95_pp": [
+      -0.8333333333333334,
+      18.333333333333332
+    ],
+    "joint_successes": 71,
+    "joint_delay_s": 8.63943661971831
+  },
+  {
+    "control": "mppi",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": 11.666666666666666,
+    "interval_95_pp": [
+      0.0,
+      24.166666666666668
+    ],
+    "joint_successes": 51,
+    "joint_delay_s": 4.890196078431372
+  },
+  {
+    "control": "lattice",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": -9.166666666666666,
+    "interval_95_pp": [
+      -16.666666666666664,
+      -2.5
+    ],
+    "joint_successes": 80,
+    "joint_delay_s": 12.225000000000001
+  },
+  {
+    "control": "vlm",
+    "method": "lora",
+    "conditions": 120,
+    "clusters": 30,
+    "clean_delta_pp": 56.666666666666664,
+    "interval_95_pp": [
+      44.166666666666664,
+      68.33333333333333
+    ],
+    "joint_successes": 0,
+    "joint_delay_s": null
+  }
+]

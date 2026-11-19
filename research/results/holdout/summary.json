@@ -1,0 +1,26 @@
+[
+  {
+    "method": "lora_holdout",
+    "map": "all",
+    "n": 40,
+    "strict": 3,
+    "clean": 3,
+    "contacts": 5,
+    "waiting_s": 85.125,
+    "standstill_s": 83.08749999999925,
+    "outside_fraction": 0.015311580095457042,
+    "p95_wall_ms": 132.5535855256021
+  },
+  {
+    "method": "lora_holdout",
+    "map": "SC",
+    "n": 40,
+    "strict": 3,
+    "clean": 3,
+    "contacts": 5,
+    "waiting_s": 85.125,
+    "standstill_s": 83.08749999999925,
+    "outside_fraction": 0.015311580095457042,
+    "p95_wall_ms": 132.5535855256021
+  }
+]

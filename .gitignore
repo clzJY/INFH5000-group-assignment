@@ -39,3 +39,15 @@
 /third_party/metaurban/bridges/ros_bridge/install/
 /third_party/metaurban/bridges/ros_bridge/log/
 /third_party/metaurban/bridges/ros_bridge/build_logs/
+
+# Multi-scene research: publish curated outputs, not runtime state or model caches.
+/research/active_operation.txt
+/research/runs/
+/research/models/
+/research/dataset*.json
+/research/training_data/
+/research/release_assets/
+/research/paper/*.aux
+/research/paper/*.log
+/research/paper/*.out
+/research/paper/*.toc

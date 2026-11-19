@@ -2,9 +2,22 @@
 
 Predictive and Reactive Robot Navigation in Shared Urban Pedestrian Spaces
 
-This repository is the starting point for the group project. It contains the completed MetaUrban pilot, its controller implementations and comparisons, recorded results, and the retained v12 proposal.
+This repository contains the completed three-scene group research extension and the retained individual-assignment pilot and v12 proposal.
 
-## Start here
+## Completed three-scene study (November 2026)
+
+The expanded study is complete: **1,384 formal native-simulator episodes**, three scene families, seven main comparisons, actual multimodal adapter training and independent raw-log audits.
+
+- [Completed paper (PDF)](research/paper/urban_vlm_navigation.pdf) · [LaTeX source](research/paper/urban_vlm_navigation.tex).
+- [Chinese results and explanation](research/RESULTS_zh.md) · [Methods and reproduction](research/README.md).
+- [Three native comparison videos](research/results/videos/) · [Audited results](research/results/).
+- [Data, adapters and raw evaluations](https://github.com/clzJY/INFH5000-group-assignment/releases/tag/multiscene-vlm-20261119).
+
+The new geometric local selector achieved **79/120 contact-free arrivals**, versus **62/120** for route-constrained speed forecasting. The adapted vision–language selector achieved **68/120** and did not outperform geometric selection. This is an exploratory VLM-guided planning study, not a claim of a full end-to-end VLA or state-of-the-art performance.
+
+The sections below describe the retained individual-assignment pilot; their counts and unimplemented extensions refer to that historical study.
+
+## Start here: retained pilot
 
 - [Proposal with AI appendix — PDF](report/Week3_Streetscape_Research_Proposal_v12_with_AI.pdf) · [Word](report/Week3_Streetscape_Research_Proposal_v12_with_AI.docx): five-page proposal plus three-page appendix.
 - [Main proposal — PDF](report/Week3_Streetscape_Research_Proposal_v12_main.pdf) · [Word](report/Week3_Streetscape_Research_Proposal_v12_main.docx).

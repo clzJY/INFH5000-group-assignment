@@ -1,0 +1,110 @@
+[
+  {
+    "family": "X",
+    "path": "research/results/videos/native_X_comparison.mp4",
+    "frames": 355,
+    "output_fps": 10,
+    "native_fps": 5,
+    "episodes": [
+      {
+        "method": "rpp",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": true,
+        "any_contact": false,
+        "duration_s": 70.9,
+        "outside_walkable_fraction": 0.023977433004231316
+      },
+      {
+        "method": "lattice",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": true,
+        "any_contact": false,
+        "duration_s": 59.800000000000004,
+        "outside_walkable_fraction": 0.02006688963210702
+      },
+      {
+        "method": "lora",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": true,
+        "any_contact": false,
+        "duration_s": 60.6,
+        "outside_walkable_fraction": 0.0165016501650165
+      }
+    ]
+  },
+  {
+    "family": "S",
+    "path": "research/results/videos/native_S_comparison.mp4",
+    "frames": 600,
+    "output_fps": 10,
+    "native_fps": 5,
+    "episodes": [
+      {
+        "method": "rpp",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": false,
+        "any_contact": true,
+        "duration_s": 57.400000000000006,
+        "outside_walkable_fraction": 0.02613240418118467
+      },
+      {
+        "method": "lattice",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": true,
+        "any_contact": false,
+        "duration_s": 37.6,
+        "outside_walkable_fraction": 0.0398936170212766
+      },
+      {
+        "method": "lora",
+        "seed": 1502,
+        "strict_goal": false,
+        "contact_free": false,
+        "any_contact": false,
+        "duration_s": 120.0,
+        "outside_walkable_fraction": 0.012500000000000002
+      }
+    ]
+  },
+  {
+    "family": "SC",
+    "path": "research/results/videos/native_SC_comparison.mp4",
+    "frames": 600,
+    "output_fps": 10,
+    "native_fps": 5,
+    "episodes": [
+      {
+        "method": "rpp",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": true,
+        "any_contact": false,
+        "duration_s": 96.60000000000001,
+        "outside_walkable_fraction": 0.031055900621118022
+      },
+      {
+        "method": "lattice",
+        "seed": 1502,
+        "strict_goal": false,
+        "contact_free": false,
+        "any_contact": false,
+        "duration_s": 120.0,
+        "outside_walkable_fraction": 0.526666666666672
+      },
+      {
+        "method": "lora",
+        "seed": 1502,
+        "strict_goal": true,
+        "contact_free": true,
+        "any_contact": false,
+        "duration_s": 75.8,
+        "outside_walkable_fraction": 0.02242744063324539
+      }
+    ]
+  }
+]

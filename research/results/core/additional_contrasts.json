@@ -1,0 +1,71 @@
+{
+  "comparisons": [
+    {
+      "method": "lattice",
+      "control": "rpp",
+      "n": 120,
+      "clean_delta_pp": 16.666666666666664,
+      "family_seed": {
+        "clusters": 30,
+        "interval_95_pp": [
+          9.166666666666666,
+          25.0
+        ]
+      },
+      "seed_only": {
+        "clusters": 10,
+        "interval_95_pp": [
+          11.666666666666666,
+          21.666666666666664
+        ]
+      },
+      "joint_successes": 90,
+      "joint_delay_s": -4.50777777777778
+    },
+    {
+      "method": "lattice",
+      "control": "forecast",
+      "n": 120,
+      "clean_delta_pp": 14.166666666666666,
+      "family_seed": {
+        "clusters": 30,
+        "interval_95_pp": [
+          6.666666666666667,
+          21.666666666666668
+        ]
+      },
+      "seed_only": {
+        "clusters": 10,
+        "interval_95_pp": [
+          5.833333333333333,
+          23.333333333333332
+        ]
+      },
+      "joint_successes": 93,
+      "joint_delay_s": 0.4494623655913967
+    },
+    {
+      "method": "lora",
+      "control": "lattice",
+      "n": 120,
+      "clean_delta_pp": -9.166666666666666,
+      "family_seed": {
+        "clusters": 30,
+        "interval_95_pp": [
+          -16.666666666666664,
+          -1.6666666666666667
+        ]
+      },
+      "seed_only": {
+        "clusters": 10,
+        "interval_95_pp": [
+          -18.333333333333336,
+          -1.6666666666666667
+        ]
+      },
+      "joint_successes": 80,
+      "joint_delay_s": 12.225000000000001
+    }
+  ],
+  "interpretation": "Additional descriptive package comparisons; seed-only clustering keeps all families/width/crowd variants of a seed together. No model or checkpoint selection."
+}

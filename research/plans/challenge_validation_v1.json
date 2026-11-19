@@ -1,0 +1,44 @@
+[
+  {
+    "map": "X",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1460,
+    "method": "lattice"
+  },
+  {
+    "map": "X",
+    "width": "wide",
+    "pedestrians": 15,
+    "seed": 1460,
+    "method": "lattice"
+  },
+  {
+    "map": "S",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1460,
+    "method": "lattice"
+  },
+  {
+    "map": "S",
+    "width": "wide",
+    "pedestrians": 15,
+    "seed": 1460,
+    "method": "lattice"
+  },
+  {
+    "map": "SC",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1460,
+    "method": "lattice"
+  },
+  {
+    "map": "SC",
+    "width": "wide",
+    "pedestrians": 15,
+    "seed": 1460,
+    "method": "lattice"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "seed": 1,
+  "epochs": 10,
+  "train_samples": 598,
+  "validation_samples": 304,
+  "trainable_parameters": 1114112,
+  "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "rank": 8,
+  "alpha": 16,
+  "adapter_targets": "vision and text q/v attention projections",
+  "labels": "Geometric rollout teacher; not counterfactual simulator outcomes",
+  "class_counts": [
+    24,
+    29,
+    335,
+    18,
+    24,
+    168
+  ],
+  "best_selection_score": 0.5316256987012377,
+  "learning_rate": 0.0003,
+  "selection": "mean of accuracy and class-balanced recall",
+  "model_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "adapter_sha256": "20578630c51220667e3dab6183ac8840c1e8fa120ab8600721647fad33af559a"
+}

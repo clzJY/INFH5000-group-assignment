@@ -1,0 +1,65 @@
+[
+  {
+    "map": "X",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "rpp"
+  },
+  {
+    "map": "X",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "lattice"
+  },
+  {
+    "map": "X",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "lora"
+  },
+  {
+    "map": "S",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "rpp"
+  },
+  {
+    "map": "S",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "lattice"
+  },
+  {
+    "map": "S",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "lora"
+  },
+  {
+    "map": "SC",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "rpp"
+  },
+  {
+    "map": "SC",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "lattice"
+  },
+  {
+    "map": "SC",
+    "width": "wide",
+    "pedestrians": 5,
+    "seed": 1502,
+    "method": "lora"
+  }
+]

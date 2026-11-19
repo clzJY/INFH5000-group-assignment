@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "episodes": 1384,
+  "steps_checked": 1306599,
+  "queries_checked": 69172,
+  "critical_source_files": [
+    "run_native.py",
+    "routing.py",
+    "local_planner.py",
+    "observation.py",
+    "probe_scene.py"
+  ],
+  "conditions_match_plan": true,
+  "model_checkpoint_routes_verified": true,
+  "model_source_hashes_verified": true,
+  "query_budget_verified": true,
+  "challenge_condition_placement_statuses": {
+    "placed": 24
+  },
+  "challenge_placements_match_across_methods": true
+}

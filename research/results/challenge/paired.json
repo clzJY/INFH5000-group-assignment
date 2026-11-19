@@ -1,0 +1,80 @@
+[
+  {
+    "control": "rpp",
+    "method": "lora",
+    "conditions": 24,
+    "clusters": 12,
+    "clean_delta_pp": 16.666666666666664,
+    "interval_95_pp": [
+      0.0,
+      37.5
+    ],
+    "joint_successes": 0,
+    "joint_delay_s": null
+  },
+  {
+    "control": "forecast",
+    "method": "lora",
+    "conditions": 24,
+    "clusters": 12,
+    "clean_delta_pp": 16.666666666666664,
+    "interval_95_pp": [
+      0.0,
+      37.5
+    ],
+    "joint_successes": 0,
+    "joint_delay_s": null
+  },
+  {
+    "control": "dwa",
+    "method": "lora",
+    "conditions": 24,
+    "clusters": 12,
+    "clean_delta_pp": 12.5,
+    "interval_95_pp": [
+      -8.333333333333332,
+      33.33333333333333
+    ],
+    "joint_successes": 0,
+    "joint_delay_s": null
+  },
+  {
+    "control": "mppi",
+    "method": "lora",
+    "conditions": 24,
+    "clusters": 12,
+    "clean_delta_pp": -12.5,
+    "interval_95_pp": [
+      -33.33333333333333,
+      0.0
+    ],
+    "joint_successes": 3,
+    "joint_delay_s": 11.433333333333332
+  },
+  {
+    "control": "lattice",
+    "method": "lora",
+    "conditions": 24,
+    "clusters": 12,
+    "clean_delta_pp": -29.166666666666668,
+    "interval_95_pp": [
+      -62.5,
+      4.166666666666666
+    ],
+    "joint_successes": 2,
+    "joint_delay_s": 31.800000000000004
+  },
+  {
+    "control": "vlm",
+    "method": "lora",
+    "conditions": 24,
+    "clusters": 12,
+    "clean_delta_pp": 16.666666666666664,
+    "interval_95_pp": [
+      0.0,
+      37.5
+    ],
+    "joint_successes": 0,
+    "joint_delay_s": null
+  }
+]

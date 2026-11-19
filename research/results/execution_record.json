@@ -1,0 +1,21 @@
+{
+  "formal_episodes": 1384,
+  "decision_steps_checked": 1306599,
+  "model_queries_checked": 69172,
+  "all_audits_passed": true,
+  "pre_action_native_initialisation_faults": 5,
+  "administratively_interrupted_incomplete_attempts": 18,
+  "recovery": "Original incomplete attempts and fault logs archived separately. Identical fixed conditions rerun; completed failure/contact/timeout outcomes retained. No outcome-based retries.",
+  "formal_suites": {
+    "core": 840,
+    "variation": 240,
+    "ablations": 96,
+    "holdout": 40,
+    "challenge": 168
+  },
+  "demonstrations": 9,
+  "demonstrations_excluded_from_formal_statistics": true,
+  "model_selection": "Validation-only checkpoint selection; primary training seed fixed at zero; seeds one and two fully reported.",
+  "raw_release": "multiscene-vlm-20261119",
+  "historical_v12_preserved": true
+}

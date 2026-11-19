@@ -1,0 +1,44 @@
+{
+  "unix_time": 1795076052.3286996,
+  "passed": true,
+  "models": [
+    {
+      "model": "seed0",
+      "sha256": "8abe25c92f8ddbaaf244838a124bb87a28e9bdcbe4c2dab40b64b6711ff8a651",
+      "tensors": 176,
+      "parameters": 1114112,
+      "all_finite": true,
+      "all_float32": true,
+      "nonzero_B_tensors": 88
+    },
+    {
+      "model": "seed1",
+      "sha256": "20578630c51220667e3dab6183ac8840c1e8fa120ab8600721647fad33af559a",
+      "tensors": 176,
+      "parameters": 1114112,
+      "all_finite": true,
+      "all_float32": true,
+      "nonzero_B_tensors": 88
+    },
+    {
+      "model": "seed2",
+      "sha256": "305a60a5e5f3fb4e58f86e239c6e20f2e46df74d3d0f6ff5a51a65d6b509f393",
+      "tensors": 176,
+      "parameters": 1114112,
+      "all_finite": true,
+      "all_float32": true,
+      "nonzero_B_tensors": 88
+    },
+    {
+      "model": "holdout",
+      "sha256": "ef7831b58174690674ce089df273ddedb72f8e2f7774b1521a06a89e9734bc9e",
+      "tensors": 176,
+      "parameters": 1114112,
+      "all_finite": true,
+      "all_float32": true,
+      "nonzero_B_tensors": 88
+    }
+  ],
+  "backbone_parameters_excluded": true,
+  "shapes_match_across_models": true
+}

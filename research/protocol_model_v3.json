@@ -1,0 +1,40 @@
+{
+  "model": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+  "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "base_dtype": "bfloat16",
+  "adapter_dtype": "float32",
+  "trainable_parameters": 1114112,
+  "adapter_targets": "vision and text attention query/value projections",
+  "rank": 8,
+  "alpha": 16,
+  "learning_rate": 0.0003,
+  "optimizer": "AdamW",
+  "weight_decay": 0.01,
+  "class_weight": "clip(N/(6*n_class),0.3,4)",
+  "batch_size": 4,
+  "epochs": 10,
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "primary_seed": 0,
+  "selection": "mean(validation accuracy, six-class macro recall); no formal-test selection",
+  "training_labels": "geometric rollout choices; not future native outcomes",
+  "train_decisions": 598,
+  "validation_decisions": 304,
+  "heldout_family": "SC; remove from training and validation",
+  "development_revisions": [
+    "text-only bfloat16 LoRA had near-majority validation accuracy",
+    "vision+text bfloat16 LoRA later collapsed in validation",
+    "final vision+text LoRA uses float32 trainable weights and optimizer states"
+  ],
+  "dataset_sha256": "25926658ea0067e623343279eb3147758e7bbfa22e7ff0262a64f424217ec7db",
+  "source_sha256": {
+    "vlm_policy.py": "5ff09a190159aa5938f1de83b3873632dd9550495da58a14cefa2b6d008f2fc4",
+    "vlm_policy_v2.py": "ff261ffd490b449c1da0d04d6f4582dc0fb7e3f2770ddfe4c0789edc28f6536e",
+    "vlm_policy_v3.py": "b8ddcf7d202c2af06562ac54e70d131c65578272b3eeddb50a2d5394bd241b40",
+    "train_vlm_v3.py": "2260539a72c3dac37e0f9c88828bb29a79a35298e920b764df8a6a396af6bf67",
+    "serve_v3.py": "b60b7c4c5a9ee6bd542b702089999e2d0c0b64a394e4ac413b2f41064fa77093"
+  }
+}

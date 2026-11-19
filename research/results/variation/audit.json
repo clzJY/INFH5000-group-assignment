@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "episodes": 240,
+  "decision_steps": 249561,
+  "matched_conditions": 120,
+  "all_initial_fingerprints_match": true
+}

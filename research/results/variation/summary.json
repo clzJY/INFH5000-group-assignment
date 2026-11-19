@@ -1,0 +1,98 @@
+[
+  {
+    "method": "lora_s1",
+    "map": "all",
+    "n": 120,
+    "strict": 21,
+    "clean": 18,
+    "contacts": 35,
+    "waiting_s": 69.06416666666667,
+    "standstill_s": 64.59499999999984,
+    "outside_fraction": 0.051513185165595825,
+    "p95_wall_ms": 136.94100972148584
+  },
+  {
+    "method": "lora_s1",
+    "map": "X",
+    "n": 40,
+    "strict": 8,
+    "clean": 6,
+    "contacts": 11,
+    "waiting_s": 64.8675,
+    "standstill_s": 61.97249999999989,
+    "outside_fraction": 0.04673728928377648,
+    "p95_wall_ms": 167.38584493868976
+  },
+  {
+    "method": "lora_s1",
+    "map": "S",
+    "n": 40,
+    "strict": 5,
+    "clean": 4,
+    "contacts": 22,
+    "waiting_s": 80.73,
+    "standstill_s": 73.73999999999963,
+    "outside_fraction": 0.08298374515838357,
+    "p95_wall_ms": 132.42091038729993
+  },
+  {
+    "method": "lora_s1",
+    "map": "SC",
+    "n": 40,
+    "strict": 8,
+    "clean": 8,
+    "contacts": 2,
+    "waiting_s": 61.595,
+    "standstill_s": 58.07250000000001,
+    "outside_fraction": 0.02481852105462743,
+    "p95_wall_ms": 111.01627383846788
+  },
+  {
+    "method": "lora_s2",
+    "map": "all",
+    "n": 120,
+    "strict": 75,
+    "clean": 58,
+    "contacts": 35,
+    "waiting_s": 37.185833333333335,
+    "standstill_s": 35.70416666666672,
+    "outside_fraction": 0.0524956517119481,
+    "p95_wall_ms": 143.90764929354185
+  },
+  {
+    "method": "lora_s2",
+    "map": "X",
+    "n": 40,
+    "strict": 28,
+    "clean": 21,
+    "contacts": 11,
+    "waiting_s": 33.2575,
+    "standstill_s": 32.56250000000013,
+    "outside_fraction": 0.04705197450774485,
+    "p95_wall_ms": 182.16688816668457
+  },
+  {
+    "method": "lora_s2",
+    "map": "S",
+    "n": 40,
+    "strict": 19,
+    "clean": 9,
+    "contacts": 22,
+    "waiting_s": 57.28,
+    "standstill_s": 53.957499999999875,
+    "outside_fraction": 0.08952065815740418,
+    "p95_wall_ms": 135.3336244402453
+  },
+  {
+    "method": "lora_s2",
+    "map": "SC",
+    "n": 40,
+    "strict": 28,
+    "clean": 28,
+    "contacts": 2,
+    "waiting_s": 21.02,
+    "standstill_s": 20.592500000000154,
+    "outside_fraction": 0.02091432247069528,
+    "p95_wall_ms": 114.22243527369572
+  }
+]

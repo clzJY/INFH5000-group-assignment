@@ -1,0 +1,3 @@
+method,map,n,strict,clean,contacts,waiting_s,standstill_s,outside_fraction,p95_wall_ms
+lora_holdout,all,40,3,3,5,85.125,83.08749999999925,0.015311580095457042,132.5535855256021
+lora_holdout,SC,40,3,3,5,85.125,83.08749999999925,0.015311580095457042,132.5535855256021
