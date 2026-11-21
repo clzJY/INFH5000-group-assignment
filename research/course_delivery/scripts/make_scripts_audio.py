@@ -41,7 +41,7 @@ for s,t in zip(slides,plan):
   for i,text in enumerate(segments):
    counter+=1;start=t['start_s']+i*t['voice_s']/len(segments);end=t['start_s']+(i+1)*t['voice_s']/len(segments)
    srt += [str(counter),srt_stamp(start)+' --> '+srt_stamp(end),'\n'.join(textwrap.wrap(text,48)),'']
-(D/'presentation/English_Speaker_Script.md').write_text('\n'.join(en)+'\n');(D/'presentation/中文逐页讲解提示.md').write_text('\n'.join(zh)+'\n');(D/'presentation/INFH5000_Rehearsal.en.srt').write_text('\n'.join(srt)+'\n')
+(D/'presentation/English_Speaker_Script.md').write_text('\n'.join(en).rstrip()+'\n');(D/'presentation/中文逐页讲解提示.md').write_text('\n'.join(zh).rstrip()+'\n');(D/'presentation/INFH5000_Rehearsal.en.srt').write_text('\n'.join(srt).rstrip()+'\n')
 def tex(s):
  for a,b in [('&',r'\&'),('%',r'\%'),('_',r'\_'),('–','--'),('—','---'),('×',r'$\times$')]:s=s.replace(a,b)
  return s
