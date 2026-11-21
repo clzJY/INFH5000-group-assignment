@@ -1,0 +1,426 @@
+1
+00:00:00,000 --> 00:00:06,707
+This project studies how a wheeled service robot
+can share urban pedestrian space. We compare
+explicit local
+
+2
+00:00:06,707 --> 00:00:13,414
+planning with vision and language guidance in
+three simulated street families. The main result
+is an improvement
+
+3
+00:00:13,414 --> 00:00:20,121
+from geometric local selection, while the
+trained visual selector does not outperform that
+baseline. This is a
+
+4
+00:00:20,121 --> 00:00:26,828
+rehearsal copy: our group identity, members and
+agreed work percentages must be completed before
+submission.
+
+5
+00:00:28,828 --> 00:00:36,959
+A robot can slow down for a pedestrian, but
+slowing alone cannot take it around an
+obstruction.
+
+6
+00:00:36,959 --> 00:00:45,089
+Our question has two parts. First, does
+constrained local trajectory selection improve
+contact-free completion across spatial
+conditions?
+
+7
+00:00:45,089 --> 00:00:53,220
+Second, does a compact vision–language model add
+value beyond geometric selection? The project
+combines artificial intelligence for
+
+8
+00:00:53,220 --> 00:01:01,351
+action adaptation, data science for matched
+evaluation, and computational media for
+procedural three-dimensional simulation and
+visual evidence.
+
+9
+00:01:03,351 --> 00:01:10,002
+We use intersections, straight sidewalks, and
+streets containing a curve. Each family has two
+nominal clear-width bands,
+
+10
+00:01:10,002 --> 00:01:16,654
+two pedestrian counts, and ten fresh scene
+seeds. That gives one hundred and twenty
+conditions per method.
+
+11
+00:01:16,654 --> 00:01:23,306
+The images are native simulator captures.
+Coordinates are local metres, not observations
+from a real city. Five
+
+12
+00:01:23,306 --> 00:01:29,958
+and fifteen describe agent counts, not crowd
+density.
+
+13
+00:01:31,958 --> 00:01:40,270
+This project builds on the retained single-scene
+pilot. We keep its route-following and speed-
+forecast comparisons, but add
+
+14
+00:01:40,270 --> 00:01:48,583
+three scene families, a constrained lateral
+trajectory library, an MPPI-style sampling
+controller, and actual multimodal adapter
+training.
+
+15
+00:01:48,583 --> 00:01:56,896
+We also add training-seed checks, input
+removals, curve exclusion, and controlled
+blockages. These are project-level extensions.
+Pure
+
+16
+00:01:56,896 --> 00:02:05,208
+Pursuit, local search, predictive control, LoRA
+and the simulator itself come from existing
+work.
+
+17
+00:02:07,208 --> 00:02:14,296
+The shared route provides a direction of travel.
+The local library offers five lateral
+trajectories and physical
+
+18
+00:02:14,296 --> 00:02:21,383
+stopping. The geometric selector ranks feasible
+options, while the adapted model proposes one
+action token every second.
+
+19
+00:02:21,383 --> 00:02:28,471
+At each tenth of a second, the execution layer
+checks predicted footprints, pedestrians,
+obstacles and walkable space.
+
+20
+00:02:28,471 --> 00:02:35,559
+An infeasible model proposal falls back to
+geometric selection. If no candidate is
+feasible, the robot brakes.
+
+21
+00:02:35,559 --> 00:02:42,646
+Native physics, rather than direct position
+changes, moves the robot.
+
+22
+00:02:44,646 --> 00:02:51,749
+The model is SmolVLM2 with about five hundred
+million base parameters. Six labels identify the
+five paths
+
+23
+00:02:51,749 --> 00:02:58,851
+and stopping. We freeze the backbone and train
+about one point one million low-rank parameters
+in visual
+
+24
+00:02:58,851 --> 00:03:05,953
+and language attention. Training uses five
+hundred and ninety-eight decisions, with three
+hundred and four validation decisions
+
+25
+00:03:05,953 --> 00:03:13,055
+from separate scene seeds. This is supervised
+imitation of geometric predictions, not
+reinforcement learning or counterfactual trials.
+
+26
+00:03:13,055 --> 00:03:20,157
+We train ten epochs for each seed and select
+checkpoints on validation only.
+
+27
+00:03:22,157 --> 00:03:30,325
+The comparisons answer different questions.
+Regulated Pure Pursuit-inspired control provides
+regulated path following. Speed forecasting
+changes timing
+
+28
+00:03:30,325 --> 00:03:38,493
+along that route. Dynamic Window Approach-style
+control searches local commands. Model
+Predictive Path Integral-style control samples
+ninety-six
+
+29
+00:03:38,493 --> 00:03:46,660
+sequences. Our geometric selector tests the new
+lateral candidate hierarchy. Frozen and adapted
+visual models test pretrained
+
+30
+00:03:46,660 --> 00:03:54,828
+action use and task adaptation. The older
+controllers do not receive every new candidate
+filter, and the
+
+31
+00:03:54,828 --> 00:04:02,996
+model does not receive the teacher's explicit
+pedestrian velocities, so attribution must
+remain bounded.
+
+32
+00:04:04,996 --> 00:04:12,332
+An episode has a one hundred and twenty second
+simulated budget. Strict arrival requires the
+native destination
+
+33
+00:04:12,332 --> 00:04:19,667
+flag and a distance within two metres. Contact-
+free arrival also excludes any recorded contact
+during the episode.
+
+34
+00:04:19,667 --> 00:04:27,003
+We retain failures, timeouts and contacts. The
+full campaign has one thousand three hundred and
+eighty-four formal
+
+35
+00:04:27,003 --> 00:04:34,338
+episodes, with separate denominators for each
+diagnostic suite. Independent audits check more
+than one point three million
+
+36
+00:04:34,338 --> 00:04:41,674
+decisions and about sixty-nine thousand model
+queries. Uncertainty analysis groups related
+scene variants.
+
+37
+00:04:43,674 --> 00:04:50,595
+Here are all seven natural-scene results on the
+same one hundred and twenty conditions. The
+geometric selector
+
+38
+00:04:50,595 --> 00:04:57,515
+records seventy-nine contact-free arrivals,
+versus sixty-two for route-constrained speed
+forecasting. The primary adapted model reaches
+sixty-eight; the
+
+39
+00:04:57,515 --> 00:05:04,436
+frozen model reaches zero. These results support
+the new local planning package in this
+simulator. They do
+
+40
+00:05:04,436 --> 00:05:11,357
+not support a claim that adding a visual model
+is the best-performing strategy.
+
+41
+00:05:13,357 --> 00:05:19,801
+The geometric package improves contact-free
+completion by fourteen point two percentage
+points over speed forecasting. Its paired
+
+42
+00:05:19,801 --> 00:05:26,245
+interval is positive, but it is about half a
+second slower on ninety-three jointly successful
+conditions. The
+
+43
+00:05:26,245 --> 00:05:32,690
+adapted model is nine point two percentage
+points below geometric selection and takes
+twelve point two seconds
+
+44
+00:05:32,690 --> 00:05:39,134
+longer on eighty joint successes. These timing
+comparisons exclude failures. All methods share
+the new reference route;
+
+45
+00:05:39,134 --> 00:05:45,578
+the geometric gain concerns the local candidate,
+constraint and execution package, while the
+learned selector shows no
+
+46
+00:05:45,578 --> 00:05:52,022
+added benefit in this test.
+
+47
+00:05:54,022 --> 00:06:00,483
+Changing the training seed gives sixty-eight,
+eighteen and fifty-eight contact-free arrivals,
+all below the geometric result of
+
+48
+00:06:00,483 --> 00:06:06,944
+seventy-nine. On twenty-four separate input-
+removal conditions, full input gives fourteen
+completions, no RGB gives thirteen, no image
+
+49
+00:06:06,944 --> 00:06:13,405
+gives fifteen, and minimal instruction gives
+five. Without an image the model always proposes
+the centre path,
+
+50
+00:06:13,405 --> 00:06:19,866
+while geometric checking remains active. Outside
+exposure is higher than with full input. These
+findings do not
+
+51
+00:06:19,866 --> 00:06:26,327
+establish that vision is unnecessary. They show
+that task priors, fallback and small correlated
+data can dominate
+
+52
+00:06:26,327 --> 00:06:32,788
+this selector.
+
+53
+00:06:34,788 --> 00:06:42,315
+The controlled blockage suite places the same
+existing object after reference planning.
+Geometric selection achieves eleven contact-free
+
+54
+00:06:42,315 --> 00:06:49,841
+arrivals out of twenty-four; MPPI-style reaches
+seven and the adapted model four. On forty curve
+conditions, the
+
+55
+00:06:49,841 --> 00:06:57,368
+model trained without curves reaches three
+contact-free arrivals, versus thirty-two after
+full-layout training. Removing curves also
+reduces
+
+56
+00:06:57,368 --> 00:07:04,894
+the training sample count, so that difference
+mixes layout coverage and data volume.
+
+57
+00:07:06,894 --> 00:07:13,791
+This intersection demonstration uses the same
+fixed illustrative seed for all three
+controllers. Each completes without recorded
+
+58
+00:07:13,791 --> 00:07:20,687
+contact, while their simulated travel times
+differ. These three episodes are not part of the
+formal test
+
+59
+00:07:20,687 --> 00:07:27,584
+sample. The demonstration helps explain
+behaviour, but it cannot establish an overall
+ranking.
+
+60
+00:07:41,584 --> 00:07:49,899
+In the straight-street example, regulated
+tracking arrives but records contact. The
+geometric selector arrives without recorded
+contact.
+
+61
+00:07:49,899 --> 00:07:58,215
+The adapted model records no contact but times
+out. This separates arrival, contact-free
+completion and simply avoiding
+
+62
+00:07:58,215 --> 00:08:06,530
+contact by waiting. A paused-looking or
+stationary robot should not automatically be
+described as safe and successful.
+
+63
+00:08:20,530 --> 00:08:26,927
+The curve example reverses the aggregate
+ranking. Regulated tracking and adapted guidance
+complete without recorded contact, but
+
+64
+00:08:26,927 --> 00:08:33,324
+the geometric selector times out and has
+substantial outside exposure. A method can lead
+on one hundred
+
+65
+00:08:33,324 --> 00:08:39,721
+and twenty matched conditions and still fail on
+a particular scene. This is why we report
+footprint
+
+66
+00:08:39,721 --> 00:08:46,118
+exposure and individual failure cases alongside
+overall completion.
+
+67
+00:09:00,118 --> 00:09:08,225
+Our supported conclusion is that constrained
+local planning improves contact-free completion
+in these simulated streets. We also
+
+68
+00:09:08,225 --> 00:09:16,332
+complete real multimodal adapter training, but
+its additional navigation benefit is not
+established. The project contributes a
+
+69
+00:09:16,332 --> 00:09:24,439
+transparent comparison across spatial
+conditions, rather than a claim of a new
+foundation model or state of
+
+70
+00:09:24,439 --> 00:09:32,546
+the art. Important limits include privileged
+observations, a single-frame selector, small
+training diversity and approximate dynamics.
+Future
+
+71
+00:09:32,546 --> 00:09:40,653
+temporal observations and better-matched
+supervision remain unimplemented. Code, data and
+records are public; model weights stay local.
+

@@ -1,0 +1,5530 @@
+{
+  "status": "complete_review_copy",
+  "user_authorized_full_delivery": true,
+  "user_confirmed": false,
+  "group_identity_pending": true,
+  "engine": "PptxGenJS 4.0.1",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "Constrained local planning and vision–language guidance",
+      "kind": "cover",
+      "evidence": [
+        "Course PDF p15–16",
+        "source/group_metadata.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t1",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t2",
+          "text": "Constrained local planning and vision–language guidance",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 31,
+          "editable": true
+        },
+        {
+          "id": "t3",
+          "text": "01",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t4",
+          "text": "Sources: Course PDF p15–16 · source/group_metadata.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t5",
+          "text": "Three-scene native simulation study",
+          "x": 0.58,
+          "y": 1.95,
+          "w": 11.8,
+          "h": 0.5,
+          "font_size_pt": 23,
+          "editable": true
+        },
+        {
+          "id": "t6",
+          "text": "Group ID: TO BE CONFIRMED   |   21 November 2026",
+          "x": 0.58,
+          "y": 2.58,
+          "w": 11.8,
+          "h": 0.42,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t7",
+          "text": "Member",
+          "x": 0.7,
+          "y": 3.34,
+          "w": 2.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t8",
+          "text": "Thrust",
+          "x": 3.7,
+          "y": 3.34,
+          "w": 1.86,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t9",
+          "text": "Work share",
+          "x": 5.8,
+          "y": 3.34,
+          "w": 1.8099999999999998,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t10",
+          "text": "Actual work",
+          "x": 7.85,
+          "y": 3.34,
+          "w": 4.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t11",
+          "text": "To be confirmed",
+          "x": 0.7,
+          "y": 3.8299999999999996,
+          "w": 2.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t12",
+          "text": "Pending",
+          "x": 3.7,
+          "y": 3.8299999999999996,
+          "w": 1.86,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t13",
+          "text": "Pending",
+          "x": 5.8,
+          "y": 3.8299999999999996,
+          "w": 1.8099999999999998,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t14",
+          "text": "To be agreed",
+          "x": 7.85,
+          "y": 3.8299999999999996,
+          "w": 4.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t15",
+          "text": "To be confirmed",
+          "x": 0.7,
+          "y": 4.319999999999999,
+          "w": 2.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t16",
+          "text": "Pending",
+          "x": 3.7,
+          "y": 4.319999999999999,
+          "w": 1.86,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t17",
+          "text": "Pending",
+          "x": 5.8,
+          "y": 4.319999999999999,
+          "w": 1.8099999999999998,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t18",
+          "text": "To be agreed",
+          "x": 7.85,
+          "y": 4.319999999999999,
+          "w": 4.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t19",
+          "text": "To be confirmed",
+          "x": 0.7,
+          "y": 4.81,
+          "w": 2.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t20",
+          "text": "Pending",
+          "x": 3.7,
+          "y": 4.81,
+          "w": 1.86,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t21",
+          "text": "Pending",
+          "x": 5.8,
+          "y": 4.81,
+          "w": 1.8099999999999998,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t22",
+          "text": "To be agreed",
+          "x": 7.85,
+          "y": 4.81,
+          "w": 4.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t23",
+          "text": "To be confirmed",
+          "x": 0.7,
+          "y": 5.3,
+          "w": 2.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t24",
+          "text": "Pending",
+          "x": 3.7,
+          "y": 5.3,
+          "w": 1.86,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t25",
+          "text": "Pending",
+          "x": 5.8,
+          "y": 5.3,
+          "w": 1.8099999999999998,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t26",
+          "text": "To be agreed",
+          "x": 7.85,
+          "y": 5.3,
+          "w": 4.76,
+          "h": 0.37,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t27",
+          "text": "AI × DATA SCIENCE × COMPUTATIONAL MEDIA",
+          "x": 0.58,
+          "y": 6.13,
+          "w": 11.5,
+          "h": 0.4,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t28",
+          "text": "Review copy: confirm 4–5 members, thrust rule and work shares totalling 100% before submission.",
+          "x": 0.58,
+          "y": 6.65,
+          "w": 11.6,
+          "h": 0.34,
+          "font_size_pt": 12,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.58,
+          "y": 3.28,
+          "w": 3,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 3.58,
+          "y": 3.28,
+          "w": 2.1,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 5.68,
+          "y": 3.28,
+          "w": 2.05,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 7.7299999999999995,
+          "y": 3.28,
+          "w": 5,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 0.58,
+          "y": 3.7699999999999996,
+          "w": 3,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 3.58,
+          "y": 3.7699999999999996,
+          "w": 2.1,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 5.68,
+          "y": 3.7699999999999996,
+          "w": 2.05,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 7.7299999999999995,
+          "y": 3.7699999999999996,
+          "w": 5,
+          "h": 0.49
+        },
+        {
+          "type": "line",
+          "x": 0.58,
+          "y": 4.26,
+          "w": 12.15,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.58,
+          "y": 4.26,
+          "w": 3,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 3.58,
+          "y": 4.26,
+          "w": 2.1,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 5.68,
+          "y": 4.26,
+          "w": 2.05,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 7.7299999999999995,
+          "y": 4.26,
+          "w": 5,
+          "h": 0.49
+        },
+        {
+          "type": "line",
+          "x": 0.58,
+          "y": 4.75,
+          "w": 12.15,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.58,
+          "y": 4.75,
+          "w": 3,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 3.58,
+          "y": 4.75,
+          "w": 2.1,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 5.68,
+          "y": 4.75,
+          "w": 2.05,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 7.7299999999999995,
+          "y": 4.75,
+          "w": 5,
+          "h": 0.49
+        },
+        {
+          "type": "line",
+          "x": 0.58,
+          "y": 5.24,
+          "w": 12.15,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.58,
+          "y": 5.24,
+          "w": 3,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 3.58,
+          "y": 5.24,
+          "w": 2.1,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 5.68,
+          "y": 5.24,
+          "w": 2.05,
+          "h": 0.49
+        },
+        {
+          "type": "shape",
+          "x": 7.7299999999999995,
+          "y": 5.24,
+          "w": 5,
+          "h": 0.49
+        },
+        {
+          "type": "line",
+          "x": 0.58,
+          "y": 5.73,
+          "w": 12.15,
+          "h": 0
+        }
+      ],
+      "image_assets": [
+        {
+          "name": "hkust_logo.png",
+          "x": 10.550757575757576,
+          "y": 0.19,
+          "w": 1.7484848484848488,
+          "h": 0.55,
+          "reason": "University logo extracted from the course-mandated CC BY 4.0 report template.",
+          "editable": false
+        }
+      ],
+      "media_assets": [],
+      "speaker_script": "This project studies how a wheeled service robot can share urban pedestrian space. We compare explicit local planning with vision and language guidance in three simulated street families. The main result is an improvement from geometric local selection, while the trained visual selector does not outperform that baseline. This is a rehearsal copy: our group identity, members and agreed work percentages must be completed before submission.",
+      "zh_cue": "开场介绍问题和主结论。封面的组号、成员、学科和实际分工需小组确认，不能按实验日志推断。"
+    },
+    {
+      "number": 2,
+      "title": "The question is when to wait and when to use lateral space",
+      "kind": "problem",
+      "evidence": [
+        "report §1",
+        "results/core/summary.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t29",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t30",
+          "text": "The question is when to wait and when to use lateral space",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t31",
+          "text": "02",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t32",
+          "text": "Sources: report §1 · results/core/summary.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t33",
+          "text": "RQ1",
+          "x": 0.6,
+          "y": 1.98,
+          "w": 1,
+          "h": 0.45,
+          "font_size_pt": 28,
+          "editable": true
+        },
+        {
+          "id": "t34",
+          "text": "Does local trajectory selection improve contact-free completion?",
+          "x": 1.65,
+          "y": 1.95,
+          "w": 10.7,
+          "h": 0.9,
+          "font_size_pt": 25,
+          "editable": true
+        },
+        {
+          "id": "t35",
+          "text": "RQ2",
+          "x": 0.6,
+          "y": 3.02,
+          "w": 1,
+          "h": 0.45,
+          "font_size_pt": 28,
+          "editable": true
+        },
+        {
+          "id": "t36",
+          "text": "Does vision–language guidance improve on geometric selection?",
+          "x": 1.65,
+          "y": 3,
+          "w": 10.7,
+          "h": 0.9,
+          "font_size_pt": 25,
+          "editable": true
+        },
+        {
+          "id": "t37",
+          "text": "AI",
+          "x": 0.6,
+          "y": 4.48,
+          "w": 3.8,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t38",
+          "text": "Multimodal action adaptation\nTeacher imitation",
+          "x": 0.6,
+          "y": 5,
+          "w": 3.8,
+          "h": 0.9,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t39",
+          "text": "Data science",
+          "x": 4.75,
+          "y": 4.48,
+          "w": 3.8,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t40",
+          "text": "Matched conditions\nBootstrap and ablations",
+          "x": 4.75,
+          "y": 5,
+          "w": 3.8,
+          "h": 0.9,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t41",
+          "text": "Computational media",
+          "x": 8.9,
+          "y": 4.48,
+          "w": 3.8,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t42",
+          "text": "Procedural 3D scenes\nNative visual demonstrations",
+          "x": 8.9,
+          "y": 5,
+          "w": 3.8,
+          "h": 0.9,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t43",
+          "text": "A shared-space navigation study; no physical IoT network or real-city digital twin is claimed.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 0.6,
+          "y": 4.25,
+          "w": 3.7999999999999994,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 4.75,
+          "y": 4.25,
+          "w": 3.8000000000000007,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 8.9,
+          "y": 4.25,
+          "w": 3.799999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "A robot can slow down for a pedestrian, but slowing alone cannot take it around an obstruction. Our question has two parts. First, does constrained local trajectory selection improve contact-free completion across spatial conditions? Second, does a compact vision–language model add value beyond geometric selection? The project combines artificial intelligence for action adaptation, data science for matched evaluation, and computational media for procedural three-dimensional simulation and visual evidence.",
+      "zh_cue": "强调两层问题：几何局部绕行有没有作用；加入视觉语言模型有没有额外作用。跨学科对应 AI、数据科学和计算媒体，不声称实现物联网硬件。"
+    },
+    {
+      "number": 3,
+      "title": "Three scene families define 120 matched natural conditions",
+      "kind": "scenes",
+      "evidence": [
+        "plans/main_classical_v1.json",
+        "results/core/audit.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t44",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t45",
+          "text": "Three scene families define 120 matched natural conditions",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t46",
+          "text": "03",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t47",
+          "text": "Sources: plans/main_classical_v1.json · results/core/audit.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t48",
+          "text": "Intersection",
+          "x": 0.55,
+          "y": 1.9,
+          "w": 3.85,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t49",
+          "text": "Straight sidewalk",
+          "x": 4.7,
+          "y": 1.9,
+          "w": 3.85,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t50",
+          "text": "Curved street",
+          "x": 8.850000000000001,
+          "y": 1.9,
+          "w": 3.85,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t51",
+          "text": "Scene families",
+          "x": 0.67,
+          "y": 5.06,
+          "w": 2.46,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t52",
+          "text": "Clear-width bands",
+          "x": 3.37,
+          "y": 5.06,
+          "w": 2.96,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t53",
+          "text": "Pedestrian counts",
+          "x": 6.57,
+          "y": 5.06,
+          "w": 3.1100000000000003,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t54",
+          "text": "Fresh seeds",
+          "x": 9.92,
+          "y": 5.06,
+          "w": 2.71,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t55",
+          "text": "3",
+          "x": 0.67,
+          "y": 5.54,
+          "w": 2.46,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t56",
+          "text": "2: 2.6 / 4.6 m",
+          "x": 3.37,
+          "y": 5.54,
+          "w": 2.96,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t57",
+          "text": "2: 5 / 15 agents",
+          "x": 6.57,
+          "y": 5.54,
+          "w": 3.1100000000000003,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t58",
+          "text": "10 per family",
+          "x": 9.92,
+          "y": 5.54,
+          "w": 2.71,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t59",
+          "text": "3 × 2 × 2 × 10 = 120 matched conditions per method; agent counts are not crowd density.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 5,
+          "w": 2.7,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 3.25,
+          "y": 5,
+          "w": 3.2,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 6.45,
+          "y": 5,
+          "w": 3.35,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 9.8,
+          "y": 5,
+          "w": 2.95,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 5.48,
+          "w": 2.7,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 3.25,
+          "y": 5.48,
+          "w": 3.2,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 6.45,
+          "y": 5.48,
+          "w": 3.35,
+          "h": 0.48
+        },
+        {
+          "type": "shape",
+          "x": 9.8,
+          "y": 5.48,
+          "w": 2.95,
+          "h": 0.48
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.960000000000001,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [
+        {
+          "name": "scene_X.png",
+          "x": 0.7124999999999999,
+          "y": 2.45,
+          "w": 3.5250000000000004,
+          "h": 2.35,
+          "reason": "Recorded native simulator view; complex visual evidence, not editable geometry.",
+          "editable": false
+        },
+        {
+          "name": "scene_S.png",
+          "x": 4.8625,
+          "y": 2.45,
+          "w": 3.5250000000000004,
+          "h": 2.35,
+          "reason": "Recorded native simulator view; complex visual evidence, not editable geometry.",
+          "editable": false
+        },
+        {
+          "name": "scene_SC.png",
+          "x": 9.012500000000001,
+          "y": 2.45,
+          "w": 3.5250000000000004,
+          "h": 2.35,
+          "reason": "Recorded native simulator view; complex visual evidence, not editable geometry.",
+          "editable": false
+        }
+      ],
+      "media_assets": [],
+      "speaker_script": "We use intersections, straight sidewalks, and streets containing a curve. Each family has two nominal clear-width bands, two pedestrian counts, and ten fresh scene seeds. That gives one hundred and twenty conditions per method. The images are native simulator captures. Coordinates are local metres, not observations from a real city. Five and fifteen describe agent counts, not crowd density.",
+      "zh_cue": "介绍 3×2×2×10 条件设计。行人数不是密度；真实三维画面与局部地图都是模拟器资料。"
+    },
+    {
+      "number": 4,
+      "title": "The extension adds lateral choices, learning and broader evidence",
+      "kind": "novelty",
+      "evidence": [
+        "report Table 1",
+        "PROTOCOL_HISTORY.md"
+      ],
+      "text_objects": [
+        {
+          "id": "t60",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t61",
+          "text": "The extension adds lateral choices, learning and broader evidence",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t62",
+          "text": "04",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t63",
+          "text": "Sources: report Table 1 · PROTOCOL_HISTORY.md",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t64",
+          "text": "Component",
+          "x": 0.67,
+          "y": 2.06,
+          "w": 1.76,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t65",
+          "text": "Retained pilot",
+          "x": 2.67,
+          "y": 2.06,
+          "w": 3.91,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t66",
+          "text": "Completed extension",
+          "x": 6.82,
+          "y": 2.06,
+          "w": 5.81,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t67",
+          "text": "Scenes",
+          "x": 0.67,
+          "y": 2.83,
+          "w": 1.76,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t68",
+          "text": "Single-scene study",
+          "x": 2.67,
+          "y": 2.83,
+          "w": 3.91,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t69",
+          "text": "Three families; width / crowd factors",
+          "x": 6.82,
+          "y": 2.83,
+          "w": 5.81,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t70",
+          "text": "Navigation",
+          "x": 0.67,
+          "y": 3.6,
+          "w": 1.76,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t71",
+          "text": "Tracking + speed prediction",
+          "x": 2.67,
+          "y": 3.6,
+          "w": 3.91,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t72",
+          "text": "Lateral trajectories + geometry checks",
+          "x": 6.82,
+          "y": 3.6,
+          "w": 5.81,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t73",
+          "text": "Learning",
+          "x": 0.67,
+          "y": 4.37,
+          "w": 1.76,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t74",
+          "text": "No VLM adaptation",
+          "x": 2.67,
+          "y": 4.37,
+          "w": 3.91,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t75",
+          "text": "Actual vision / text LoRA training",
+          "x": 6.82,
+          "y": 4.37,
+          "w": 5.81,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t76",
+          "text": "Evidence",
+          "x": 0.67,
+          "y": 5.14,
+          "w": 1.76,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t77",
+          "text": "Original pilot kept separate",
+          "x": 2.67,
+          "y": 5.14,
+          "w": 3.91,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t78",
+          "text": "1,384 formal episodes + diagnostics",
+          "x": 6.82,
+          "y": 5.14,
+          "w": 5.81,
+          "h": 0.65,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t79",
+          "text": "Novelty is the implemented extension and comparative evidence; established methods remain attributed.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 2,
+          "w": 2,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 2.55,
+          "y": 2,
+          "w": 4.15,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 6.7,
+          "y": 2,
+          "w": 6.05,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 2.77,
+          "w": 2,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 2.55,
+          "y": 2.77,
+          "w": 4.15,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 6.7,
+          "y": 2.77,
+          "w": 6.05,
+          "h": 0.77
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 3.54,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 3.54,
+          "w": 2,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 2.55,
+          "y": 3.54,
+          "w": 4.15,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 6.7,
+          "y": 3.54,
+          "w": 6.05,
+          "h": 0.77
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 4.3100000000000005,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 4.3100000000000005,
+          "w": 2,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 2.55,
+          "y": 4.3100000000000005,
+          "w": 4.15,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 6.7,
+          "y": 4.3100000000000005,
+          "w": 6.05,
+          "h": 0.77
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.08,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 5.08,
+          "w": 2,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 2.55,
+          "y": 5.08,
+          "w": 4.15,
+          "h": 0.77
+        },
+        {
+          "type": "shape",
+          "x": 6.7,
+          "y": 5.08,
+          "w": 6.05,
+          "h": 0.77
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.85,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "This project builds on the retained single-scene pilot. We keep its route-following and speed-forecast comparisons, but add three scene families, a constrained lateral trajectory library, an MPPI-style sampling controller, and actual multimodal adapter training. We also add training-seed checks, input removals, curve exclusion, and controlled blockages. These are project-level extensions. Pure Pursuit, local search, predictive control, LoRA and the simulator itself come from existing work.",
+      "zh_cue": "这是课程要求的“新增贡献”说明。既有算法、平台、旧作业与本次扩展明确分开，不能把成熟方法说成新发明。"
+    },
+    {
+      "number": 5,
+      "title": "A learned proposal always passes through geometric execution",
+      "kind": "pipeline",
+      "evidence": [
+        "METHODS.md",
+        "local_planner.py",
+        "run_native.py"
+      ],
+      "text_objects": [
+        {
+          "id": "t80",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t81",
+          "text": "A learned proposal always passes through geometric execution",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t82",
+          "text": "05",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t83",
+          "text": "Sources: METHODS.md · local_planner.py · run_native.py",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t84",
+          "text": "RGB + map + instruction",
+          "x": 0.8,
+          "y": 2.12,
+          "w": 3.0500000000000003,
+          "h": 0.6,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t85",
+          "text": "Current frame; privileged map",
+          "x": 0.8,
+          "y": 2.83,
+          "w": 3.0500000000000003,
+          "h": 0.26,
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "t86",
+          "text": "Vision / text LoRA",
+          "x": 4.98,
+          "y": 2.12,
+          "w": 3.0500000000000003,
+          "h": 0.6,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t87",
+          "text": "Six restricted action labels",
+          "x": 4.98,
+          "y": 2.83,
+          "w": 3.0500000000000003,
+          "h": 0.26,
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "t88",
+          "text": "A–F proposal",
+          "x": 9.15,
+          "y": 2.12,
+          "w": 3.0500000000000003,
+          "h": 0.6,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t89",
+          "text": "High-level choice: 1 Hz",
+          "x": 9.15,
+          "y": 2.83,
+          "w": 3.0500000000000003,
+          "h": 0.26,
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "t90",
+          "text": "Route + candidate library",
+          "x": 0.8,
+          "y": 4.1499999999999995,
+          "w": 3.0500000000000003,
+          "h": 0.6,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t91",
+          "text": "Five lateral paths + stop",
+          "x": 0.8,
+          "y": 4.859999999999999,
+          "w": 3.0500000000000003,
+          "h": 0.26,
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "t92",
+          "text": "Geometric revalidation",
+          "x": 4.98,
+          "y": 4.1499999999999995,
+          "w": 3.0500000000000003,
+          "h": 0.6,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t93",
+          "text": "Footprints + motion + region",
+          "x": 4.98,
+          "y": 4.859999999999999,
+          "w": 3.0500000000000003,
+          "h": 0.26,
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "t94",
+          "text": "Native wheel physics",
+          "x": 9.15,
+          "y": 4.1499999999999995,
+          "w": 3.0500000000000003,
+          "h": 0.6,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t95",
+          "text": "Steering, throttle and brake",
+          "x": 9.15,
+          "y": 4.859999999999999,
+          "w": 3.0500000000000003,
+          "h": 0.26,
+          "font_size_pt": 14,
+          "editable": true
+        },
+        {
+          "id": "t96",
+          "text": "Invalid proposal → geometric fallback; no feasible candidate → physical braking",
+          "x": 0.8,
+          "y": 5.48,
+          "w": 11.9,
+          "h": 0.4,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t97",
+          "text": "Checks and native actuation: 10 Hz. The controller never overwrites robot pose or velocity.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.65,
+          "y": 2.02,
+          "w": 3.35,
+          "h": 1.18
+        },
+        {
+          "type": "shape",
+          "x": 4.83,
+          "y": 2.02,
+          "w": 3.35,
+          "h": 1.18
+        },
+        {
+          "type": "shape",
+          "x": 9,
+          "y": 2.02,
+          "w": 3.35,
+          "h": 1.18
+        },
+        {
+          "type": "line",
+          "x": 4.02,
+          "y": 2.55,
+          "w": 0.6800000000000006,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 8.2,
+          "y": 2.55,
+          "w": 0.6800000000000015,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.65,
+          "y": 4.05,
+          "w": 3.35,
+          "h": 1.18
+        },
+        {
+          "type": "shape",
+          "x": 4.83,
+          "y": 4.05,
+          "w": 3.35,
+          "h": 1.18
+        },
+        {
+          "type": "shape",
+          "x": 9,
+          "y": 4.05,
+          "w": 3.35,
+          "h": 1.18
+        },
+        {
+          "type": "line",
+          "x": 4.02,
+          "y": 4.58,
+          "w": 0.6800000000000006,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 8.2,
+          "y": 4.58,
+          "w": 0.6800000000000015,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 10.67,
+          "y": 3.24,
+          "w": 0,
+          "h": 0.3799999999999999
+        },
+        {
+          "type": "line",
+          "x": 6.5,
+          "y": 3.62,
+          "w": 4.17,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 6.5,
+          "y": 3.62,
+          "w": 0,
+          "h": 0.3500000000000001
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "The shared route provides a direction of travel. The local library offers five lateral trajectories and physical stopping. The geometric selector ranks feasible options, while the adapted model proposes one action token every second. At each tenth of a second, the execution layer checks predicted footprints, pedestrians, obstacles and walkable space. An infeasible model proposal falls back to geometric selection. If no candidate is feasible, the robot brakes. Native physics, rather than direct position changes, moves the robot.",
+      "zh_cue": "解释候选轨迹、模型提议、检查和回退。1 Hz 是模型选择，10 Hz 是检查/执行。没有通过直接改位置制造成功。"
+    },
+    {
+      "number": 6,
+      "title": "LoRA learns geometric teacher choices from 598 decisions",
+      "kind": "training",
+      "evidence": [
+        "protocol_model_v3.json",
+        "results/training/seed0/training.json",
+        "results/offline_validation.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t98",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t99",
+          "text": "LoRA learns geometric teacher choices from 598 decisions",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t100",
+          "text": "06",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t101",
+          "text": "Sources: protocol_model_v3.json · results/training/seed0/training.json · results/offline_validation.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t102",
+          "text": "Actual training composite: native RGB + privileged map",
+          "x": 0.6,
+          "y": 5.58,
+          "w": 7.1,
+          "h": 0.43,
+          "font_size_pt": 15,
+          "editable": true
+        },
+        {
+          "id": "t103",
+          "text": "Training item",
+          "x": 8.12,
+          "y": 2.02,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t104",
+          "text": "Setting",
+          "x": 10.49,
+          "y": 2.02,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t105",
+          "text": "Train / validation",
+          "x": 8.12,
+          "y": 2.67,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t106",
+          "text": "598 / 304 decisions",
+          "x": 10.49,
+          "y": 2.67,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t107",
+          "text": "Trainable / frozen",
+          "x": 8.12,
+          "y": 3.32,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t108",
+          "text": "1.11M / backbone",
+          "x": 10.49,
+          "y": 3.32,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t109",
+          "text": "LoRA rank / alpha",
+          "x": 8.12,
+          "y": 3.97,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t110",
+          "text": "8 / 16",
+          "x": 10.49,
+          "y": 3.97,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t111",
+          "text": "Batch / epochs",
+          "x": 8.12,
+          "y": 4.62,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t112",
+          "text": "4 / 10",
+          "x": 10.49,
+          "y": 4.62,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t113",
+          "text": "Seeds",
+          "x": 8.12,
+          "y": 5.27,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t114",
+          "text": "0, 1, 2 + holdout",
+          "x": 10.49,
+          "y": 5.27,
+          "w": 2.13,
+          "h": 0.53,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t115",
+          "text": "Geometric predictive labels → supervised imitation; validation selects checkpoints, never test outcomes.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 8,
+          "y": 1.96,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 10.370000000000001,
+          "y": 1.96,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 8,
+          "y": 2.61,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 10.370000000000001,
+          "y": 2.61,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "line",
+          "x": 8,
+          "y": 3.26,
+          "w": 4.74,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 8,
+          "y": 3.26,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 10.370000000000001,
+          "y": 3.26,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "line",
+          "x": 8,
+          "y": 3.9099999999999997,
+          "w": 4.74,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 8,
+          "y": 3.91,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 10.370000000000001,
+          "y": 3.91,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "line",
+          "x": 8,
+          "y": 4.5600000000000005,
+          "w": 4.74,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 8,
+          "y": 4.5600000000000005,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 10.370000000000001,
+          "y": 4.5600000000000005,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "line",
+          "x": 8,
+          "y": 5.210000000000001,
+          "w": 4.74,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 8,
+          "y": 5.21,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "shape",
+          "x": 10.370000000000001,
+          "y": 5.21,
+          "w": 2.37,
+          "h": 0.65
+        },
+        {
+          "type": "line",
+          "x": 8,
+          "y": 5.86,
+          "w": 4.74,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [
+        {
+          "name": "actual_training_input.png",
+          "x": 0.6,
+          "y": 2,
+          "w": 7.1,
+          "h": 3.55,
+          "reason": "Recorded native simulator view; complex visual evidence, not editable geometry.",
+          "editable": false
+        }
+      ],
+      "media_assets": [],
+      "speaker_script": "The model is SmolVLM2 with about five hundred million base parameters. Six labels identify the five paths and stopping. We freeze the backbone and train about one point one million low-rank parameters in visual and language attention. Training uses five hundred and ninety-eight decisions, with three hundred and four validation decisions from separate scene seeds. This is supervised imitation of geometric predictions, not reinforcement learning or counterfactual trials. We train ten epochs for each seed and select checkpoints on validation only.",
+      "zh_cue": "这是真实 LoRA 训练，不是调用模型后直接写结果。598 是决策样本，不是 598 条完整任务；教师标签来自几何预测。"
+    },
+    {
+      "number": 7,
+      "title": "Seven comparisons separate tracking, local planning and adaptation",
+      "kind": "baselines",
+      "evidence": [
+        "METHODS.md Comparisons",
+        "results/core/summary.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t116",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t117",
+          "text": "Seven comparisons separate tracking, local planning and adaptation",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t118",
+          "text": "07",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t119",
+          "text": "Sources: METHODS.md Comparisons · results/core/summary.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t120",
+          "text": "Method",
+          "x": 0.67,
+          "y": 2.02,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t121",
+          "text": "Decision mechanism",
+          "x": 3.0200000000000005,
+          "y": 2.02,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t122",
+          "text": "Comparison purpose",
+          "x": 7.57,
+          "y": 2.02,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t123",
+          "text": "RPP-inspired",
+          "x": 0.67,
+          "y": 2.53,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t124",
+          "text": "Regulated reference tracking",
+          "x": 3.0200000000000005,
+          "y": 2.53,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t125",
+          "text": "Classical route follower",
+          "x": 7.57,
+          "y": 2.53,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t126",
+          "text": "Speed forecast",
+          "x": 0.67,
+          "y": 3.04,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t127",
+          "text": "Predict route occupancy; change speed",
+          "x": 3.0200000000000005,
+          "y": 3.04,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t128",
+          "text": "Timing without lateral choices",
+          "x": 7.57,
+          "y": 3.04,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t129",
+          "text": "DWA-style",
+          "x": 0.67,
+          "y": 3.5500000000000003,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t130",
+          "text": "Local command search",
+          "x": 3.0200000000000005,
+          "y": 3.5500000000000003,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t131",
+          "text": "Earlier search adaptation",
+          "x": 7.57,
+          "y": 3.5500000000000003,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t132",
+          "text": "MPPI-style",
+          "x": 0.67,
+          "y": 4.06,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t133",
+          "text": "Sample 96 control sequences",
+          "x": 3.0200000000000005,
+          "y": 4.06,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t134",
+          "text": "Flexible sampled local control",
+          "x": 7.57,
+          "y": 4.06,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t135",
+          "text": "Geometric selector",
+          "x": 0.67,
+          "y": 4.569999999999999,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t136",
+          "text": "Rank lateral candidates + stop",
+          "x": 3.0200000000000005,
+          "y": 4.569999999999999,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t137",
+          "text": "New hierarchy without a model",
+          "x": 7.57,
+          "y": 4.569999999999999,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t138",
+          "text": "Frozen VLM",
+          "x": 0.67,
+          "y": 5.079999999999999,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t139",
+          "text": "Pretrained A–F token choice",
+          "x": 3.0200000000000005,
+          "y": 5.079999999999999,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t140",
+          "text": "Direct pretrained action use",
+          "x": 7.57,
+          "y": 5.079999999999999,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t141",
+          "text": "Adapted VLM",
+          "x": 0.67,
+          "y": 5.59,
+          "w": 2.1100000000000003,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t142",
+          "text": "Vision / text LoRA token choice",
+          "x": 3.0200000000000005,
+          "y": 5.59,
+          "w": 4.31,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t143",
+          "text": "Task adaptation and added value",
+          "x": 7.57,
+          "y": 5.59,
+          "w": 5.06,
+          "h": 0.39,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t144",
+          "text": "Project implementations. Old controllers lack the new candidate filter; model observations omit explicit velocity.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 1.96,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 1.96,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 1.96,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 2.4699999999999998,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 2.4699999999999998,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 2.4699999999999998,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 2.9799999999999995,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 2.98,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 2.98,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 2.98,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 3.49,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 3.49,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 3.49,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 3.49,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 4,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 4,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 4,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 4,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 4.51,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 4.51,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 4.51,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 4.51,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.02,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 5.02,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 5.02,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 5.02,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.529999999999999,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 5.53,
+          "w": 2.35,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 2.9000000000000004,
+          "y": 5.53,
+          "w": 4.55,
+          "h": 0.51
+        },
+        {
+          "type": "shape",
+          "x": 7.45,
+          "y": 5.53,
+          "w": 5.3,
+          "h": 0.51
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 6.04,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "The comparisons answer different questions. Regulated Pure Pursuit-inspired control provides regulated path following. Speed forecasting changes timing along that route. Dynamic Window Approach-style control searches local commands. Model Predictive Path Integral-style control samples ninety-six sequences. Our geometric selector tests the new lateral candidate hierarchy. Frozen and adapted visual models test pretrained action use and task adaptation. The older controllers do not receive every new candidate filter, and the model does not receive the teacher's explicit pedestrian velocities, so attribution must remain bounded.",
+      "zh_cue": "各基线测试不同能力。模型和几何选择器共用候选/回退，但观察信息不完全一样。PPO 不作为主基线；原零速度消融仍留在历史结果中。"
+    },
+    {
+      "number": 8,
+      "title": "Strict arrival and contact-free completion are distinct outcomes",
+      "kind": "protocol",
+      "evidence": [
+        "results/provenance_audit.json",
+        "results/execution_record.json",
+        "results/core/arrival_flag_diagnostic.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t145",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t146",
+          "text": "Strict arrival and contact-free completion are distinct outcomes",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t147",
+          "text": "08",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t148",
+          "text": "Sources: results/provenance_audit.json · results/execution_record.json · results/core/arrival_flag_diagnostic.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t149",
+          "text": "Formal suite",
+          "x": 0.67,
+          "y": 2.02,
+          "w": 3.01,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t150",
+          "text": "n",
+          "x": 3.92,
+          "y": 2.02,
+          "w": 0.8600000000000001,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t151",
+          "text": "Purpose",
+          "x": 5.0200000000000005,
+          "y": 2.02,
+          "w": 2.41,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t152",
+          "text": "Natural comparison",
+          "x": 0.67,
+          "y": 2.62,
+          "w": 3.01,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t153",
+          "text": "840",
+          "x": 3.92,
+          "y": 2.62,
+          "w": 0.8600000000000001,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t154",
+          "text": "7 × 120 conditions",
+          "x": 5.0200000000000005,
+          "y": 2.62,
+          "w": 2.41,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t155",
+          "text": "Training-seed variation",
+          "x": 0.67,
+          "y": 3.22,
+          "w": 3.01,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t156",
+          "text": "240",
+          "x": 3.92,
+          "y": 3.22,
+          "w": 0.8600000000000001,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t157",
+          "text": "2 seeds × 120",
+          "x": 5.0200000000000005,
+          "y": 3.22,
+          "w": 2.41,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t158",
+          "text": "Input removals",
+          "x": 0.67,
+          "y": 3.82,
+          "w": 3.01,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t159",
+          "text": "96",
+          "x": 3.92,
+          "y": 3.82,
+          "w": 0.8600000000000001,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t160",
+          "text": "4 variants × 24",
+          "x": 5.0200000000000005,
+          "y": 3.82,
+          "w": 2.41,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t161",
+          "text": "Curve holdout",
+          "x": 0.67,
+          "y": 4.419999999999999,
+          "w": 3.01,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t162",
+          "text": "40",
+          "x": 3.92,
+          "y": 4.419999999999999,
+          "w": 0.8600000000000001,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t163",
+          "text": "Excluded family test",
+          "x": 5.0200000000000005,
+          "y": 4.419999999999999,
+          "w": 2.41,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t164",
+          "text": "Post-planning blockage",
+          "x": 0.67,
+          "y": 5.02,
+          "w": 3.01,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t165",
+          "text": "168",
+          "x": 3.92,
+          "y": 5.02,
+          "w": 0.8600000000000001,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t166",
+          "text": "7 methods × 24",
+          "x": 5.0200000000000005,
+          "y": 5.02,
+          "w": 2.41,
+          "h": 0.48,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t167",
+          "text": "STRICT ARRIVAL",
+          "x": 8.05,
+          "y": 2.02,
+          "w": 4.5,
+          "h": 0.35,
+          "font_size_pt": 20,
+          "editable": true
+        },
+        {
+          "id": "t168",
+          "text": "Native flag AND\nendpoint distance ≤ 2 m",
+          "x": 8.05,
+          "y": 2.5,
+          "w": 4.5,
+          "h": 0.9,
+          "font_size_pt": 22,
+          "editable": true
+        },
+        {
+          "id": "t169",
+          "text": "CONTACT-FREE ARRIVAL",
+          "x": 8.05,
+          "y": 3.77,
+          "w": 4.6,
+          "h": 0.35,
+          "font_size_pt": 20,
+          "editable": true
+        },
+        {
+          "id": "t170",
+          "text": "Strict arrival AND\nno recorded contact in the episode",
+          "x": 8.05,
+          "y": 4.25,
+          "w": 4.6,
+          "h": 1.2,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t171",
+          "text": "1,384 completed episodes; 1,306,599 decisions and 69,172 model queries independently checked.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 1.96,
+          "w": 3.25,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 3.8,
+          "y": 1.96,
+          "w": 1.1,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 4.9,
+          "y": 1.96,
+          "w": 2.65,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 2.56,
+          "w": 3.25,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 3.8,
+          "y": 2.56,
+          "w": 1.1,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 4.9,
+          "y": 2.56,
+          "w": 2.65,
+          "h": 0.6
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 3.16,
+          "w": 7,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 3.16,
+          "w": 3.25,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 3.8,
+          "y": 3.16,
+          "w": 1.1,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 4.9,
+          "y": 3.16,
+          "w": 2.65,
+          "h": 0.6
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 3.7600000000000002,
+          "w": 7,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 3.76,
+          "w": 3.25,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 3.8,
+          "y": 3.76,
+          "w": 1.1,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 4.9,
+          "y": 3.76,
+          "w": 2.65,
+          "h": 0.6
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 4.359999999999999,
+          "w": 7,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 4.359999999999999,
+          "w": 3.25,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 3.8,
+          "y": 4.359999999999999,
+          "w": 1.1,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 4.9,
+          "y": 4.359999999999999,
+          "w": 2.65,
+          "h": 0.6
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 4.959999999999999,
+          "w": 7,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 4.96,
+          "w": 3.25,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 3.8,
+          "y": 4.96,
+          "w": 1.1,
+          "h": 0.6
+        },
+        {
+          "type": "shape",
+          "x": 4.9,
+          "y": 4.96,
+          "w": 2.65,
+          "h": 0.6
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.56,
+          "w": 7,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "An episode has a one hundred and twenty second simulated budget. Strict arrival requires the native destination flag and a distance within two metres. Contact-free arrival also excludes any recorded contact during the episode. We retain failures, timeouts and contacts. The full campaign has one thousand three hundred and eighty-four formal episodes, with separate denominators for each diagnostic suite. Independent audits check more than one point three million decisions and about sixty-nine thousand model queries. Uncertainty analysis groups related scene variants.",
+      "zh_cue": "解决之前粗成功判定的问题。说明严格到达、无接触到达、越界、等待和耗时的区别，各子实验不能混合分母。"
+    },
+    {
+      "number": 9,
+      "title": "Geometric local selection reaches 79 contact-free arrivals out of 120",
+      "kind": "main_results",
+      "evidence": [
+        "results/core/summary.json",
+        "results/core/additional_contrasts.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t172",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t173",
+          "text": "Geometric local selection reaches 79 contact-free arrivals out of 120",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t174",
+          "text": "09",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t175",
+          "text": "Sources: results/core/summary.json · results/core/additional_contrasts.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t176",
+          "text": "Contact-free arrivals / 120",
+          "x": 0.6,
+          "y": 1.93,
+          "w": 8.6,
+          "h": 0.36,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t177",
+          "text": "0",
+          "x": 2.85,
+          "y": 2.32,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t178",
+          "text": "30",
+          "x": 4.05,
+          "y": 2.32,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t179",
+          "text": "60",
+          "x": 5.25,
+          "y": 2.32,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t180",
+          "text": "90",
+          "x": 6.449999999999999,
+          "y": 2.32,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t181",
+          "text": "120",
+          "x": 7.649999999999999,
+          "y": 2.32,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t182",
+          "text": "RPP-inspired",
+          "x": 0.6,
+          "y": 2.75,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t183",
+          "text": "59",
+          "x": 5.559999999999999,
+          "y": 2.77,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t184",
+          "text": "Speed forecast",
+          "x": 0.6,
+          "y": 3.18,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t185",
+          "text": "62",
+          "x": 5.679999999999999,
+          "y": 3.2,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t186",
+          "text": "DWA-style",
+          "x": 0.6,
+          "y": 3.61,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t187",
+          "text": "58",
+          "x": 5.52,
+          "y": 3.63,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t188",
+          "text": "MPPI-style",
+          "x": 0.6,
+          "y": 4.04,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t189",
+          "text": "54",
+          "x": 5.359999999999999,
+          "y": 4.06,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t190",
+          "text": "Geometric",
+          "x": 0.6,
+          "y": 4.47,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t191",
+          "text": "79",
+          "x": 6.359999999999999,
+          "y": 4.489999999999999,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t192",
+          "text": "Frozen VLM",
+          "x": 0.6,
+          "y": 4.9,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t193",
+          "text": "0",
+          "x": 3.2,
+          "y": 4.92,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t194",
+          "text": "Adapted VLM",
+          "x": 0.6,
+          "y": 5.33,
+          "w": 2.45,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t195",
+          "text": "68",
+          "x": 5.919999999999999,
+          "y": 5.35,
+          "w": 0.85,
+          "h": 0.36,
+          "font_size_pt": 17,
+          "editable": true
+        },
+        {
+          "id": "t196",
+          "text": "Method",
+          "x": 9.37,
+          "y": 2.13,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t197",
+          "text": "Strict",
+          "x": 11.469999999999999,
+          "y": 2.13,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t198",
+          "text": "RPP",
+          "x": 9.37,
+          "y": 2.59,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t199",
+          "text": "91/120",
+          "x": 11.469999999999999,
+          "y": 2.59,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t200",
+          "text": "Forecast",
+          "x": 9.37,
+          "y": 3.05,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t201",
+          "text": "97/120",
+          "x": 11.469999999999999,
+          "y": 3.05,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t202",
+          "text": "DWA",
+          "x": 9.37,
+          "y": 3.5100000000000002,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t203",
+          "text": "85/120",
+          "x": 11.469999999999999,
+          "y": 3.5100000000000002,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t204",
+          "text": "MPPI",
+          "x": 9.37,
+          "y": 3.97,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t205",
+          "text": "65/120",
+          "x": 11.469999999999999,
+          "y": 3.97,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t206",
+          "text": "Geometric",
+          "x": 9.37,
+          "y": 4.43,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t207",
+          "text": "99/120",
+          "x": 11.469999999999999,
+          "y": 4.43,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t208",
+          "text": "Frozen",
+          "x": 9.37,
+          "y": 4.89,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t209",
+          "text": "0/120",
+          "x": 11.469999999999999,
+          "y": 4.89,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t210",
+          "text": "Adapted",
+          "x": 9.37,
+          "y": 5.35,
+          "w": 1.86,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t211",
+          "text": "83/120",
+          "x": 11.469999999999999,
+          "y": 5.35,
+          "w": 1.11,
+          "h": 0.34,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t212",
+          "text": "A shared denominator and all seven methods: geometry 79/120, speed forecast 62/120, adapted VLM 68/120.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 3.1,
+          "y": 2.65,
+          "w": 0,
+          "h": 3.07
+        },
+        {
+          "type": "line",
+          "x": 4.3,
+          "y": 2.65,
+          "w": 0,
+          "h": 3.07
+        },
+        {
+          "type": "line",
+          "x": 5.5,
+          "y": 2.65,
+          "w": 0,
+          "h": 3.07
+        },
+        {
+          "type": "line",
+          "x": 6.699999999999999,
+          "y": 2.65,
+          "w": 0,
+          "h": 3.07
+        },
+        {
+          "type": "line",
+          "x": 7.899999999999999,
+          "y": 2.65,
+          "w": 0,
+          "h": 3.07
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 2.83,
+          "w": 2.3599999999999994,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 3.2600000000000002,
+          "w": 2.479999999999999,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 3.69,
+          "w": 2.3199999999999994,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 4.12,
+          "w": 2.1599999999999993,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 4.55,
+          "w": 3.1599999999999993,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 4.98,
+          "w": 0.008,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 5.41,
+          "w": 2.7199999999999993,
+          "h": 0.22
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 2.07,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 2.07,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 2.53,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 2.53,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 2.9899999999999998,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 2.9899999999999998,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 2.9899999999999998,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 3.4499999999999997,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 3.45,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 3.45,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 3.91,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 3.91,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 3.91,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 4.37,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 4.37,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 4.37,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 4.83,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 4.83,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 4.83,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 5.29,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 9.25,
+          "y": 5.29,
+          "w": 2.1,
+          "h": 0.46
+        },
+        {
+          "type": "shape",
+          "x": 11.35,
+          "y": 5.29,
+          "w": 1.35,
+          "h": 0.46
+        },
+        {
+          "type": "line",
+          "x": 9.25,
+          "y": 5.75,
+          "w": 3.4499999999999993,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "Here are all seven natural-scene results on the same one hundred and twenty conditions. The geometric selector records seventy-nine contact-free arrivals, versus sixty-two for route-constrained speed forecasting. The primary adapted model reaches sixty-eight; the frozen model reaches zero. These results support the new local planning package in this simulator. They do not support a claim that adding a visual model is the best-performing strategy.",
+      "zh_cue": "展示所有七个方法，不只放表现最好的三个。几何 79、预测调速 62、适配模型 68，不能只拿 VLM 与零样本模型比较。"
+    },
+    {
+      "number": 10,
+      "title": "The supported gain is geometric; VLM guidance adds no further gain",
+      "kind": "attribution",
+      "evidence": [
+        "results/core/additional_contrasts.json",
+        "results/core/paired.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t213",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t214",
+          "text": "The supported gain is geometric; VLM guidance adds no further gain",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t215",
+          "text": "10",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t216",
+          "text": "Sources: results/core/additional_contrasts.json · results/core/paired.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t217",
+          "text": "Paired contrast",
+          "x": 0.67,
+          "y": 2.09,
+          "w": 3.96,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t218",
+          "text": "Contact-free difference",
+          "x": 4.87,
+          "y": 2.09,
+          "w": 3.96,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t219",
+          "text": "Travel-time difference",
+          "x": 9.069999999999999,
+          "y": 2.09,
+          "w": 3.5599999999999996,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t220",
+          "text": "Geometry − speed forecast",
+          "x": 0.67,
+          "y": 3.11,
+          "w": 3.96,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t221",
+          "text": "+14.17 pp\n95% CI [6.67, 21.67]",
+          "x": 4.87,
+          "y": 3.11,
+          "w": 3.96,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t222",
+          "text": "+0.45 s\n93 joint arrivals",
+          "x": 9.069999999999999,
+          "y": 3.11,
+          "w": 3.5599999999999996,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t223",
+          "text": "Adapted VLM − geometry",
+          "x": 0.67,
+          "y": 4.13,
+          "w": 3.96,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t224",
+          "text": "−9.17 pp\n95% CI [−16.67, −2.50]",
+          "x": 4.87,
+          "y": 4.13,
+          "w": 3.96,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t225",
+          "text": "+12.23 s\n80 joint arrivals",
+          "x": 9.069999999999999,
+          "y": 4.13,
+          "w": 3.5599999999999996,
+          "h": 0.9,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t226",
+          "text": "Geometry: better contact-free completion, without a speed advantage over forecasting.",
+          "x": 0.8,
+          "y": 5.25,
+          "w": 11.8,
+          "h": 0.7,
+          "font_size_pt": 22,
+          "editable": true
+        },
+        {
+          "id": "t227",
+          "text": "Package-level geometry gain; model/rule selectors also differ in observation information. Timing excludes failures.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 2.03,
+          "w": 4.2,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 4.75,
+          "y": 2.03,
+          "w": 4.2,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 8.95,
+          "y": 2.03,
+          "w": 3.8,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 3.05,
+          "w": 4.2,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 4.75,
+          "y": 3.05,
+          "w": 4.2,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 8.95,
+          "y": 3.05,
+          "w": 3.8,
+          "h": 1.02
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 4.07,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 4.07,
+          "w": 4.2,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 4.75,
+          "y": 4.07,
+          "w": 4.2,
+          "h": 1.02
+        },
+        {
+          "type": "shape",
+          "x": 8.95,
+          "y": 4.07,
+          "w": 3.8,
+          "h": 1.02
+        },
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 5.09,
+          "w": 12.2,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "The geometric package improves contact-free completion by fourteen point two percentage points over speed forecasting. Its paired interval is positive, but it is about half a second slower on ninety-three jointly successful conditions. The adapted model is nine point two percentage points below geometric selection and takes twelve point two seconds longer on eighty joint successes. These timing comparisons exclude failures. All methods share the new reference route; the geometric gain concerns the local candidate, constraint and execution package, while the learned selector shows no added benefit in this test.",
+      "zh_cue": "提升归因与时间分母同时交代。14.2 是百分点；VLM 相对几何低 9.2 个百分点，并且共同成功条件下更慢。"
+    },
+    {
+      "number": 11,
+      "title": "Training seeds and input removals expose an unstable selector",
+      "kind": "robustness",
+      "evidence": [
+        "results/variation/summary.json",
+        "results/ablations/summary.json",
+        "results/ablations/choice_diagnostics.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t228",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t229",
+          "text": "Training seeds and input removals expose an unstable selector",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t230",
+          "text": "11",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t231",
+          "text": "Sources: results/variation/summary.json · results/ablations/summary.json · results/ablations/choice_diagnostics.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t232",
+          "text": "Training seeds: contact-free / 120",
+          "x": 0.6,
+          "y": 1.94,
+          "w": 6,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t233",
+          "text": "0",
+          "x": 2.85,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t234",
+          "text": "30",
+          "x": 3.475,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t235",
+          "text": "60",
+          "x": 4.1000000000000005,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t236",
+          "text": "90",
+          "x": 4.7250000000000005,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t237",
+          "text": "120",
+          "x": 5.3500000000000005,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t238",
+          "text": "Seed 0",
+          "x": 0.6,
+          "y": 2.9,
+          "w": 2.45,
+          "h": 0.5700000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t239",
+          "text": "68",
+          "x": 4.616666666666667,
+          "y": 2.92,
+          "w": 0.85,
+          "h": 0.5700000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t240",
+          "text": "Seed 1",
+          "x": 0.6,
+          "y": 3.54,
+          "w": 2.45,
+          "h": 0.5700000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t241",
+          "text": "18",
+          "x": 3.575,
+          "y": 3.56,
+          "w": 0.85,
+          "h": 0.5700000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t242",
+          "text": "Seed 2",
+          "x": 0.6,
+          "y": 4.18,
+          "w": 2.45,
+          "h": 0.5700000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t243",
+          "text": "58",
+          "x": 4.408333333333333,
+          "y": 4.199999999999999,
+          "w": 0.85,
+          "h": 0.5700000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t244",
+          "text": "Input removals: contact-free / 24",
+          "x": 7,
+          "y": 1.94,
+          "w": 5.8,
+          "h": 0.4,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t245",
+          "text": "0",
+          "x": 9.25,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t246",
+          "text": "6",
+          "x": 9.775,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t247",
+          "text": "12",
+          "x": 10.3,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t248",
+          "text": "18",
+          "x": 10.825,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t249",
+          "text": "24",
+          "x": 11.35,
+          "y": 2.4699999999999998,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t250",
+          "text": "Full",
+          "x": 7,
+          "y": 2.9,
+          "w": 2.45,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t251",
+          "text": "14",
+          "x": 10.825,
+          "y": 2.92,
+          "w": 0.85,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t252",
+          "text": "No RGB",
+          "x": 7,
+          "y": 3.46,
+          "w": 2.45,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t253",
+          "text": "13",
+          "x": 10.737499999999999,
+          "y": 3.48,
+          "w": 0.85,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t254",
+          "text": "No image",
+          "x": 7,
+          "y": 4.02,
+          "w": 2.45,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t255",
+          "text": "15",
+          "x": 10.9125,
+          "y": 4.039999999999999,
+          "w": 0.85,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t256",
+          "text": "Minimal instr.",
+          "x": 7,
+          "y": 4.58,
+          "w": 2.45,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t257",
+          "text": "5",
+          "x": 10.0375,
+          "y": 4.6,
+          "w": 0.85,
+          "h": 0.49000000000000005,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t258",
+          "text": "Geometric reference: 79/120",
+          "x": 0.7,
+          "y": 5.28,
+          "w": 5.8,
+          "h": 0.55,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t259",
+          "text": "No image: always centre C;\ngeometry still checks execution.",
+          "x": 7.05,
+          "y": 5.15,
+          "w": 5.5,
+          "h": 0.85,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t260",
+          "text": "No-image outside exposure 8.46% vs 4.68% with full input. These removals do not establish modality benefits.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 3.1,
+          "y": 2.8,
+          "w": 0,
+          "h": 1.9800000000000004
+        },
+        {
+          "type": "line",
+          "x": 3.725,
+          "y": 2.8,
+          "w": 0,
+          "h": 1.9800000000000004
+        },
+        {
+          "type": "line",
+          "x": 4.3500000000000005,
+          "y": 2.8,
+          "w": 0,
+          "h": 1.9800000000000004
+        },
+        {
+          "type": "line",
+          "x": 4.9750000000000005,
+          "y": 2.8,
+          "w": 0,
+          "h": 1.9800000000000004
+        },
+        {
+          "type": "line",
+          "x": 5.6000000000000005,
+          "y": 2.8,
+          "w": 0,
+          "h": 1.9800000000000004
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 2.98,
+          "w": 1.416666666666667,
+          "h": 0.43000000000000005
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 3.62,
+          "w": 0.37500000000000006,
+          "h": 0.43000000000000005
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 4.26,
+          "w": 1.2083333333333335,
+          "h": 0.43000000000000005
+        },
+        {
+          "type": "line",
+          "x": 9.5,
+          "y": 2.8,
+          "w": 0,
+          "h": 2.3000000000000007
+        },
+        {
+          "type": "line",
+          "x": 10.025,
+          "y": 2.8,
+          "w": 0,
+          "h": 2.3000000000000007
+        },
+        {
+          "type": "line",
+          "x": 10.55,
+          "y": 2.8,
+          "w": 0,
+          "h": 2.3000000000000007
+        },
+        {
+          "type": "line",
+          "x": 11.075,
+          "y": 2.8,
+          "w": 0,
+          "h": 2.3000000000000007
+        },
+        {
+          "type": "line",
+          "x": 11.6,
+          "y": 2.8,
+          "w": 0,
+          "h": 2.3000000000000007
+        },
+        {
+          "type": "shape",
+          "x": 9.5,
+          "y": 2.98,
+          "w": 1.225,
+          "h": 0.3500000000000001
+        },
+        {
+          "type": "shape",
+          "x": 9.5,
+          "y": 3.54,
+          "w": 1.1375,
+          "h": 0.3500000000000001
+        },
+        {
+          "type": "shape",
+          "x": 9.5,
+          "y": 4.1,
+          "w": 1.3125,
+          "h": 0.3500000000000001
+        },
+        {
+          "type": "shape",
+          "x": 9.5,
+          "y": 4.66,
+          "w": 0.4375,
+          "h": 0.3500000000000001
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "Changing the training seed gives sixty-eight, eighteen and fifty-eight contact-free arrivals, all below the geometric result of seventy-nine. On twenty-four separate input-removal conditions, full input gives fourteen completions, no RGB gives thirteen, no image gives fifteen, and minimal instruction gives five. Without an image the model always proposes the centre path, while geometric checking remains active. Outside exposure is higher than with full input. These findings do not establish that vision is unnecessary. They show that task priors, fallback and small correlated data can dominate this selector.",
+      "zh_cue": "模型训练不稳定，所有种子都公开。无图像不是无几何信息执行，更不能拿多一次成功声称视觉无用。"
+    },
+    {
+      "number": 12,
+      "title": "Blockages and curve exclusion reveal limited robustness",
+      "kind": "stress",
+      "evidence": [
+        "results/challenge/summary.json",
+        "results/holdout/summary.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t261",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t262",
+          "text": "Blockages and curve exclusion reveal limited robustness",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t263",
+          "text": "12",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t264",
+          "text": "Sources: results/challenge/summary.json · results/holdout/summary.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t265",
+          "text": "Controlled blockage: contact-free / 24",
+          "x": 0.6,
+          "y": 1.94,
+          "w": 6.05,
+          "h": 0.45,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t266",
+          "text": "0",
+          "x": 2.85,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t267",
+          "text": "6",
+          "x": 3.475,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t268",
+          "text": "12",
+          "x": 4.1000000000000005,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t269",
+          "text": "18",
+          "x": 4.7250000000000005,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t270",
+          "text": "24",
+          "x": 5.3500000000000005,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t271",
+          "text": "Geometry",
+          "x": 0.6,
+          "y": 2.95,
+          "w": 2.45,
+          "h": 0.5800000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t272",
+          "text": "11",
+          "x": 4.345833333333333,
+          "y": 2.97,
+          "w": 0.85,
+          "h": 0.5800000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t273",
+          "text": "MPPI-style",
+          "x": 0.6,
+          "y": 3.6,
+          "w": 2.45,
+          "h": 0.5800000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t274",
+          "text": "7",
+          "x": 3.929166666666667,
+          "y": 3.62,
+          "w": 0.85,
+          "h": 0.5800000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t275",
+          "text": "Adapted VLM",
+          "x": 0.6,
+          "y": 4.25,
+          "w": 2.45,
+          "h": 0.5800000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t276",
+          "text": "4",
+          "x": 3.6166666666666667,
+          "y": 4.27,
+          "w": 0.85,
+          "h": 0.5800000000000001,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t277",
+          "text": "Curve test: contact-free / 40",
+          "x": 7,
+          "y": 1.94,
+          "w": 5.8,
+          "h": 0.45,
+          "font_size_pt": 21,
+          "editable": true
+        },
+        {
+          "id": "t278",
+          "text": "0",
+          "x": 9.25,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t279",
+          "text": "10",
+          "x": 9.775,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t280",
+          "text": "20",
+          "x": 10.3,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t281",
+          "text": "30",
+          "x": 10.825,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t282",
+          "text": "40",
+          "x": 11.35,
+          "y": 2.52,
+          "w": 0.5,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t283",
+          "text": "Full training",
+          "x": 7,
+          "y": 2.95,
+          "w": 2.45,
+          "h": 0.73,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t284",
+          "text": "32",
+          "x": 11.28,
+          "y": 2.97,
+          "w": 0.85,
+          "h": 0.73,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t285",
+          "text": "Curve excluded",
+          "x": 7,
+          "y": 3.75,
+          "w": 2.45,
+          "h": 0.73,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t286",
+          "text": "3",
+          "x": 9.7575,
+          "y": 3.77,
+          "w": 0.85,
+          "h": 0.73,
+          "font_size_pt": 18,
+          "editable": true
+        },
+        {
+          "id": "t287",
+          "text": "Same relocated object across methods;\nreference is not replanned.",
+          "x": 0.7,
+          "y": 5.18,
+          "w": 5.8,
+          "h": 0.8,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t288",
+          "text": "Training volume also changes:\n598 → 432 decisions.",
+          "x": 7.05,
+          "y": 5.18,
+          "w": 5.4,
+          "h": 0.8,
+          "font_size_pt": 19,
+          "editable": true
+        },
+        {
+          "id": "t289",
+          "text": "Different diagnostic suites and denominators; no claim of cross-city or real-robot transfer.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "line",
+          "x": 3.1,
+          "y": 2.85,
+          "w": 0,
+          "h": 2.0100000000000002
+        },
+        {
+          "type": "line",
+          "x": 3.725,
+          "y": 2.85,
+          "w": 0,
+          "h": 2.0100000000000002
+        },
+        {
+          "type": "line",
+          "x": 4.3500000000000005,
+          "y": 2.85,
+          "w": 0,
+          "h": 2.0100000000000002
+        },
+        {
+          "type": "line",
+          "x": 4.9750000000000005,
+          "y": 2.85,
+          "w": 0,
+          "h": 2.0100000000000002
+        },
+        {
+          "type": "line",
+          "x": 5.6000000000000005,
+          "y": 2.85,
+          "w": 0,
+          "h": 2.0100000000000002
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 3.0300000000000002,
+          "w": 1.1458333333333335,
+          "h": 0.44000000000000006
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 3.68,
+          "w": 0.7291666666666669,
+          "h": 0.44000000000000006
+        },
+        {
+          "type": "shape",
+          "x": 3.1,
+          "y": 4.33,
+          "w": 0.41666666666666674,
+          "h": 0.44000000000000006
+        },
+        {
+          "type": "line",
+          "x": 9.5,
+          "y": 2.85,
+          "w": 0,
+          "h": 1.6600000000000006
+        },
+        {
+          "type": "line",
+          "x": 10.025,
+          "y": 2.85,
+          "w": 0,
+          "h": 1.6600000000000006
+        },
+        {
+          "type": "line",
+          "x": 10.55,
+          "y": 2.85,
+          "w": 0,
+          "h": 1.6600000000000006
+        },
+        {
+          "type": "line",
+          "x": 11.075,
+          "y": 2.85,
+          "w": 0,
+          "h": 1.6600000000000006
+        },
+        {
+          "type": "line",
+          "x": 11.6,
+          "y": 2.85,
+          "w": 0,
+          "h": 1.6600000000000006
+        },
+        {
+          "type": "shape",
+          "x": 9.5,
+          "y": 3.0300000000000002,
+          "w": 1.6800000000000002,
+          "h": 0.5900000000000001
+        },
+        {
+          "type": "shape",
+          "x": 9.5,
+          "y": 3.83,
+          "w": 0.15750000000000003,
+          "h": 0.5900000000000001
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "The controlled blockage suite places the same existing object after reference planning. Geometric selection achieves eleven contact-free arrivals out of twenty-four; MPPI-style reaches seven and the adapted model four. On forty curve conditions, the model trained without curves reaches three contact-free arrivals, versus thirty-two after full-layout training. Removing curves also reduces the training sample count, so that difference mixes layout coverage and data volume.",
+      "zh_cue": "障碍测试与弯道留出各自单独解释，不合并进主结果。留出场景同时减少数据量，是已知混杂因素。"
+    },
+    {
+      "number": 13,
+      "title": "Native intersection demo: all three methods complete this example",
+      "kind": "video",
+      "evidence": [
+        "results/videos/manifest.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t290",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t291",
+          "text": "Native intersection demo: all three methods complete this example",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t292",
+          "text": "13",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t293",
+          "text": "Sources: results/videos/manifest.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t294",
+          "text": "RPP: contact-free arrival",
+          "x": 0.67,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t295",
+          "text": "Geometry: contact-free arrival",
+          "x": 4.72,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t296",
+          "text": "Adapted VLM: contact-free arrival",
+          "x": 8.77,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t297",
+          "text": "Illustration only: seed 1502, wide band, 5 pedestrians. Native playback 2×; finished windows hold last frame.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [
+        {
+          "family": "X",
+          "path": "../../results/videos/native_X_comparison.mp4",
+          "x": 0.6,
+          "y": 2.03,
+          "w": 12.15,
+          "h": 3.493125,
+          "embedded": true,
+          "poster": "poster_X.png",
+          "native_simulation": true
+        }
+      ],
+      "speaker_script": "This intersection demonstration uses the same fixed illustrative seed for all three controllers. Each completes without recorded contact, while their simulated travel times differ. These three episodes are not part of the formal test sample. The demonstration helps explain behaviour, but it cannot establish an overall ranking.",
+      "zh_cue": "路口演示三种方法都无接触到达。演示种子 1502、宽通行带、5 人，不属于主测试；原视频 2 倍模拟速度。"
+    },
+    {
+      "number": 14,
+      "title": "Native straight-street demo: arrival alone misses important failures",
+      "kind": "video",
+      "evidence": [
+        "results/videos/manifest.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t298",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t299",
+          "text": "Native straight-street demo: arrival alone misses important failures",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t300",
+          "text": "14",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t301",
+          "text": "Sources: results/videos/manifest.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t302",
+          "text": "RPP: arrival + contact",
+          "x": 0.67,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t303",
+          "text": "Geometry: contact-free arrival",
+          "x": 4.72,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t304",
+          "text": "Adapted VLM: timeout",
+          "x": 8.77,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t305",
+          "text": "Illustration only: seed 1502, wide band, 5 pedestrians. Native playback 2×; finished windows hold last frame.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [
+        {
+          "family": "S",
+          "path": "../../results/videos/native_S_comparison.mp4",
+          "x": 0.6,
+          "y": 2.03,
+          "w": 12.15,
+          "h": 3.493125,
+          "embedded": true,
+          "poster": "poster_S.png",
+          "native_simulation": true
+        }
+      ],
+      "speaker_script": "In the straight-street example, regulated tracking arrives but records contact. The geometric selector arrives without recorded contact. The adapted model records no contact but times out. This separates arrival, contact-free completion and simply avoiding contact by waiting. A paused-looking or stationary robot should not automatically be described as safe and successful.",
+      "zh_cue": "直街：RPP 到达但有接触；几何无接触到达；VLM 无接触但超时。不要将不动等同于安全完成。"
+    },
+    {
+      "number": 15,
+      "title": "Native curve demo: the aggregate winner can still fail",
+      "kind": "video",
+      "evidence": [
+        "results/videos/manifest.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t306",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t307",
+          "text": "Native curve demo: the aggregate winner can still fail",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t308",
+          "text": "15",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t309",
+          "text": "Sources: results/videos/manifest.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t310",
+          "text": "RPP: contact-free arrival",
+          "x": 0.67,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t311",
+          "text": "Geometry: timeout\nOutside exposure: 52.7%",
+          "x": 4.72,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t312",
+          "text": "Adapted VLM: contact-free arrival",
+          "x": 8.77,
+          "y": 5.57,
+          "w": 3.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t313",
+          "text": "Illustration only: seed 1502, wide band, 5 pedestrians. Native playback 2×; finished windows hold last frame.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [
+        {
+          "family": "SC",
+          "path": "../../results/videos/native_SC_comparison.mp4",
+          "x": 0.6,
+          "y": 2.03,
+          "w": 12.15,
+          "h": 3.493125,
+          "embedded": true,
+          "poster": "poster_SC.png",
+          "native_simulation": true
+        }
+      ],
+      "speaker_script": "The curve example reverses the aggregate ranking. Regulated tracking and adapted guidance complete without recorded contact, but the geometric selector times out and has substantial outside exposure. A method can lead on one hundred and twenty matched conditions and still fail on a particular scene. This is why we report footprint exposure and individual failure cases alongside overall completion.",
+      "zh_cue": "弯道：几何方法在本演示失败且越界暴露高，RPP 与 VLM 成功。保留反例，说明总体最好不等于每个案例都最好。"
+    },
+    {
+      "number": 16,
+      "title": "Use explicit geometry now; treat learned guidance as an open result",
+      "kind": "conclusion",
+      "evidence": [
+        "report Conclusions",
+        "results/provenance_audit.json"
+      ],
+      "text_objects": [
+        {
+          "id": "t314",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t315",
+          "text": "Use explicit geometry now; treat learned guidance as an open result",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t316",
+          "text": "16",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t317",
+          "text": "Sources: report Conclusions · results/provenance_audit.json",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t318",
+          "text": "SUPPORTED",
+          "x": 0.65,
+          "y": 2.03,
+          "w": 3.1,
+          "h": 0.42,
+          "font_size_pt": 23,
+          "editable": true
+        },
+        {
+          "id": "t319",
+          "text": "Lateral candidates and geometric constraints improve contact-free completion in this simulator.",
+          "x": 3.9,
+          "y": 2.02,
+          "w": 8.4,
+          "h": 1.03,
+          "font_size_pt": 24,
+          "editable": true
+        },
+        {
+          "id": "t320",
+          "text": "NOT ESTABLISHED",
+          "x": 0.65,
+          "y": 3.49,
+          "w": 3.1,
+          "h": 0.42,
+          "font_size_pt": 23,
+          "editable": true
+        },
+        {
+          "id": "t321",
+          "text": "Additional navigation benefit from this single-frame, small-data VLM selector.",
+          "x": 3.9,
+          "y": 3.48,
+          "w": 8.4,
+          "h": 0.98,
+          "font_size_pt": 24,
+          "editable": true
+        },
+        {
+          "id": "t322",
+          "text": "NEXT TESTS",
+          "x": 0.65,
+          "y": 4.99,
+          "w": 3.1,
+          "h": 0.42,
+          "font_size_pt": 23,
+          "editable": true
+        },
+        {
+          "id": "t323",
+          "text": "Temporal observations, matched supervision and broader scenes remain future work.",
+          "x": 3.9,
+          "y": 4.96,
+          "w": 8.4,
+          "h": 0.93,
+          "font_size_pt": 22,
+          "editable": true
+        },
+        {
+          "id": "t324",
+          "text": "No continuous-safety, pedestrian-comfort or real-city deployment guarantee. Code / data public; weights local.",
+          "x": 0.72,
+          "y": 6.25,
+          "w": 11.9,
+          "h": 0.39,
+          "font_size_pt": 15,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        },
+        {
+          "type": "shape",
+          "x": 0.55,
+          "y": 6.22,
+          "w": 12.23,
+          "h": 0.48
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "Our supported conclusion is that constrained local planning improves contact-free completion in these simulated streets. We also complete real multimodal adapter training, but its additional navigation benefit is not established. The project contributes a transparent comparison across spatial conditions, rather than a claim of a new foundation model or state of the art. Important limits include privileged observations, a single-frame selector, small training diversity and approximate dynamics. Future temporal observations and better-matched supervision remain unimplemented. Code, data and records are public; model weights stay local.",
+      "zh_cue": "收束到实际证据。未来工作不能说成已经实现；真实行人舒适度、隐私、可达性与现实部署仍需另行评估。"
+    },
+    {
+      "number": 17,
+      "title": "References and reproducibility",
+      "kind": "references",
+      "evidence": [
+        "paper references",
+        "README.md"
+      ],
+      "text_objects": [
+        {
+          "id": "t325",
+          "text": "INFH5000  /  URBAN ROBOT NAVIGATION",
+          "x": 0.55,
+          "y": 0.24,
+          "w": 10,
+          "h": 0.25,
+          "font_size_pt": 11,
+          "editable": true
+        },
+        {
+          "id": "t326",
+          "text": "References and reproducibility",
+          "x": 0.55,
+          "y": 0.78,
+          "w": 12.2,
+          "h": 0.82,
+          "font_size_pt": 29,
+          "editable": true
+        },
+        {
+          "id": "t327",
+          "text": "17",
+          "x": 12.1,
+          "y": 7.04,
+          "w": 0.65,
+          "h": 0.2,
+          "font_size_pt": 10,
+          "editable": true
+        },
+        {
+          "id": "t328",
+          "text": "Sources: paper references · README.md",
+          "x": 0.55,
+          "y": 7,
+          "w": 11.4,
+          "h": 0.3,
+          "font_size_pt": 9.3,
+          "editable": true
+        },
+        {
+          "id": "t329",
+          "text": "1. Wu et al. MetaUrban. ICLR, 2025.",
+          "x": 0.65,
+          "y": 2,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t330",
+          "text": "2. Francis et al. Social robot navigation evaluation. ACM THRI, 2025.",
+          "x": 0.65,
+          "y": 2.69,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t331",
+          "text": "3. Macenski et al. Regulated Pure Pursuit. Autonomous Robots, 2023.",
+          "x": 0.65,
+          "y": 3.38,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t332",
+          "text": "4. Fox et al. Dynamic Window Approach. IEEE RAM, 1997.",
+          "x": 0.65,
+          "y": 4.07,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t333",
+          "text": "5. Williams et al. Model Predictive Path Integral Control. JGCD, 2017.",
+          "x": 0.65,
+          "y": 4.76,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t334",
+          "text": "6. Yokoyama et al. VLFM. arXiv:2312.03275.",
+          "x": 6.9,
+          "y": 2,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t335",
+          "text": "7. Cheng et al. NaVILA. arXiv:2412.04453.",
+          "x": 6.9,
+          "y": 2.69,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t336",
+          "text": "8. Sun et al. Risk-adaptive crowd navigation. arXiv:2506.14305.",
+          "x": 6.9,
+          "y": 3.38,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t337",
+          "text": "9. Marafioti et al. SmolVLM. arXiv:2504.05299.",
+          "x": 6.9,
+          "y": 4.07,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t338",
+          "text": "10. Hu et al. LoRA. ICLR, 2022.",
+          "x": 6.9,
+          "y": 4.76,
+          "w": 5.9,
+          "h": 0.55,
+          "font_size_pt": 16,
+          "editable": true
+        },
+        {
+          "id": "t339",
+          "text": "Code, paper, data and native videos",
+          "x": 0.65,
+          "y": 5.78,
+          "w": 11.8,
+          "h": 0.4,
+          "font_size_pt": 20,
+          "editable": true
+        },
+        {
+          "id": "t340",
+          "text": "github.com/clzJY/INFH5000-group-assignment",
+          "x": 0.65,
+          "y": 6.31,
+          "w": 11.8,
+          "h": 0.33,
+          "font_size_pt": 18,
+          "editable": true
+        }
+      ],
+      "native_components": [
+        {
+          "type": "line",
+          "x": 0.55,
+          "y": 1.65,
+          "w": 12.229999999999999,
+          "h": 0
+        }
+      ],
+      "image_assets": [],
+      "media_assets": [],
+      "speaker_script": "",
+      "zh_cue": "备用参考页，不计入主要口头讲解；完整引用见报告。"
+    }
+  ]
+}

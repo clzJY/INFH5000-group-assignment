@@ -4,6 +4,12 @@ Predictive and Reactive Robot Navigation in Shared Urban Pedestrian Spaces
 
 This repository contains the completed three-scene group research extension and the retained individual-assignment pilot and v12 proposal.
 
+## Course report and presentation (21 November 2026)
+
+The new group-project requirements have been audited. See the [12-page HKUST-template report, multimedia PPT and speaker scripts](research/course_delivery/README.md), [requirements review](research/course_delivery/REQUIREMENTS_AUDIT_zh.md), and [review release](https://github.com/clzJY/INFH5000-group-assignment/releases/tag/course-review-20261121).
+
+The 17-slide presentation embeds three native videos. A clearly labelled synthetic rehearsal runs for 9 min 48 s. **Real group ID, member/thrust information and work shares remain to be confirmed before formal submission.** The earlier pilot and completed research article below are retained.
+
 ## Completed three-scene study (November 2026)
 
 The expanded study is complete: **1,384 formal native-simulator episodes**, three scene families, seven main comparisons, actual multimodal adapter training and independent raw-log audits.

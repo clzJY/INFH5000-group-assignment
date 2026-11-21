@@ -59,3 +59,14 @@
 /research/**/*.safetensors
 /research/**/*.ckpt
 /research/**/*.onnx
+
+# Course delivery: large review media distributed as release assets.
+/research/course_delivery/presentation/*.pptx
+/research/course_delivery/presentation/*.mp4
+/research/course_delivery/delivery/
+/research/course_delivery/**/*.aux
+/research/course_delivery/**/*.out
+/research/course_delivery/**/*.toc
+/research/course_delivery/**/*.synctex.gz
+
+/research/course_delivery/**/node_modules/

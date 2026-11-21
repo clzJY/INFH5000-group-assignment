@@ -1,0 +1,17 @@
+{
+  "duration_s": 588.05,
+  "under_10_minutes": true,
+  "format": "MP4",
+  "video_codec": "H264",
+  "audio_codec": "AAC",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 15,
+  "synthetic_narration": true,
+  "group_information_pending": true,
+  "native_video_excerpt_count": 3,
+  "source_timeline": "source/rehearsal_timing.json",
+  "bytes": 11673554
+}

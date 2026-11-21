@@ -1,0 +1,12 @@
+{
+  "image_sha256": "c998f7bfdff47567d43d49a0d6d9b0964ef48878a199877b0b458fd19a52f5c9",
+  "label": 0,
+  "condition": [
+    "SC",
+    "narrow",
+    15,
+    1400
+  ],
+  "step": 590,
+  "description": "Actual training composite; native RGB and privileged local map. No teacher score is drawn."
+}

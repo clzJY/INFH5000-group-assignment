@@ -1,0 +1,177 @@
+{
+  "duration_s": 587.6527437641724,
+  "voice": "Offline eSpeak NG en-us; synthetic rehearsal, not a recording of team members",
+  "sample_rate": 22050,
+  "segments": [
+    {
+      "slide": 1,
+      "title": "Constrained local planning and vision\u2013language guidance",
+      "start_s": 0,
+      "voice_s": 26.828027210884354,
+      "duration_s": 28.828027210884354,
+      "kind": "cover",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 2,
+      "title": "The question is when to wait and when to use lateral space",
+      "start_s": 28.828027210884354,
+      "voice_s": 32.52249433106576,
+      "duration_s": 34.52249433106576,
+      "kind": "problem",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 3,
+      "title": "Three scene families define 120 matched natural conditions",
+      "start_s": 63.350521541950116,
+      "voice_s": 26.607437641723354,
+      "duration_s": 28.607437641723354,
+      "kind": "scenes",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 4,
+      "title": "The extension adds lateral choices, learning and broader evidence",
+      "start_s": 91.95795918367347,
+      "voice_s": 33.25015873015873,
+      "duration_s": 35.25015873015873,
+      "kind": "novelty",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 5,
+      "title": "A learned proposal always passes through geometric execution",
+      "start_s": 127.2081179138322,
+      "voice_s": 35.438321995464854,
+      "duration_s": 37.438321995464854,
+      "kind": "pipeline",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 6,
+      "title": "LoRA learns geometric teacher choices from 598 decisions",
+      "start_s": 164.64643990929704,
+      "voice_s": 35.51043083900227,
+      "duration_s": 37.51043083900227,
+      "kind": "training",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 7,
+      "title": "Seven comparisons separate tracking, local planning and adaptation",
+      "start_s": 202.1568707482993,
+      "voice_s": 40.839183673469385,
+      "duration_s": 42.839183673469385,
+      "kind": "baselines",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 8,
+      "title": "Strict arrival and contact-free completion are distinct outcomes",
+      "start_s": 244.9960544217687,
+      "voice_s": 36.678004535147394,
+      "duration_s": 38.678004535147394,
+      "kind": "protocol",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 9,
+      "title": "Geometric local selection reaches 79 contact-free arrivals out of 120",
+      "start_s": 283.6740589569161,
+      "voice_s": 27.68281179138322,
+      "duration_s": 29.68281179138322,
+      "kind": "main_results",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 10,
+      "title": "The supported gain is geometric; VLM guidance adds no further gain",
+      "start_s": 313.35687074829934,
+      "voice_s": 38.66548752834467,
+      "duration_s": 40.66548752834467,
+      "kind": "attribution",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 11,
+      "title": "Training seeds and input removals expose an unstable selector",
+      "start_s": 354.022358276644,
+      "voice_s": 38.766122448979594,
+      "duration_s": 40.766122448979594,
+      "kind": "robustness",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 12,
+      "title": "Blockages and curve exclusion reveal limited robustness",
+      "start_s": 394.78848072562363,
+      "voice_s": 30.105578231292515,
+      "duration_s": 32.10557823129251,
+      "kind": "stress",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 13,
+      "title": "Native intersection demo: all three methods complete this example",
+      "start_s": 426.8940589569161,
+      "voice_s": 20.689931972789115,
+      "duration_s": 34.68993197278911,
+      "kind": "video",
+      "family": "X",
+      "excerpt_start": 8
+    },
+    {
+      "slide": 14,
+      "title": "Native straight-street demo: arrival alone misses important failures",
+      "start_s": 461.58399092970524,
+      "voice_s": 24.9459410430839,
+      "duration_s": 38.9459410430839,
+      "kind": "video",
+      "family": "S",
+      "excerpt_start": 18
+    },
+    {
+      "slide": 15,
+      "title": "Native curve demo: the aggregate winner can still fail",
+      "start_s": 500.52993197278914,
+      "voice_s": 25.587573696145125,
+      "duration_s": 39.58757369614513,
+      "kind": "video",
+      "family": "SC",
+      "excerpt_start": 20
+    },
+    {
+      "slide": 16,
+      "title": "Use explicit geometry now; treat learned guidance as an open result",
+      "start_s": 540.1175056689343,
+      "voice_s": 40.53523809523809,
+      "duration_s": 42.53523809523809,
+      "kind": "conclusion",
+      "family": null,
+      "excerpt_start": null
+    },
+    {
+      "slide": 17,
+      "title": "References and reproducibility",
+      "start_s": 582.6527437641724,
+      "voice_s": 0.0,
+      "duration_s": 5,
+      "kind": "references",
+      "family": null,
+      "excerpt_start": null
+    }
+  ]
+}
